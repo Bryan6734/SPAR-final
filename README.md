@@ -65,13 +65,13 @@ Generate ALL of the following compressions with EXACT word counts:
 
 **Why this approach is good:**
 1. **Better than simply having a binary of "compressed" or "not compressed"**
-2. **Using words feels more natural.** Counting characters is unnatural; using tokens probably would have been best, but would have required me to do individual requests for each compression (I went with words for this)
+2. **Using words feels more natural.** It's more intuitive for models to count words than tokes. Using tokens probably would have been best, but would have required me to do individual requests for each compression (so I went with words for this)
 3. **Allows statements in math and chemistry to be compressed** without having to impose arbitrary rules on characters or tokens, since we can count formulas/symbols/etc as one word. 
 
 **Why this approach is bad:** 
 1. **I used a single API request to generate all compressions for each question.** If I generated each compression individually, I probably could've imposed some token limit on the API, which would have increased the precision of the compressions. My main reason for doing this is because I wanted to save on costs and time. 
 2. **The model is really bad at following the word count, despite extensive instructions.** The graph below shows that the model often generates **far less** words than the target word count.  
-   1. **This means that 75% isn't actually 75%; it's more like 50% or less.** I believe this is an important limitation and point to make! 
+   1. **This means that 75% isn't actually 75%; it's more like 50% or less.** I believe this is an important limitation and point to make. 
    2. ![alt text](image-1.png)
 3. **Using percentages has its flaws.** 50% of 100 words is way different than 50% of 25 words, so these might not be directly comparable.
 4. **Needs more testing for temperature.** My assumption is that lower temp => more deterministic => model stays grounded in essential information that it'll eventually compress. But you still need to provide some creative freedom so that the model can compress the text. 
