@@ -113,7 +113,7 @@ def zero_shot_chain_of_thought_prompt(example_id: int, example: Example, model_n
         else:
             cot_reasoning = resp.choices[0].text
     elif api_type == 'anthropic':
-            cot_reasoning = resp.completion
+            cot_reasoning = resp
     prompt += f"{cot_reasoning}\n\nBased on the above, what is the single, most likely answer choice? Answer in the format \"The correct answer is (insert answer here)\"."
     return prompt
 
@@ -127,8 +127,8 @@ def chain_of_thought_prompt(example: Example) -> str:
     json_data = load_from_json("prompts/chain_of_thought_examples.json")
     prompt += generate_prompt_from_examples(json_data, with_explanations=True)
     
-    prompt += f"Question: {example.question}"
-    prompt += f"\nChoices:\n(A) {example.choice1}\n(B) {example.choice2}\n(C) {example.choice3}\n(D) {example.choice4}"
+    prompt += f"Question: {example.question}\n"
+    prompt += f"Choices:\n(A) {example.choice1.strip()}\n(B) {example.choice2.strip()}\n(C) {example.choice3.strip()}\n(D) {example.choice4.strip()}"
     # Uncomment the following line to use "model voice"
     # prompt += "\n\nAssistant: Let's think step by step:\n"
     # Use this for "human voice"
@@ -292,9 +292,8 @@ def select_and_call_model(prompt: str,
     #         response = openai.Completion.create(model=model_name, prompt=prompt, max_tokens=0, echo=True, logprobs=5)
     if model_name in ANTHROPIC_MODELS:
         if call_type == 'logprobs':
-            # we don't actually care about this being async - asyncio.run() will block until the call is complete
             raise NotImplementedError("Logprobs are not supported with Claude models")
-        elif call_type == 'sample':
+        else:  # Both 'completion' and 'sample' use the same call for Claude
             response = anthropic_client.messages.create(
                 model=model_name,
                 max_tokens=max_tokens,
@@ -303,9 +302,9 @@ def select_and_call_model(prompt: str,
                     {"role": "user", "content": prompt}
                 ]
             )
+            return response.content[0].text
     else:
-        raise ValueError(f"Model {model_name} not supported.")
-    return response
+        raise ValueError(f"Unknown model: {model_name}")
 
 
 def call_model_with_retries(prompt: str,
