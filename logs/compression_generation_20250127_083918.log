@@ -1,0 +1,32 @@
+2025-01-27 08:39:18,153 - INFO - Starting compression generation and evaluation
+2025-01-27 08:39:18,154 - INFO - Loading data from C:\Users\Bryan Sukidi\Projects\SPAR-trial\datasets\gpqa_diamond.csv
+2025-01-27 08:39:18,174 - INFO - Calculating original metrics...
+2025-01-27 08:39:18,179 - INFO - Starting compression generation for 198 questions...
+2025-01-27 08:39:18,187 - INFO - 
+Processing question 0/198...
+2025-01-27 08:39:18,188 - INFO - Original (45 words): Two quantum states with energies E1 and E2 have a lifetime of 10^-9 sec and 10^-8 sec, respectively. We want to clearly distinguish these two energy levels. Which one of the following options could be their energy difference so that they can be clearly resolved?
+
+2025-01-27 08:39:25,796 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-01-27 08:39:25,800 - WARNING - Compression 75% has 28 words, expected 34
+2025-01-27 08:39:25,800 - WARNING - Compression 50% has 28 words, expected 22
+2025-01-27 08:39:25,801 - WARNING - Compression 25% has 28 words, expected 11
+2025-01-27 08:39:25,801 - ERROR - Failed to generate compressions for question 0
+2025-01-27 08:39:25,807 - INFO - Progress saved through question 0
+2025-01-27 08:39:26,809 - INFO - 
+Processing question 1/198...
+2025-01-27 08:39:26,809 - INFO - Original (40 words): trans-cinnamaldehyde was treated with methylmagnesium bromide, forming product 1.
+
+1 was treated with pyridinium chlorochromate, forming product 2.
+
+3 was treated with (dimethyl(oxo)-l6-sulfaneylidene)methane in DMSO at elevated temperature, forming product 3.
+
+how many carbon atoms are there in product 3?
+2025-01-27 08:39:35,791 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-01-27 08:39:35,792 - WARNING - Compression 75% has 31 words, expected 30
+2025-01-27 08:39:35,792 - WARNING - Compression 50% has 31 words, expected 20
+2025-01-27 08:39:35,792 - WARNING - Compression 25% has 31 words, expected 10
+2025-01-27 08:39:35,793 - ERROR - Failed to generate compressions for question 1
+2025-01-27 08:39:36,797 - INFO - 
+Processing question 2/198...
+2025-01-27 08:39:36,797 - INFO - Original (47 words): A spin-half particle is in a linear superposition 0.5|\uparrow\rangle+sqrt(3)/2|\downarrow\rangle of its spin-up and spin-down states. If |\uparrow\rangle and |\downarrow\rangle are the eigenstates of \sigma{z} , then what is the expectation value up to one decimal place, of the operator 10\sigma{z}+5\sigma_{x} ? Here, symbols have their usual meanings
+ 

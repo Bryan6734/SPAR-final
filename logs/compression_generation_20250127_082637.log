@@ -1,0 +1,24 @@
+2025-01-27 08:26:37,290 - INFO - Starting compression generation script
+2025-01-27 08:26:37,290 - INFO - Loading data from C:\Users\Bryan Sukidi\Projects\SPAR-trial\datasets\gpqa_diamond.csv
+2025-01-27 08:26:37,309 - INFO - Calculating original metrics...
+2025-01-27 08:26:37,314 - INFO - Starting compression generation for 198 questions...
+2025-01-27 08:26:37,315 - INFO - 
+Processing question 0/198...
+2025-01-27 08:26:37,315 - INFO - Original (45 words): Two quantum states with energies E1 and E2 have a lifetime of 10^-9 sec and 10^-8 sec, respectively. We want to clearly distinguish these two energy levels. Which one of the following options could be their energy difference so that they can be clearly resolved?
+
+2025-01-27 08:26:44,858 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-01-27 08:26:44,868 - WARNING - Compression 75% has 28 words, expected 34
+2025-01-27 08:26:44,868 - WARNING - Compression 50% has 28 words, expected 22
+2025-01-27 08:26:44,868 - WARNING - Compression 25% has 28 words, expected 11
+2025-01-27 08:26:44,869 - INFO - Generated 0 valid compressions
+2025-01-27 08:26:44,869 - ERROR - Failed to generate compressions for question 0
+2025-01-27 08:26:44,875 - INFO - Progress saved through question 0
+2025-01-27 08:26:45,876 - INFO - 
+Processing question 1/198...
+2025-01-27 08:26:45,876 - INFO - Original (40 words): trans-cinnamaldehyde was treated with methylmagnesium bromide, forming product 1.
+
+1 was treated with pyridinium chlorochromate, forming product 2.
+
+3 was treated with (dimethyl(oxo)-l6-sulfaneylidene)methane in DMSO at elevated temperature, forming product 3.
+
+how many carbon atoms are there in product 3?

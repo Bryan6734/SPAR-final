@@ -6,11 +6,22 @@ Here's my research process from start to finish! This will be a live document th
 
 ---
 
-**Goal:** For a given amount of compression, how much does model performance deteriorate on the GPQA-diamond dataset?
+Before I start, let's clarify the goal: we want to know *how much* model performance deteriorates on the GPQA-diamond dataset when we compress questions.
 
-Some initial thoughts: 
+There are a couple questions you could ask:
 
-1. GPQA-diamond: graduate-level questions, 
-2. One of the difficulties is that questions have varying levels of complexity;
+1. How should we go about compression?
+2. GPQA-diamond: graduate-level questions, 
+3. One of the difficulties is that questions have varying levels of complexity;
+
+**Predicted Difficulties:**
 
 
+
+
+**Future Directions**
+- *Control for initial difficulty of the problem*
+
+Suppose you have two questions that are conceptually similar in difficulty, but one just has more essential information than the other. I would theorize that question 
+
+Some of the questions just have more essential information than others;
