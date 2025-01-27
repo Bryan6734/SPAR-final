@@ -1,0 +1,82 @@
+2025-01-27 09:38:46,816 - INFO - Starting evaluation of original and compressed questions
+2025-01-27 09:38:46,816 - INFO - Loading data from C:\Users\Bryan Sukidi\Projects\SPAR-trial\datasets\gpqa_diamond_compressed_1.csv
+2025-01-27 09:38:46,842 - INFO - Starting evaluation for 198 questions...
+2025-01-27 09:38:46,851 - INFO - 
+Processing question 0/198...
+2025-01-27 09:38:46,852 - INFO - Original (45 words): Two quantum states with energies E1 and E2 have a lifetime of 10^-9 sec and 10^-8 sec, respectively. We want to clearly distinguish these two energy levels. Which one of the following options could be their energy difference so that they can be clearly resolved?
+
+2025-01-27 09:38:47,505 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-01-27 09:38:47,513 - ERROR - Error evaluating answer: name 're' is not defined
+2025-01-27 09:38:47,513 - INFO - Original Answer: name 're' is not defined
+2025-01-27 09:38:47,513 - INFO - Original Correct: False
+2025-01-27 09:38:47,514 - INFO - 
+75% compression (27 words): Two quantum states with energies E1, E2, lifetimes 10^-9, 10^-8 seconds respectively. Want to distinguish energy levels. Which option could be their energy difference for clear resolution?
+2025-01-27 09:38:47,941 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-01-27 09:38:47,942 - ERROR - Error evaluating answer: name 're' is not defined
+2025-01-27 09:38:47,942 - INFO - 75% Answer: name 're' is not defined
+2025-01-27 09:38:47,942 - INFO - 75% Correct: False
+2025-01-27 09:38:47,942 - INFO - 
+50% compression (20.0 words): Quantum states with energies E1, E2, lifetimes 10^-9, 10^-8 seconds. Distinguish energy levels. Which option for energy difference resolves them?
+2025-01-27 09:38:48,237 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-01-27 09:38:48,238 - ERROR - Error evaluating answer: name 're' is not defined
+2025-01-27 09:38:48,239 - INFO - 50% Answer: name 're' is not defined
+2025-01-27 09:38:48,239 - INFO - 50% Correct: False
+2025-01-27 09:38:48,239 - INFO - 
+25% compression (11 words): States E1, E2 lifetimes 10^-9, 10^-8 seconds. Energy difference option resolves?
+2025-01-27 09:38:48,907 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-01-27 09:38:48,907 - ERROR - Error evaluating answer: name 're' is not defined
+2025-01-27 09:38:48,907 - INFO - 25% Answer: name 're' is not defined
+2025-01-27 09:38:48,909 - INFO - 25% Correct: False
+2025-01-27 09:38:48,916 - INFO - Progress saved through question 0
+2025-01-27 09:38:48,917 - INFO - 
+Running Accuracies:
+2025-01-27 09:38:48,917 - INFO - original: 0.00%
+2025-01-27 09:38:48,918 - INFO - 75%: 0.00%
+2025-01-27 09:38:48,918 - INFO - 50%: 0.00%
+2025-01-27 09:38:48,918 - INFO - 25%: 0.00%
+2025-01-27 09:38:49,920 - INFO - 
+Processing question 1/198...
+2025-01-27 09:38:49,920 - INFO - Original (40 words): trans-cinnamaldehyde was treated with methylmagnesium bromide, forming product 1.
+
+1 was treated with pyridinium chlorochromate, forming product 2.
+
+3 was treated with (dimethyl(oxo)-l6-sulfaneylidene)methane in DMSO at elevated temperature, forming product 3.
+
+how many carbon atoms are there in product 3?
+2025-01-27 09:38:50,532 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-01-27 09:38:50,533 - ERROR - Error evaluating answer: name 're' is not defined
+2025-01-27 09:38:50,533 - INFO - Original Answer: name 're' is not defined
+2025-01-27 09:38:50,533 - INFO - Original Correct: False
+2025-01-27 09:38:50,533 - INFO - 
+75% compression (28 words): Trans-cinnamaldehyde reacted with methylmagnesium bromide, forming 1. 
+1 treated with pyridinium chlorochromate, forming 2.
+2 reacted with (dimethyl(oxo)-l6-sulfaneylidene)methane in DMSO, forming 3.
+How many carbons in product 3?
+2025-01-27 09:38:50,861 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-01-27 09:38:50,862 - ERROR - Error evaluating answer: name 're' is not defined
+2025-01-27 09:38:50,863 - INFO - 75% Answer: name 're' is not defined
+2025-01-27 09:38:50,863 - INFO - 75% Correct: False
+2025-01-27 09:38:50,863 - INFO - 
+50% compression (18.0 words): Cinnamaldehyde reacted, forming 1. 
+1 oxidized, forming 2.
+2 reacted with sulfur reagent, forming 3. 
+Carbons in 3?
+2025-01-27 09:38:51,207 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-01-27 09:38:51,209 - ERROR - Error evaluating answer: name 're' is not defined
+2025-01-27 09:38:51,209 - INFO - 50% Answer: name 're' is not defined
+2025-01-27 09:38:51,210 - INFO - 50% Correct: False
+2025-01-27 09:38:51,210 - INFO - 
+25% compression (8 words): Cinnamaldehyde transformed. Oxidized intermediate. Sulfur reagent reaction. Carbons?
+2025-01-27 09:38:51,558 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2025-01-27 09:38:51,558 - ERROR - Error evaluating answer: name 're' is not defined
+2025-01-27 09:38:51,559 - INFO - 25% Answer: name 're' is not defined
+2025-01-27 09:38:51,559 - INFO - 25% Correct: False
+2025-01-27 09:38:51,560 - INFO - 
+Running Accuracies:
+2025-01-27 09:38:51,560 - INFO - original: 0.00%
+2025-01-27 09:38:51,560 - INFO - 75%: 0.00%
+2025-01-27 09:38:51,560 - INFO - 50%: 0.00%
+2025-01-27 09:38:51,560 - INFO - 25%: 0.00%
+2025-01-27 09:38:52,575 - INFO - 
+Processing question 2/198...
+2025-01-27 09:38:52,575 - INFO - Original (47 words): A spin-half particle is in a linear superposition 0.5|\uparrow\rangle+sqrt(3)/2|\downarrow\rangle of its spin-up and spin-down states. If |\uparrow\rangle and |\downarrow\rangle are the eigenstates of \sigma{z} , then what is the expectation value up to one decimal place, of the operator 10\sigma{z}+5\sigma_{x} ? Here, symbols have their usual meanings

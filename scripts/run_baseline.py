@@ -1,196 +1,191 @@
-import pickle
+"""
+Evaluate model performance on original and compressed questions from GPQA dataset.
+"""
+
+import pandas as pd
 import numpy as np
-import csv
 import logging
 import os
+import time
 import re
 from datetime import datetime
-from collections import Counter
-
-import fire
+from pathlib import Path
+import anthropic
 from tqdm import tqdm
-from utils import call_model_with_retries, create_prompts, load_examples, CHAT_MODELS
 
-SELF_CONSISTENCY_SAMPLES = 20
+# Set up logging
+log_dir = Path(__file__).parent.parent / "logs"
+log_dir.mkdir(exist_ok=True)
+log_file = log_dir / f"evaluation_{datetime.now().strftime('%Y%m%d_%H%M%S')}.log"
 
-class AnswerPredictor:
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.FileHandler(log_file),
+        logging.StreamHandler()
+    ]
+)
 
-    LETTER_TO_INDEX = {'A': 0, 'B': 1, 'C': 2, 'D': 3}
-    
-    def __init__(self, data_filename: str = None, model_name: str = 'claude-3-sonnet-20240229', 
-                 prompt_type: str = 'zero_shot', few_shot_n: str = None, 
-                 call_type: str = 'sample', max_examples: int = None,
-                 verbose: bool = False, seed: int = 0, overwrite_cache: bool = False,
-                 hf_dataset: str = None, hf_split: str = "train"):
-        """Initialize the AnswerPredictor.
-        
-        Args:
-            data_filename: Path to local CSV file containing questions (optional)
-            model_name: Name of the Claude model to use
-            prompt_type: Type of prompt to use ('zero_shot', '5_shot', etc.)
-            few_shot_n: Number of few-shot examples (only for few-shot prompts)
-            call_type: Type of model call ('sample' only for Claude)
-            max_examples: Maximum number of examples to process
-            verbose: Whether to print detailed output
-            seed: Random seed for reproducibility
-            overwrite_cache: Whether to overwrite cached responses
-            hf_dataset: Name of Hugging Face dataset (e.g., 'lighteval/gpqa')
-            hf_split: Dataset split to use ('train', 'validation', 'test')
-        """
-        self.model_name = model_name
-        self.data_filename = data_filename
-        self.prompt_type = prompt_type
-        self.few_shot_n = few_shot_n
-        self.call_type = 'sample'  # Claude only supports sample
-        self.max_examples = max_examples
-        self.verbose = verbose
-        self.seed = seed
-        self.cache_filename = f"cache_{self.model_name}.pkl"
-        self.overwrite_cache = overwrite_cache
-        self.hf_dataset = hf_dataset
-        self.hf_split = hf_split
-        
-        if os.path.exists(self.cache_filename):
-            with open(self.cache_filename, 'rb') as file:
-                self.cache = pickle.load(file)
-        else:
-            self.cache = {}
-        if self.prompt_type == 'few_shot':
-            raise ValueError('Few-shot deprecated - use `5_shot` instead')
-    
-    def save_cache(self):
-        with open(self.cache_filename, 'wb') as file:
-            pickle.dump(self.cache, file)
+# Read API key from environment variable
+CLAUDE_API_KEY = os.getenv("ANTHROPIC_API_KEY")
+if not CLAUDE_API_KEY:
+    raise ValueError("Please set ANTHROPIC_API_KEY environment variable")
 
-    def get_response_from_cache_or_model(self, prompt, call_type='sample', temperature=0.0):
-        key = (self.model_name, self.prompt_type, prompt)
-        if self.prompt_type == "self_consistency":
-            if key in self.cache and len(self.cache[key]) >= SELF_CONSISTENCY_SAMPLES and not self.overwrite_cache:
-                return self.cache[key]
-        else:
-            if key in self.cache and not self.overwrite_cache:
-                return self.cache[key]
-        
-        if self.prompt_type not in ["retrieval", "retrieval_content"]: 
-            resp = call_model_with_retries(prompt, self.model_name, call_type=call_type, temperature=temperature)
-        else:
-            use_url_content = self.prompt_type == "retrieval_content"
-            resp = answer_single_question(prompt, self.model_name, verbose=self.verbose, use_url_content=use_url_content)
-        
-        # If you want to save responses for the "self_consistency" prompt type as a list
-        if self.prompt_type == "self_consistency":
-            if key not in self.cache:
-                self.cache[key] = []
-            self.cache[key].append(resp)
-        else:
-            self.cache[key] = resp
-        
-        self.save_cache()
-        return resp
+client = anthropic.Anthropic(api_key=CLAUDE_API_KEY)
 
-    def get_open_book_answer(self, prompt):
-        answer = self.get_response_from_cache_or_model(prompt)
-        return self.parse_sampled_answer(answer), answer
+def parse_response(response_text: str) -> tuple:
+    """Parse Claude's response to extract answer and correctness"""
+    try:
+        # Try to find a tuple pattern (answer, True/False)
+        match = re.search(r"\((.*?), (True|False)\)", response_text, re.DOTALL)
+        if match:
+            answer = match.group(1).strip()
+            is_correct = match.group(2) == "True"
+            return answer, is_correct
         
-    
-    def get_highest_likelihood_answer(self, prompt):
-        raise NotImplementedError
-
-    @staticmethod
-    def parse_sampled_answer(answer):
-        patterns = [r'answer is \((.)\)', r'Answer: \((.)\)', r'answer: \((.)\)', r'answer \((.)\)', r'\((.)\)']
-        for pattern in patterns:
-            match = re.search(pattern, answer)
-            if match and match.group(1) in AnswerPredictor.LETTER_TO_INDEX:
-                return match.group(1)
-        return None
-    
-    def sample_answer(self, prompt, temperature=0.0, response_index=0):
-        resp = self.get_response_from_cache_or_model(prompt, call_type='sample', temperature=temperature)
-        if type(resp) == list:
-            resp = resp[response_index]
-        answer = resp.content[0].text  # New Claude API format
-        logging.info(f"====================PROMPT====================\nCalling model with prompt: \n\n{prompt}\n====================PROMPT====================\n")
-        logging.info(f'====================answer====================\n{answer}\n======================answer====================')
-        return self.parse_sampled_answer(answer), answer
-    
-    def sample_consistent_answer(self, prompt):
-        # sample multiple answers and return the most common one
-        count_dictionary = Counter()
-        for i in range(SELF_CONSISTENCY_SAMPLES):
-            answer, _ = self.sample_answer(prompt, temperature=0.7, response_index=i)
-            if answer is None:
-                continue
-            count_dictionary[answer] += 1
-        if len(count_dictionary) == 0:
-            return None
-        return count_dictionary.most_common(1)[0][0]
-
-    def predict_answers(self):
-        """Run prediction on all examples and return accuracy."""
-        if self.data_filename:
-            examples = load_examples(self.data_filename, seed=self.seed)
-        else:
-            examples = load_examples_from_hf(self.hf_dataset, split=self.hf_split, seed=self.seed)
-        
-        if self.max_examples is not None:
-            examples = examples[:self.max_examples]
-        
-        logging.info(f"Creating prompts for {len(examples)} examples...")
-        prompts, examples = create_prompts(examples, self.prompt_type, self.few_shot_n, self.model_name)
-        correct = 0
-        refusals = 0
-        
-        os.makedirs('logs', exist_ok=True)
-        timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
-        output_filename = f'logs/{self.model_name}_{self.prompt_type}_{timestamp}.csv'
-        raw_filename = f'logs/{self.model_name}_{self.prompt_type}_{timestamp}_raw.txt'
-        
-        with open(output_filename, 'w', newline='', encoding='utf-8') as csvfile, \
-             open(raw_filename, 'w', encoding='utf-8') as rawfile:
-            csvwriter = csv.writer(csvfile)
-            csvwriter.writerow(['Question id', 'Question', 'Correct answer', 'Model answer', 'Correct', 'Model response'])
+        # If no tuple found, try to find just the answer
+        answer_match = re.search(r"answer: (.*?)(?=\n|$)", response_text, re.IGNORECASE)
+        if answer_match:
+            answer = answer_match.group(1).strip()
+            return answer, False
             
-            for question_id, (prompt, example) in tqdm(enumerate(zip(prompts, examples)), total=len(examples)):
-                # Log raw input/output
-                rawfile.write(f"MODEL INPUT:\n{prompt}\n\n")
-                
-                if self.prompt_type == "self_consistency":
-                    sampled_answer = self.sample_consistent_answer(prompt)
-                else:
-                    sampled_answer, model_response = self.sample_answer(prompt)
-                
-                rawfile.write(f"MODEL OUTPUT:\n{model_response}\n\n")
-                rawfile.write("-"*80 + "\n\n")
-                
-                if sampled_answer is None:
-                    refusals += 1
-                    csvwriter.writerow([question_id, example.question, example[example.correct_index + 1], "Couldn't find an answer choice!", False, model_response])
-                    continue
-                
-                ans_correct_str = f"Correct answer: {example[example.correct_index + 1]}\nChosen answer: {example[self.LETTER_TO_INDEX[sampled_answer] + 1]}"
-                logging.info(ans_correct_str)
-                if self.verbose:
-                    print(ans_correct_str)
-                is_correct = self.LETTER_TO_INDEX[sampled_answer] == example.correct_index
-                if is_correct:
-                    correct += 1
-                csvwriter.writerow([question_id, example.question, example[example.correct_index + 1], example[self.LETTER_TO_INDEX[sampled_answer] + 1], is_correct, model_response])
-        print(f"Accuracy: {correct / len(examples)}")
-        print(f"Refusal fraction: {refusals / len(examples)}")
-        logging.info(f"Accuracy: {correct / len(examples)}")
-        logging.info(f"Refusal fraction: {refusals / len(examples)}")
+        # If still no match, return the first line as answer
+        first_line = response_text.split('\n')[0].strip()
+        return first_line, False
+        
+    except Exception as e:
+        logging.error(f"Error parsing response: {str(e)}")
+        return str(e), False
 
+def evaluate_answer(question: str, correct_answer: str) -> tuple:
+    """
+    Use Claude to evaluate if the answer to a question is correct.
+    Returns (predicted_answer, is_correct, response_text)
+    """
+    try:
+        system_prompt = """You are an expert at answering academic questions accurately and evaluating answers.
+        Your task is to:
+        1. Answer the given question
+        2. Compare your answer to the provided correct answer
+        3. Return a tuple of (your_answer, True/False) where True means the answers match
+        
+        Be strict in your evaluation - answers must match in meaning, even if the wording is different."""
+        
+        eval_prompt = f"""Question: {question}
+        Correct Answer: {correct_answer}
+        
+        Provide your answer and evaluation in this format:
+        (your_answer, is_correct)"""
+        
+        response = client.messages.create(
+            model="claude-3-sonnet-20240229",
+            max_tokens=1000,
+            temperature=0,
+            system=system_prompt,
+            messages=[{"role": "user", "content": eval_prompt}]
+        )
+        
+        response_text = response.content[0].text
+        answer, is_correct = parse_response(response_text)
+        return answer, is_correct, response_text
+            
+    except Exception as e:
+        logging.error(f"Error evaluating answer: {str(e)}")
+        return str(e), False, str(e)
+
+def save_progress(df, output_path, idx):
+    """Save progress to CSV and backup file"""
+    # Save to main output file
+    df.iloc[:idx+1].to_csv(output_path, index=False)
+    
+    # Also save to a backup file with timestamp
+    backup_dir = Path(output_path).parent / "backups"
+    backup_dir.mkdir(exist_ok=True)
+    backup_file = backup_dir / f"gpqa_diamond_compressed_2_backup_{datetime.now().strftime('%Y%m%d_%H%M%S')}.csv"
+    df.iloc[:idx+1].to_csv(backup_file, index=False)
+    
+    logging.info(f"Progress saved through question {idx}")
 
 def main():
-    predictor = AnswerPredictor(
-        model_name="claude-3-sonnet-20240229",
-        data_filename="datasets/gpqa_diamond.csv",  # Use local CSV file
-        prompt_type="chain_of_thought",
-        verbose=True,
-        max_examples=10
-    )
-    predictor.predict_answers()
+    logging.info("Starting evaluation of original and compressed questions")
+    
+    # Load compressed data
+    input_path = Path(__file__).parent.parent / "datasets" / "gpqa_diamond_compressed_1.csv"
+    output_path = Path(__file__).parent.parent / "datasets" / "gpqa_diamond_compressed_2.csv"
+    
+    logging.info(f"Loading data from {input_path}")
+    df = pd.read_csv(input_path)
+    
+    # Add evaluation columns for original and compressed questions
+    df['original_predicted_answer'] = None
+    df['original_is_correct'] = None
+    df['original_response'] = None
+    
+    for level in [75, 50, 25]:
+        df[f'compression_{level}_predicted_answer'] = None
+        df[f'compression_{level}_is_correct'] = None
+        df[f'compression_{level}_response'] = None
+    
+    # Process each question
+    logging.info(f"Starting evaluation for {len(df)} questions...")
+    for idx, row in tqdm(df.iterrows(), total=len(df)):
+        logging.info(f"\nProcessing question {idx}/{len(df)}...")
+        
+        # Evaluate original question
+        logging.info(f"Original ({row['original_word_count']} words): {row['Question']}")
+        predicted, is_correct, response = evaluate_answer(row['Question'], row['Correct Answer'])
+        df.at[idx, 'original_predicted_answer'] = predicted
+        df.at[idx, 'original_is_correct'] = is_correct
+        df.at[idx, 'original_response'] = response
+        logging.info(f"Original Answer: {predicted}")
+        logging.info(f"Original Correct: {is_correct}")
+        
+        # Evaluate compressed versions
+        for level in [75, 50, 25]:
+            compressed_q = row[f'compression_{level}']
+            if pd.isna(compressed_q):
+                continue
+                
+            logging.info(f"\n{level}% compression ({row[f'compression_{level}_word_count']} words): {compressed_q}")
+            predicted, is_correct, response = evaluate_answer(compressed_q, row['Correct Answer'])
+            df.at[idx, f'compression_{level}_predicted_answer'] = predicted
+            df.at[idx, f'compression_{level}_is_correct'] = is_correct
+            df.at[idx, f'compression_{level}_response'] = response
+            logging.info(f"{level}% Answer: {predicted}")
+            logging.info(f"{level}% Correct: {is_correct}")
+        
+        # Save progress every 10 questions
+        if idx % 10 == 0:
+            save_progress(df, output_path, idx)
+            
+        # Calculate and log running accuracy
+        accuracies = {
+            'original': df['original_is_correct'].mean(),
+            '75%': df['compression_75_is_correct'].mean(),
+            '50%': df['compression_50_is_correct'].mean(),
+            '25%': df['compression_25_is_correct'].mean()
+        }
+        logging.info("\nRunning Accuracies:")
+        for version, acc in accuracies.items():
+            if not pd.isna(acc):
+                logging.info(f"{version}: {acc:.2%}")
+        
+        # Sleep to avoid rate limits (same as generate_compressions.py)
+        time.sleep(1)
+    
+    # Final save
+    logging.info(f"Saving final results to {output_path}")
+    df.to_csv(output_path, index=False)
+    
+    # Print final statistics
+    print("\nFinal Accuracy Results:")
+    print("-----------------------")
+    for version, acc in accuracies.items():
+        if not pd.isna(acc):
+            print(f"{version}: {acc:.2%}")
+    
+    logging.info("Evaluation complete!")
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
