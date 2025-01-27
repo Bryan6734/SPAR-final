@@ -1,3 +1,0 @@
-2025-01-27 08:26:05,359 - INFO - Starting compression experiment
-2025-01-27 08:26:05,388 - INFO - Evaluating original questions...
-2025-01-27 08:26:15,769 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
