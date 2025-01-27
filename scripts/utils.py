@@ -227,7 +227,7 @@ def select_and_call_model(prompt: str,
         raise ValueError(f"Unknown model: {model_name}")
 
 
-def call_model_with_retries(prompt: str,
+async def call_model_with_retries(prompt: str,
                             model_name: str = None,
                             call_type: str = 'logprobs',
                             temperature: float = 0.0,
@@ -242,12 +242,19 @@ def call_model_with_retries(prompt: str,
         except Exception as e:
             if num_retries == MAX_NUM_RETRIES:
                 raise e
-            print(f"Error calling model {model_name}: {e}, sleeping for {math.pow(3, num_retries)} seconds and retrying...")
-            time.sleep(math.pow(3, num_retries))
+            # Use shorter retry delays: 0.5s, 1s, 2s, 4s, 8s
+            delay = 0.5 * (2 ** num_retries)
+            print(f"Error calling model {model_name}: {e}, retrying in {delay}s...")
+            await asyncio.sleep(delay)
             num_retries += 1
             continue
         break
     return response
+
+
+async def call_models_in_parallel(prompts: List[str], model_name: str, call_type: str, temperature: float, stop: str, max_tokens: int):
+    tasks = [call_model_with_retries(prompt, model_name, call_type, temperature, stop, max_tokens) for prompt in prompts]
+    return await asyncio.gather(*tasks)
 
 
 class HiddenPrints:

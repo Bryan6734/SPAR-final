@@ -9,12 +9,14 @@ import pickle
 import pandas as pd
 from datetime import datetime
 from tqdm import tqdm
-from utils import chain_of_thought_prompt, call_model_with_retries, Example, load_examples
+from utils import chain_of_thought_prompt, call_model_with_retries, call_models_in_parallel, Example, load_examples
 from experiment_logger import ExperimentLogger
+import asyncio
 
 class AnswerPredictor:
     LETTER_TO_INDEX = {'A': 0, 'B': 1, 'C': 2, 'D': 3}
     INDEX_TO_LETTER = {0: 'A', 1: 'B', 2: 'C', 3: 'D'}
+    COMPRESSION_LEVELS = ['100', '75', '50', '25']
 
     def __init__(self, data_filename: str, verbose: bool = False, overwrite_cache: bool = False):
         self.model_name = "claude-3-5-sonnet-20241022"
@@ -30,6 +32,10 @@ class AnswerPredictor:
         
         # Initialize logger
         self.logger = ExperimentLogger("chain_of_thought")
+        
+        # Load and store full dataset
+        self.df = pd.read_csv(self.data_filename)
+        self.results = []
     
     def save_cache(self):
         with open(self.cache_filename, 'wb') as file:
@@ -65,63 +71,123 @@ class AnswerPredictor:
             logging.info(f'====================ANSWER====================\n{resp}\n====================ANSWER====================')
         
         return self.parse_sampled_answer(resp), resp
+    
+    def save_results(self):
+        """Save current results to CSV"""
+        results_df = pd.DataFrame(self.results)
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        output_file = f'evals_{timestamp}.csv'
+        results_df.to_csv(output_file, index=False)
+        print(f"\nResults saved to: {output_file}")
+        return output_file
 
     def main(self):
         """Run the experiment"""
-        results = []
-        examples = load_examples(self.data_filename)  # This will shuffle the answers
-        
         print("\nStarting evaluation...\n")
-        for idx, example in tqdm(enumerate(examples), total=len(examples)):
-            print(f"\n{'='*80}\nQuestion {idx+1}/{len(examples)}:")
-            print(f"Q: {example.question}")
+        
+        # Process each row (original question) in the dataset
+        for idx, row in tqdm(self.df.iterrows(), total=len(self.df)):
+            print(f"\n{'='*80}\nQuestion {idx+1}/{len(self.df)}:")
             
-            print("\nPossible Answers:")
-            choices = [example.choice1, example.choice2, example.choice3, example.choice4]
-            for i, choice in enumerate(choices):
-                print(f"{self.INDEX_TO_LETTER[i]}) {choice}")
-            print()
+            # Shuffle answer choices once for all versions of this question
+            choices = [
+                row['Correct Answer'],
+                row['Incorrect Answer 1'],
+                row['Incorrect Answer 2'],
+                row['Incorrect Answer 3']
+            ]
+            import random
+            random.seed(42 + idx)  # Ensure reproducibility but different for each question
+            random.shuffle(choices)
+            correct_index = choices.index(row['Correct Answer'])
             
-            prompt = chain_of_thought_prompt(example)
-            predicted_letter, full_response = self.get_answer(prompt)
+            # Store results for all versions of this question
+            question_results = {
+                'Question': row['Question'],
+                'Correct Answer': row['Correct Answer'],
+                'Incorrect Answer 1': row['Incorrect Answer 1'],
+                'Incorrect Answer 2': row['Incorrect Answer 2'],
+                'Incorrect Answer 3': row['Incorrect Answer 3'],
+                'Shuffled Choice 1': choices[0],
+                'Shuffled Choice 2': choices[1],
+                'Shuffled Choice 3': choices[2],
+                'Shuffled Choice 4': choices[3],
+                'Correct Index': correct_index
+            }
             
-            # Log the raw interaction
+            # Create examples for all versions
+            examples = []
+            prompts = []
+            for level in self.COMPRESSION_LEVELS:
+                question_text = row[f'compression_{level}'] if level != '100' else row['Question']
+                example = Example(
+                    question_text,
+                    choices[0],
+                    choices[1],
+                    choices[2],
+                    choices[3],
+                    correct_index
+                )
+                examples.append(example)
+                prompts.append(chain_of_thought_prompt(example))
+            
+            # Get model responses for all versions in parallel
+            responses = asyncio.run(call_models_in_parallel(
+                prompts=prompts,
+                model_name=self.model_name,
+                call_type='sample',
+                temperature=0.3,
+                stop=None,
+                max_tokens=1000
+            ))
+            
+            # Process responses and store results
+            versions_log = []
+            for level, response in zip(self.COMPRESSION_LEVELS, responses):
+                predicted_letter = self.parse_sampled_answer(response)
+                if predicted_letter is None:
+                    predicted_index = -1
+                else:
+                    predicted_index = self.LETTER_TO_INDEX[predicted_letter]
+                
+                # Store version results
+                versions_log.append({
+                    'version': level,
+                    'predicted_letter': predicted_letter
+                })
+                
+                # Store in CSV results
+                question_results[f'compression_{level}_predicted'] = predicted_letter
+                question_results[f'compression_{level}_correct'] = (predicted_index == correct_index)
+            
+            # Log all versions of this question
             self.logger.log_interaction(
                 question_number=idx + 1,
-                question=example.question,
+                original_question=dict(row),
                 choices=choices,
-                prompt=prompt,
-                response=full_response
+                versions=versions_log
             )
             
-            if predicted_letter is None:
-                predicted_index = -1
-                print(" Model failed to provide a valid answer")
-            else:
-                predicted_index = self.LETTER_TO_INDEX[predicted_letter]
-                is_correct = predicted_index == example.correct_index
-                print(f"Model's answer: ({predicted_letter})")
-                print(" Correct!" if is_correct else " Incorrect!")
+            # Store results
+            self.results.append(question_results)
             
-            print(f"\nModel's reasoning:\n{full_response}\n")
-            
-            results.append({
-                'question': example.question,
-                'predicted_index': predicted_index,
-                'correct_index': example.correct_index,
-                'correct': predicted_index == example.correct_index,
-                'full_response': full_response
-            })
-            
-        results_df = pd.DataFrame(results)
-        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        results_df.to_csv(f'results_{timestamp}.csv', index=False)
+            # Save results every 5 questions
+            if (idx + 1) % 5 == 0:
+                output_file = self.save_results()
+                print(f"Progress save: {output_file}")
         
-        accuracy = results_df['correct'].mean()
-        print(f"\n{'='*80}")
-        print(f"Final Accuracy: {accuracy:.2%}")
-        print(f"Results saved to:")
-        print(f"1. results_{timestamp}.csv (summary)")
+        # Final save and statistics
+        output_file = self.save_results()
+        results_df = pd.DataFrame(self.results)
+        
+        print("\nFinal Results:")
+        print("="*80)
+        for level in self.COMPRESSION_LEVELS:
+            accuracy = results_df[f'compression_{level}_correct'].mean()
+            print(f"{level}% compression accuracy: {accuracy:.2%}")
+        
+        print(f"\nResults saved to:")
+        print(f"1. {output_file} (summary)")
         print(f"2. {self.logger.get_log_file()} (raw model interactions)")
 
 if __name__ == '__main__':
