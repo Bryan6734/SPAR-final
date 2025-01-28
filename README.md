@@ -8,9 +8,9 @@ Here's my research process from start to finish. This will be a live document th
 
 ### First Steps
 
-- **Goal:** We want to know how much model performance deteriorates on the GPQA-diamond dataset for a given amount of compression. In other words, if we compress the prompt down by a certain amount, does the model get better or worse at our benchmark?
+- **Goal:** We want to know how much model performance deteriorates on the GPQA-diamond dataset for a given amount of compression. In other words, if we compress the prompt down by a certain amount, how much better/worse does the model e
 - **My Intuition:** Model performance will go down as the prompt gets compressed, because the model will have less information to work with.
-  - Compression might improve performance if the prompt contains a lot of irrelevant information? (Unlikely since prompts are written by experts)
+  - Compression might improve performance if the prompt contains a lot of irrelevant information? (But I'd guess this is unlikely since prompts are written by experts)
 
 **Here's the high-level plan:**
 
@@ -28,9 +28,10 @@ Here's my research process from start to finish. This will be a live document th
 **Here are a couple of difficulties I think I'll encounter:**
 
 1. The GPQA repository is 2+ years old... will have to do some refactoring and updating
-2. Need to define compression; how to control for starting words / amount of information? 2. Suppose you have two questions that are conceptually the same in difficulty, but one just has more "basic facts" than the other (i.e. atomic units of information that help define the question). This seems like it's outside the scope of this assignment, but would be interesting to look into model deterioration w.r.t. number of atomic facts being compressed.
-3. Dealing w/ math and chemistry might be particularly challenging because you have to parse through symbols/equations/formulas/etc.
-   p
+2. Need to define compression; how to control for starting words / amount of information?
+   - Suppose you have two questions that are conceptually the same in difficulty, but one just has more "basic facts" than the other (i.e. atomic units of information that help define the question). How can we control for this? 
+3. Adapting evaluation script to handle evaluating multiple question compressions
+4. Dealing w/ math and chemistry might be particularly challenging because you have to parse through symbols/equations/formulas/etc.
 
 ## Compression
 
@@ -69,49 +70,54 @@ Generate ALL of the following compressions with EXACT word counts:
 [Your compression with EXACTLY {target_25} words]
 ```
 
-**Why this approach was bad:** I learned quickly that if you tell a model to keep only 75% or 50% or 25% of something, it will often generate a response far less than what was requested. This was a fairly important limitation which caused me to pivot.
+**Why this approach was bad:** 
+1. **Imposing a word count limit on an LLM can be unreliable.** I learned quickly that if you tell a model to keep only 75% or 50% or 25% of something, it will often generate a response far less than what was requested (must be tokenization issue). 
+2. To visualize this discrepancy, here's a graph of the target word count vs. the actual generated word count for each compression question. Ideally all our questions would fall on the line, but the vast majority do not.
+   ![alt text](image-10.png)
 
 #### Attempt #2: Compression As A Continuous Percentage
 
-I liked having four data points (i.e. "compression levels") per question, but it was clear I couldn't get the model to compress perfectly to 75%, 50%, and 25%. So instead, I just took the same data and divided the _word count_ of each compressed question by the _word count_ of the original question. (So if I had 20 words in the original, 10 in the second q, 8 in the third q, etc), I would divid each by 20. This resulted in the following distribution:
+I liked having four data points (i.e. "compression levels") per question, but it was clear I couldn't get the model to compress perfectly to 75%, 50%, and 25%. So instead, I just took the same data and divided the _word count_ of each compressed question by the _word count_ of the original question. (So if I had 20 words in the original question, and GPT generated 10 words for the second q, 8 for the third q, etc), I would just divide each by 20. 
+
+This resulted in the following distribution, where the x-axis is the percent of the original question kept. 
 
 ![alt text](image-2.png)
-(X axis is the percent of the original question kept, Y axis is the count).
 
-**Why this approach might be good:**
+**Why this approach is good:**
 
 1. **It's better than simply having a binary of "compressed" or "not compressed"**
-2. Controls for the fact that models might not always generate the exact number of words/characters they're supposed to.
+2. **Saves on cost/time** because you can use a single API request to generate all compressions for each question, as opposed to imposing token limits
 
-**Why this approach is still bad:**
+**Why this approach is bad:**
 
 1. **I used a single API request to generate all compressions for each question.** If I generated each compression individually, I probably could've imposed some token limit on the API, which would have increased the precision of the compressions. My main reason for doing this is because I wanted to save on costs and time.
-2. **The model is really bad at following the word count, despite extensive instructions.** The graph below shows that the model often generates **far less** words than the target word count.
-   1. **This means that 75% isn't actually 75%; it's more like 50% or less.** I believe this is an important limitation and point to make.
-3. **Using percentages has its flaws.** 50% of 100 words is way different than 50% of 25 words, so these might not be directly comparable.
-4. **Needs more testing for temperature.** My assumption is that lower temp => more deterministic => model stays grounded in essential information that it'll eventually compress. But you still need to provide some creative freedom so that the model can compress the text. (decided on temp=0.3)
+2. **Using percentages leads to different results depending on number of original words.** For example, 50% of 100 words is way different than 50% of 25 words, so these might not be directly comparable.
+3. **Needs more testing for temperature.** My assumption is that lower temp => more deterministic => model stays grounded in essential information that it'll eventually compress. But you still need to provide some creative freedom so that the model can compress the text. (decided on temp=0.3)
 
-## Evaluating Performance w.r.t. Compression
+## Evaluation
 
-To run my evaluation, I used five-shot prompt w/ CoT with Claude-3-5-sonnet-20241022 and temperature=0.3. I had to make a few modifications to the evaluation script in `scripts/run_experiment.py`. The input was `datasets/compressions.csv` and the output was a series of eval files which I merged to get `final_results.csv`. Each row in `final_results.csv` corresponds a question id `datasets/compressions.csv`, and the columns contain information on each of the four question compressions.  
+To run my evaluation, I used five-shot prompt w/ CoT with Claude-3-5-sonnet-20241022 and temperature=0.3. I had to make a few modifications to the evaluation script in `scripts/run_experiment.py`. The input was `datasets/compressions.csv` and the output was a series of eval files which I merged to get `final_results.csv`. Each row in `final_results.csv` corresponds a question id `datasets/compressions.csv`, and the columns contain information on each of the four question compressions.
 
 ### Overall Statistics
+
 - **Total Accuracy**: 58.38%
 - **Total Correct**: 390
 - **Total Samples**: 668
 
 Note: GPQA-diamond contains 198 rows, so why do I have 668 samples?
+
 1. I evaluated 176 unique questions before Anthropic stopped me.
-   - 176 questions * 4 compressions/question = 672 samples
+   - 176 questions \* 4 compressions/question = 672 samples
 2. I had to remove 4 rows that failed somewhere in the process, bringing the total to 668.
 
 Claude typically gets around ~60% accuracy on GPQA-diamond, so this was a good sanity check.
 
 ### Accuracy by High-level Domain
-Performs relatively worse on Chemistry questions.  
+
+Performs relatively worse on Chemistry questions.
 
 | Domain    | Count | Accuracy (%) | Std Dev |
-|-----------|-------|--------------|---------|
+| --------- | ----- | ------------ | ------- |
 | Biology   | 70    | 67.14        | 47.31   |
 | Chemistry | 327   | 45.87        | 49.91   |
 | Physics   | 271   | 71.22        | 45.36   |
@@ -119,46 +125,48 @@ Performs relatively worse on Chemistry questions.
 ### Accuracy by Subdomain
 
 | Subdomain                      | Count | Accuracy (%) | Std Dev |
-|-------------------------------|-------|--------------|---------|
-| High-energy particle physics  | 47    | 91.49        | 28.21   |
-| Quantum Mechanics            | 84    | 76.19        | 42.85   |
-| Inorganic Chemistry          | 4     | 75.00        | 50.00   |
-| Relativistic Mechanics       | 28    | 75.00        | 44.10   |
-| Molecular Biology           | 57    | 73.68        | 44.43   |
-| Physics (general)           | 55    | 61.82        | 49.03   |
-| Electromagnetism and Photonics| 20    | 60.00        | 50.26   |
-| Astrophysics                | 34    | 55.88        | 50.40   |
-| Chemistry (general)         | 74    | 54.05        | 50.18   |
-| Organic Chemistry           | 249   | 42.97        | 49.60   |
-| Genetics                    | 13    | 38.46        | 50.64   |
-| Optics and Acoustics        | 3     | 0.00         | 0.00    |
+| ------------------------------ | ----- | ------------ | ------- |
+| High-energy particle physics   | 47    | 91.49        | 28.21   |
+| Quantum Mechanics              | 84    | 76.19        | 42.85   |
+| Inorganic Chemistry            | 4     | 75.00        | 50.00   |
+| Relativistic Mechanics         | 28    | 75.00        | 44.10   |
+| Molecular Biology              | 57    | 73.68        | 44.43   |
+| Physics (general)              | 55    | 61.82        | 49.03   |
+| Electromagnetism and Photonics | 20    | 60.00        | 50.26   |
+| Astrophysics                   | 34    | 55.88        | 50.40   |
+| Chemistry (general)            | 74    | 54.05        | 50.18   |
+| Organic Chemistry              | 249   | 42.97        | 49.60   |
+| Genetics                       | 13    | 38.46        | 50.64   |
+| Optics and Acoustics           | 3     | 0.00         | 0.00    |
 
-## Compression Levels 
-When I was 
+## Accuracy w.r.t. Compression
 
-![alt text](image-9.png)
-![alt text](image-6.png)
+**Note:** The "compression level" is calculated by taking the number of words in the compressed question, and dividing by the number of words in the original question. Low % means LOTS of compression; high % means little to no compression.
+
+Here's a graph comparing model performance on GPQA-diamond and compression level. 
+**Key Finding 1: (~70% confidence)** more compression (word count < 25% of original prompt) weakly implies lower accuracy, but not significantly. 
+![alt text](image-4.png)
+
+To mitigate some of the issues w/ compression as a relative percentage, we can analyze question accuracy using the **absolute** word count of the starting question. One of the things we might want to know is if the number of words in the original question is correlated with more or less model deterioration when we attempt to compress it. In other words, if the original question is long, does that make the compressed versions of that question more or less robust to compression when assessed on accuracy?
+
+
+When we treat the original question as a baseline, we get the following graph.
+**Key Finding #2: (~70% confidence)** For original questions that have 25-50 words, compressing leads to up to -24% drop in accuracy.
+**Key Finding #3: (~30% confidence)** There some compressions that benefit model performance on both <25 words and 50+ word questions, but only by a small margin. Still not sure how much I should trust this analysis.
+
+
+
 ![alt text](image-8.png)
-What happens when you try to compress a question that's already short (<25 words) vs. one that's already long (>=50 words)? For shorter questions, it seems like compressing question
 
-### Absolute Question Length
-1. "Very High (0-25%)" RED means LOTS of compression
-2. "Original (90-100%)" BLUE means little to no compression. 
+### Subdomain
 
-When the question is between 0 and 25 words, 
+**Key Finding #5:** For starting questions between 25-50 words, compression leads to drops of 30-70% for organic chemistry and chemistry.
 
-![alt text](image-3.png)
- 
-
-Here's the high-level story.
+**Key Finding #6:** For starting questions with 50+ words, compression increases accuracy for quantum mechanis and chemistry by 2%.
 
 ![alt text](image-7.png)
 
+**Key Finding #7:** Performance drops across all subdomains, not controlling for initial question length. Exception w/ astrophysics (left).
+
 ![alt text](image-5.png)
-**Future Directions**
 
-- _Control for amounnt of essential information in a problem_
-
-Suppose you have two questions that are conceptually similar in difficulty, but one just has more essential information than the other. I would guess that compression performance has more to do with essential information than difficulty, because then the question becomes a semantic ambiguity problem, in addition to being conceptually difficult/computationally in
-
-tensive.
