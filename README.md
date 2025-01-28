@@ -38,7 +38,7 @@ _TLDR: I define compression as the percentage of the original question that is p
 
 #### Attempt #1: Compression As Quartiles
 
-My initial goal was to compress the question into 100%, 75%, 50%, and 25% of the original question.
+My initial goal was to compress the question into 100%, 75%, 50%, and 25% of the original question. I did this in `scripts/generate_compressions.py`
 
 1. First, I calculated the number of starting words for each question in the GPQA-diamond dataset. I accomplished this by splitting on whitespace and counting non-empty strings.
 2. Then, I used a prompt template to generate four questions w/ Claude containing 100%, 75%, 50%, and 25% of the number of starting words in the original question. Here's the exact prompt I used:
@@ -93,20 +93,64 @@ I liked having four data points (i.e. "compression levels") per question, but it
 
 ## Evaluating Performance w.r.t. Compression
 
-To run my evaluation, I used five-shot prompt w/ CoT with Claude-3-5-sonnet-20241022 and temperature=0.3. Using the evaluation script w/ slight modifications, I ran GPQA-diamond on 175 questions.
+To run my evaluation, I used five-shot prompt w/ CoT with Claude-3-5-sonnet-20241022 and temperature=0.3. I had to make a few modifications to the evaluation script in `scripts/run_experiment.py`. The input was `datasets/compressions.csv` and the output was a series of eval files which I merged to get `final_results.csv`. Each row in `final_results.csv` corresponds a question id `datasets/compressions.csv`, and the columns contain information on each of the four question compressions.  
 
-asdasdasd somet
+### Overall Statistics
+- **Total Accuracy**: 58.38%
+- **Total Correct**: 390
+- **Total Samples**: 668
 
+Note: GPQA-diamond contains 198 rows, so why do I have 668 samples?
+1. I evaluated 176 unique questions before Anthropic stopped me.
+   - 176 questions * 4 compressions/question = 672 samples
+2. I had to remove 4 rows that failed somewhere in the process, bringing the total to 668.
+
+Claude typically gets around ~60% accuracy on GPQA-diamond, so this was a good sanity check.
+
+### Accuracy by High-level Domain
+Performs relatively worse on Chemistry questions.  
+
+| Domain    | Count | Accuracy (%) | Std Dev |
+|-----------|-------|--------------|---------|
+| Biology   | 70    | 67.14        | 47.31   |
+| Chemistry | 327   | 45.87        | 49.91   |
+| Physics   | 271   | 71.22        | 45.36   |
+
+### Accuracy by Subdomain
+
+| Subdomain                      | Count | Accuracy (%) | Std Dev |
+|-------------------------------|-------|--------------|---------|
+| High-energy particle physics  | 47    | 91.49        | 28.21   |
+| Quantum Mechanics            | 84    | 76.19        | 42.85   |
+| Inorganic Chemistry          | 4     | 75.00        | 50.00   |
+| Relativistic Mechanics       | 28    | 75.00        | 44.10   |
+| Molecular Biology           | 57    | 73.68        | 44.43   |
+| Physics (general)           | 55    | 61.82        | 49.03   |
+| Electromagnetism and Photonics| 20    | 60.00        | 50.26   |
+| Astrophysics                | 34    | 55.88        | 50.40   |
+| Chemistry (general)         | 74    | 54.05        | 50.18   |
+| Organic Chemistry           | 249   | 42.97        | 49.60   |
+| Genetics                    | 13    | 38.46        | 50.64   |
+| Optics and Acoustics        | 3     | 0.00         | 0.00    |
+
+## Compression Levels 
+When I was 
+
+![alt text](image-9.png)
 ![alt text](image-6.png)
-
+![alt text](image-8.png)
 What happens when you try to compress a question that's already short (<25 words) vs. one that's already long (>=50 words)? For shorter questions, it seems like compressing question
 
+### Absolute Question Length
+1. "Very High (0-25%)" RED means LOTS of compression
+2. "Original (90-100%)" BLUE means little to no compression. 
+
+When the question is between 0 and 25 words, 
+
 ![alt text](image-3.png)
+ 
 
-![alt text](image-4.png)
-
-Here's the high-level story. 
-
+Here's the high-level story.
 
 ![alt text](image-7.png)
 
