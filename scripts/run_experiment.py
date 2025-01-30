@@ -75,8 +75,14 @@ class AnswerPredictor:
     def save_results(self):
         """Save current results to CSV"""
         results_df = pd.DataFrame(self.results)
-        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        output_file = f'evals_{timestamp}.csv'
+        output_file = 'evals.csv'
+        
+        # If file exists, read existing results and append new ones
+        if os.path.exists(output_file):
+            existing_df = pd.read_csv(output_file)
+            # Append only new results
+            results_df = pd.concat([existing_df, results_df], ignore_index=True).drop_duplicates()
+        
         results_df.to_csv(output_file, index=False)
         print(f"\nResults saved to: {output_file}")
         return output_file

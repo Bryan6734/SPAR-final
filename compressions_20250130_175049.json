@@ -1,0 +1,1381 @@
+{
+  "rec0Arme2jcXQZnAW": [
+    "trans-cinnamaldehyde + MeMgBr \u2192 product 1, then PCC \u2192 product 2, then dimethylsulfoxide + heat \u2192 product 3. How many carbons in product 3?",
+    "trans-cinnamaldehyde + MeMgBr \u2192 1, PCC \u2192 2, DMSO/heat \u2192 3. How many carbons in product 3?",
+    "cinnamaldehyde + MeMgBr \u2192 1, PCC \u2192 2, DMSO/heat \u2192 3. Carbon count in 3?",
+    "cinnamaldehyde \u2192 product 1 \u2192 2 \u2192 3. Carbons in 3?",
+    "How many carbons in final product?"
+  ],
+  "rec06pnAkLOr2t2mp": [
+    "Two quantum states with energies E1, E2 have lifetimes 10^-9s and 10^-8s. We need to distinguish these energy levels. Which energy difference would allow clear resolution?",
+    "Quantum states (E1, E2) with lifetimes 10^-9s and 10^-8s need distinction. What energy difference enables clear resolution?",
+    "States with lifetimes 10^-9s and 10^-8s - what energy difference needed to resolve them?",
+    "What energy gap resolves states with lifetimes 10^-9s and 10^-8s?",
+    "E diff needed for 10^-9s, 10^-8s states?"
+  ],
+  "rec0wZvZgiz320KRs": [
+    "A particle with spin-1/2 is in superposition 0.5|\\uparrow\\rangle+sqrt(3)/2|\\downarrow\\rangle of spin states. For eigenstates |\\uparrow\\rangle and |\\downarrow\\rangle of \\sigma{z}, find expectation value to 1dp of 10\\sigma{z}+5\\sigma_{x}.",
+    "Spin-1/2 particle in state 0.5|\\uparrow\\rangle+sqrt(3)/2|\\downarrow\\rangle, with |\\uparrow\\rangle,|\\downarrow\\rangle as \\sigma{z} eigenstates. Find expectation of 10\\sigma{z}+5\\sigma_{x} to 1dp.",
+    "For state 0.5|\\uparrow\\rangle+sqrt(3)/2|\\downarrow\\rangle, calculate expectation value of 10\\sigma{z}+5\\sigma_{x} to 1dp.",
+    "Find expectation of 10\\sigma{z}+5\\sigma_{x} for 0.5|\\uparrow\\rangle+sqrt(3)/2|\\downarrow\\rangle.",
+    "Expect. val. 10\\sigma{z}+5\\sigma_{x}, 0.5|\\uparrow\\rangle+sqrt(3)/2|\\downarrow\\rangle?"
+  ],
+  "rec0yTRmO1o1xCA6H": [
+    "In a universe with isolated magnetic poles, which of Maxwell's equations would be different from our universe?",
+    "If magnetic monopoles existed, which Maxwell equations would need modification?",
+    "Which Maxwell equations change if magnetic monopoles exist?",
+    "How do monopoles affect Maxwell's equations?",
+    "Monopoles change which equations?"
+  ],
+  "rec260hNUCEj109Dj": [
+    "Find energy spectrum of quantum particle mass m in 2D potential V(r,\u03b8) = 1/2 kr^2 + 3/2 kr^2 cos^2(\u03b8)",
+    "Find energy levels for quantum particle in V(r,\u03b8) = 1/2 kr^2 + 3/2 kr^2 cos^2(\u03b8)",
+    "Solve energy spectrum: V(r,\u03b8) = 1/2 kr^2 + 3/2 kr^2 cos^2(\u03b8)",
+    "Find energies: V = 1/2 kr^2 + 3/2 kr^2 cos^2(\u03b8)",
+    "Energy levels: V = kr^2(1/2 + 3/2cos^2\u03b8)?"
+  ],
+  "rec1zl5LvaatzGhFt": [
+    "Find the eigenvector of quantum operator $\\vec{P}$ for muon along direction $\\vec{n}$ in x-z plane for eigenvalue $+\\hbar/2$. Given: $P_x=\\frac{\\hbar}{2}\\begin{pmatrix}0&1\\\\1&0\\end{pmatrix}$, $P_y=\\frac{\\hbar}{2}\\begin{pmatrix}0&-i\\\\i&0\\end{pmatrix}$, $P_z=\\frac{\\hbar}{2}\\begin{pmatrix}1&0\\\\0&-1\\end{pmatrix}$. Find normalized eigenvector elements?",
+    "Calculate normalized eigenvector of $\\vec{P}$ for muon in x-z plane, eigenvalue $+\\hbar/2$. Given: $P_x=\\frac{\\hbar}{2}\\begin{pmatrix}0&1\\\\1&0\\end{pmatrix}$, $P_y=\\frac{\\hbar}{2}\\begin{pmatrix}0&-i\\\\i&0\\end{pmatrix}$, $P_z=\\frac{\\hbar}{2}\\begin{pmatrix}1&0\\\\0&-1\\end{pmatrix}$",
+    "Find normalized eigenvector for muon operator $\\vec{P}$ in x-z plane, $+\\hbar/2$ eigenvalue. Components: $P_x=\\frac{\\hbar}{2}\\begin{pmatrix}0&1\\\\1&0\\end{pmatrix}$, $P_y,P_z$ given.",
+    "Calculate normalized eigenvector of $\\vec{P}$ in x-z plane for $+\\hbar/2$ eigenvalue. Given $P_x,P_y,P_z$ matrices.",
+    "Find normalized eigenvector of $\\vec{P}$ for $+\\hbar/2$ eigenvalue in x-z plane."
+  ],
+  "rec2UlKqC6RFHdcro": [
+    "Consider gamma-ray annihilation with CMB photons into electron-positron pairs ($\\gamma\\gamma\\rightarrow e^{+}e^{-}$). At what energy would gamma-rays have limited lifetimes due to this process? Average CMB photon energy is $10^{-3}eV$.",
+    "What energy gamma-rays would have limited lifetimes due to annihilation with CMB photons ($\\gamma\\gamma\\rightarrow e^{+}e^{-}$)? CMB photon energy: $10^{-3}eV$.",
+    "At what energy do gamma-rays have limited lifetimes from CMB photon annihilation ($\\gamma\\gamma\\rightarrow e^{+}e^{-}$)? CMB: $10^{-3}eV$.",
+    "What gamma-ray energy limits lifetime via CMB annihilation ($\\gamma\\gamma\\rightarrow e^{+}e^{-}$)? CMB: $10^{-3}eV$.",
+    "Gamma-ray energy for CMB annihilation? ($10^{-3}eV$ CMB)"
+  ],
+  "rec2fsnzUuvNtUYK8": [
+    "Which molecule has c3h symmetry: triisopropyl borate, quinuclidine, benzo[1,2-c:3,4-c':5,6-c'']trifuran-1,3,4,6,7,9-hexaone, or triphenyleno[1,2-c:5,6-c':9,10-c'']trifuran-1,3,6,8,11,13-hexaone?",
+    "Which has c3h symmetry: triisopropyl borate, quinuclidine, benzo[1,2-c:3,4-c':5,6-c'']trifuran-hexaone, or triphenyleno[1,2-c:5,6-c':9,10-c'']trifuran-hexaone?",
+    "Which molecule has c3h symmetry: triisopropyl borate, quinuclidine, benzotrifuran-hexaone, or triphenylenotrifuran-hexaone?",
+    "Which has c3h symmetry: triisopropyl borate, quinuclidine, benzotrifuran, or triphenylenotrifuran?",
+    "Which has c3h symmetry among these molecules?"
+  ],
+  "rec2ZTsqazBZ3LTWZ": [
+    "In a study of white lupine genes for anthracnose resistance, you test G1, G2, G3 genes via single/double knockouts. One gene is a transcription factor. Resistance levels vs control: g1=75%, g2=0%, g3=50%, g1g3=10%, g2g3=0%, g1g2=0%. What can you conclude about gene interactions?",
+    "Testing G1, G2, G3 genes for anthracnose resistance in white lupine with knockouts. Resistance data: g1=75%, g2=0%, g3=50%, g1g3=10%, g2g3=0%, g1g2=0%. What gene interactions exist?",
+    "Analyzing G1, G2, G3 knockouts for disease resistance. Results: g1=75%, g2=0%, g3=50%, g1g3=10%, g2g3=0%, g1g2=0%. What's their relationship?",
+    "G1, G2, G3 knockout results: g1=75%, g2=0%, g3=50%, g1g3=10%, g2g3=0%, g1g2=0%. Deduce interactions?",
+    "Gene knockouts g1=75%, g2=0%, g3=50%. Double mutants all \u226410%. Interactions?"
+  ],
+  "rec4JrWy7Il8ho5vk": [
+    "Which exoplanet has highest density? Options: a) Earth-mass & Earth-radius planet b) 2 Earth masses & 5.5 g/cm^3 density c) Earth-like composition, 5x Earth mass d) Earth-like composition, 0.5x Earth mass",
+    "Which exoplanet is densest? a) Earth-mass & radius planet b) 2 Earth masses, 5.5 g/cm^3 c) Earth-like, 5x Earth mass d) Earth-like, 0.5x Earth mass",
+    "Find densest exoplanet: a) Earth-mass/radius b) 2M\u2295, 5.5 g/cm^3 c) Earth-like, 5M\u2295 d) Earth-like, 0.5M\u2295",
+    "Densest planet? a) Earth-like b) 2M\u2295, 5.5g/cm^3 c) 5M\u2295 d) 0.5M\u2295",
+    "Densest: a)Earth b)2M\u2295 c)5M\u2295 d)0.5M\u2295?"
+  ],
+  "rec4L69T0Y1AS4AFS": [
+    "All statements about molecular biology of Severe Acute Respiratory Syndrome Coronavirus 2 (SARS\u2011CoV\u20112) are correct except",
+    "Which statement about molecular biology of SARS\u2011CoV\u20112 is incorrect?",
+    "Which SARS\u2011CoV\u20112 molecular biology statement is false?",
+    "Which SARS\u2011CoV\u20112 biology fact is wrong?",
+    "False SARS\u2011CoV\u20112 fact?"
+  ],
+  "rec4UqStf9WUVif1f": [
+    "Find KE of product particles when Pi(+) decays to mu(+) + nu, Pi(+) at rest. Pi(+) mass=139.6 MeV, mu(+) mass=105.7 MeV",
+    "Calculate KE of products in Pi(+)->mu(+)+nu decay. Pi(+) at rest, masses: Pi=139.6 MeV, mu=105.7 MeV",
+    "Find KE in Pi(+)->mu(+)+nu. Pi(+) stationary. Pi=139.6 MeV, mu=105.7 MeV",
+    "KE in Pi(+)->mu(+)+nu decay. Pi=139.6 MeV, mu=105.7 MeV",
+    "Pi(+)->mu(+)+nu KE? Pi=139.6, mu=105.7 MeV"
+  ],
+  "rec4r4KWNLrT7g2kR": [
+    "Methanol solution of (R)-(+)-Limonene + Pd/C under H2 (1 eq) \u2192 Product 1, then mCPBA \u2192 Product 2, then NaOMe \u2192 Product 3, then propanoic acid/DCC/DMAP \u2192 Product 4. What's a valid structure of Product 4?",
+    "(R)-(+)-Limonene + H2/Pd/C \u2192 Product 1, mCPBA \u2192 Product 2, NaOMe \u2192 Product 3, propanoic acid/DCC/DMAP \u2192 Product 4. Show valid Product 4 structure?",
+    "Limonene hydrogenation \u2192 P1, epoxidation \u2192 P2, NaOMe \u2192 P3, propanoic acid/DCC/DMAP \u2192 P4. Structure of P4?",
+    "Limonene + H2 \u2192 P1 \u2192 P2 \u2192 P3 \u2192 P4 (via propanoic acid). Show P4?",
+    "Limonene reaction sequence \u2192 Product 4 structure?"
+  ],
+  "rec527dNeEtWJrYNl": [
+    "ChIP-seq with IKAROS antibody in human B cells using PFA fixation showed peaks that vanished when PFA+DSG fixation was used. After standard processing, where are these disappearing peaks most likely found?",
+    "IKAROS ChIP-seq peaks in PFA-fixed B cells disappeared when using PFA+DSG fixation. After processing, where are these vanishing peaks likely located?",
+    "IKAROS ChIP peaks present in PFA-fixed cells vanished with PFA+DSG fixation. Where are they likely found?",
+    "Where are IKAROS ChIP peaks that disappear when switching PFA to PFA+DSG fixation?",
+    "Where are PFA-only IKAROS peaks located?"
+  ],
+  "rec5eA17Qr1ucNLUf": [
+    "Researchers study 2 Earth-like planets: Planet_1 & Planet_2, detected via RV method. Both have same mass & circular orbits, but Planet_1's period is 3x shorter than Planet_2's. Planet_1's host star has 2x mass of Planet_2's host, but both stars have equal radii. Which planet has higher transit probability?",
+    "Two Earth-like planets detected by RV have same mass & circular orbits. Planet_1's period is 3x shorter than Planet_2's. Planet_1's host star has 2x mass of Planet_2's host, equal radii. Which has higher transit chance?",
+    "Two planets with same mass: Planet_1 (period P) vs Planet_2 (period 3P). Planet_1's host star: 2x mass, same radius as Planet_2's. Which transits more likely?",
+    "Planet_1 (period P) vs Planet_2 (3P), same mass. Host_1: 2x mass of Host_2, same radii. Better transit odds?",
+    "2 planets: P1(P,2M*) vs P2(3P,M*). Same radii. Transit probability?"
+  ],
+  "rec5rjeLsEq5Fg7Oj": [
+    "How many compounds from this list show optical activity: (Z)-1-chloro-2-methylbut-1-ene, (3aR,7aS,E)-8-(chloromethylene)hexahydro-4,7-methanoisobenzofuran-1,3-dione, (2R,3S)-2,3-dimethylsuccinic acid, (2R,3R)-2,3-dimethylsuccinic acid, (R)-cyclohex-3-en-1-ol, (1s,3s,5s)-cyclohexane-1,3,5-triol, 1-cyclopentyl-3-methylbutan-1-one?",
+    "Count optically active compounds: (Z)-1-chloro-2-methylbut-1-ene, (3aR,7aS,E)-8-(chloromethylene)hexahydro-4,7-methanoisobenzofuran-1,3-dione, (2R,3S)/(2R,3R)-2,3-dimethylsuccinic acids, (R)-cyclohex-3-en-1-ol, (1s,3s,5s)-cyclohexane-1,3,5-triol, 1-cyclopentyl-3-methylbutan-1-one",
+    "How many show optical activity: (Z)-1-chloro-2-methylbut-1-ene, (3aR,7aS,E)-8-chloromethylene compound, dimethylsuccinic acids, (R)-cyclohex-3-en-1-ol, cyclohexanetriol, cyclopentyl compound?",
+    "Count optically active compounds among: chlorobut-1-ene, methanoisobenzofuran, dimethylsuccinic acids, cyclohexenol, cyclohexanetriol, cyclopentyl ketone",
+    "How many compounds show optical activity?"
+  ],
+  "rec7C06XOB2h298ue": [
+    "What's the calcium ion concentration in a solution with 0.02 M Ca-EDTA complex, assuming ideal pH and T = 25\u00b0C, given KCa-EDTA = 5x10^10?",
+    "Find [Ca2+] in solution containing 0.02 M Ca-EDTA complex at ideal pH, T = 25\u00b0C, KCa-EDTA = 5x10^10.",
+    "Calculate [Ca2+] in 0.02 M Ca-EDTA solution, pH ideal, KCa-EDTA = 5x10^10.",
+    "Find [Ca2+] in 0.02 M Ca-EDTA, KCa-EDTA = 5x10^10.",
+    "[Ca2+] in 0.02M Ca-EDTA? K=5x10^10"
+  ],
+  "rec8nshandHARTkrg": [
+    "The Michael reaction adds nucleophiles to C=C bonds next to C=O groups, forming new C-C bonds. It's used in pharmaceuticals and synthesis. What are products A & B when: methyl 2-oxocyclohexane-1-carboxylate + (NaOEt, THF, 2,4-dimethyl-1-(vinylsulfinyl)benzene) and ethyl 2-ethylbutanoate + (NaH, THF, methyl 2-cyclopentylidene-2-phenylacetate) react?",
+    "Michael reaction adds nucleophiles to C=C bonds near C=O groups. Find products A & B: methyl 2-oxocyclohexane-1-carboxylate + (NaOEt, THF, 2,4-dimethyl-1-(vinylsulfinyl)benzene) and ethyl 2-ethylbutanoate + (NaH, THF, methyl 2-cyclopentylidene-2-phenylacetate).",
+    "What products form when: methyl 2-oxocyclohexane-1-carboxylate + (NaOEt, THF, 2,4-dimethyl-1-(vinylsulfinyl)benzene) \u2192 A and ethyl 2-ethylbutanoate + (NaH, THF, methyl 2-cyclopentylidene-2-phenylacetate) \u2192 B?",
+    "Find products: methyl 2-oxocyclohexane-1-carboxylate + (NaOEt/THF/2,4-dimethyl-1-(vinylsulfinyl)benzene) \u2192 A; ethyl 2-ethylbutanoate + (NaH/THF/methyl 2-cyclopentylidene-2-phenylacetate) \u2192 B",
+    "Products when reactants \u2192 A & B: methyl 2-oxocyclohexane-1-carboxylate + NaOEt mix; ethyl 2-ethylbutanoate + NaH mix?"
+  ],
+  "rec8y3ZrBOcLgNEkE": [
+    "Which assumptions together create the \"impulse\" approximation in nuclear calculations where nucleons in a nucleus act like free nucleons? 1) Current interacts with individual nucleons 2) Nucleus is transparent except selected nucleon 3) Quarks in selected nucleon non-relativistic 4) Selected nucleon has no binding forces",
+    "What assumptions combine to form the \"impulse\" approximation where nuclear-bound nucleons behave as free nucleons? 1) Individual nucleon interaction 2) Nuclear transparency 3) Non-relativistic quarks 4) No binding forces",
+    "Which assumptions create the \"impulse\" approximation making bound nucleons act free? 1) Individual interaction 2) Nuclear transparency 3) Non-relativistic quarks 4) No binding",
+    "What assumptions make nuclear-bound nucleons behave as free ones? 1) Individual interaction 2) Transparency 3) Non-relativistic 4) Unbound",
+    "Which assumptions create the \"impulse\" approximation? 1-4 listed"
+  ],
+  "rec7qmSnbud4FHSqL": [
+    "Two stars (1.5M\u2609, 1.2M\u2609) have abundances: [Si/Fe]_1=0.3, [Mg/Si]_2=0.3, [Fe/H]_1=0, [Mg/H]_2=0. Sun's composition: 12+log10(nFe/nH)=7.5, 12+log10(nMg/nH)=7. Find ratio of Si atoms in stars' photospheres.",
+    "Stars (1.5M\u2609, 1.2M\u2609) have: [Si/Fe]_1=0.3, [Mg/Si]_2=0.3, [Fe/H]_1=0, [Mg/H]_2=0. Solar values: 12+log10(nFe/nH)=7.5, 12+log10(nMg/nH)=7. Find Si ratio.",
+    "Given [Si/Fe]_1=0.3, [Mg/Si]_2=0.3, [Fe/H]_1=0, [Mg/H]_2=0, 12+log10(nFe/nH)=7.5, 12+log10(nMg/nH)=7, find Si ratio between stars.",
+    "With [Si/Fe]_1=0.3, [Mg/Si]_2=0.3, [Fe/H]_1=0, [Mg/H]_2=0, solar Fe=7.5, Mg=7, find Si1/Si2.",
+    "Find Si1/Si2 using [Si/Fe]_1=0.3, [Mg/Si]_2=0.3, [Fe,Mg/H]=0."
+  ],
+  "rec9GugrngvsQR99A": [
+    "Among compounds benzoquinone & cyclohexane-1,3,5-trione, which doesn't show tautomerism (A), and between methyl 2-hydroxypropanoate and dimethyl fumarate, which shows optical isomerism (B)?",
+    "Which compound between benzoquinone & cyclohexane-1,3,5-trione lacks tautomerism (A), and which between methyl 2-hydroxypropanoate and dimethyl fumarate shows optical isomerism (B)?",
+    "Find compound without tautomerism (A) from benzoquinone & cyclohexane-1,3,5-trione, and compound with optical isomerism (B) from methyl 2-hydroxypropanoate/dimethyl fumarate.",
+    "Identify no-tautomerism compound (A) from benzoquinone/cyclohexane-1,3,5-trione & optical isomer (B) from given compounds.",
+    "Find compound A (no tautomerism) & B (optical isomer) from given options."
+  ],
+  "rec9ubQihAh6g9bft": [
+    "A student sees an incomplete electrochemistry statement: \"Oxygen is a ___ oxidant in basic solutions (thermodynamically) and reacts ___ in acidic solutions (kinetically).\" Which weaker/stronger and faster/slower combo fits?",
+    "Fill the blanks: \"Oxygen is a ___ oxidant in basic solutions (thermodynamic) and reacts ___ in acidic solutions (kinetic).\" Choose correct weaker/stronger & faster/slower.",
+    "Complete: Oxygen is ___ oxidant (basic, thermodynamic) and reacts ___ (acidic, kinetic). Pick right weaker/stronger & faster/slower combo.",
+    "Fill: Oxygen = ___ oxidant (basic) & reacts ___ (acidic). Choose weaker/stronger & faster/slower.",
+    "O2: ___ oxidant (basic), reacts ___ (acidic)?"
+  ],
+  "recA1i5ZAh0Uzclxp": [
+    "In an experiment, a researcher reacted ((2,2-dimethylbut-3-en-1-yl)oxy)benzene with HBr. After checking via TLC, they found the reactant spot diminished and two new spots formed. What could be the product structures?",
+    "A researcher reacted ((2,2-dimethylbut-3-en-1-yl)oxy)benzene with HBr. TLC showed reactant diminishing and two new spots. What are possible products?",
+    "((2,2-dimethylbut-3-en-1-yl)oxy)benzene reacted with HBr showed two new spots on TLC. What products formed?",
+    "((2,2-dimethylbut-3-en-1-yl)oxy)benzene + HBr gave 2 products. What are they?",
+    "What products form when ((2,2-dimethylbut-3-en-1-yl)oxy)benzene + HBr react?"
+  ],
+  "recBGxVySx1pkrO1i": [
+    "Identify reactants for these name reactions where A + H2SO4 yields 2,8-dimethylspiro[4.5]decan-6-one and B + BuLi + H+ produces 4-methyl-1-phenylpent-3-en-1-ol.",
+    "Find reactants where A + H2SO4 makes 2,8-dimethylspiro[4.5]decan-6-one and B + BuLi + H+ forms 4-methyl-1-phenylpent-3-en-1-ol.",
+    "What are reactants A and B in: A + H2SO4 \u2192 2,8-dimethylspiro[4.5]decan-6-one and B + BuLi + H+ \u2192 4-methyl-1-phenylpent-3-en-1-ol?",
+    "Find reactants A & B: A + H2SO4 \u2192 spiro ketone; B + BuLi + H+ \u2192 methyl phenyl alcohol",
+    "ID reactants: A\u2192spiro ketone, B\u2192phenyl alcohol"
+  ],
+  "recAAJoHMW45Lv5je": [
+    "If equimolar mixture X of 2 liquids decolorizes bromine water, when heated with Pt forms equimolar mixture Y (2 liquids) via disproportionation. Y doesn't decolorize Br2. Hydrogenating X and Y with Pt gives hydrocarbon Z (14.28% H), found in Y and used as solvent. Z won't react with H2. X has no conjugated bonds. Find total H atoms in X's liquids.",
+    "Equimolar mixture X (2 liquids) decolorizes Br2, heated with Pt forms mixture Y (2 liquids). Hydrogenating X/Y gives hydrocarbon Z (14.28% H), present in Y. X has no conjugated bonds. Find total H atoms in X's compounds.",
+    "Mixture X (2 liquids) forms Y with Pt heat. Both hydrogenate to Z (14.28% H). X decolorizes Br2, Y doesn't. X lacks conjugated bonds. Find total H atoms in X.",
+    "X (2 liquids) forms Y via Pt. Both \u2192 Z (14.28% H). X decolorizes Br2. Find total H atoms in X.",
+    "X (2 liquids) \u2192 Z (14.28% H). Find total H atoms in X."
+  ],
+  "recBXlqrZUCR897It": [
+    "Which compound A reacts with cyclohexene to form 8,8-diiodobicyclo[4.2.0]octan-7-one, and what's the reactivity order (most to least) for these dienes: 2,3-dimethylbuta-1,3-diene, (2E,4E)-hexa-2,4-diene, cyclopenta-1,3-diene, (2Z,4Z)-hexa-2,4-diene?",
+    "Find reactant A for cyclohexene \u2192 8,8-diiodobicyclo[4.2.0]octan-7-one and order these dienes by reactivity: 2,3-dimethylbuta-1,3-diene, (2E,4E)-hexa-2,4-diene, cyclopenta-1,3-diene, (2Z,4Z)-hexa-2,4-diene.",
+    "Identify A in cyclohexene + A \u2192 8,8-diiodobicyclo[4.2.0]octan-7-one and rank reactivity: 2,3-dimethylbuta-1,3-diene, (2E,4E)-hexa-2,4-diene, cyclopenta-1,3-diene, (2Z,4Z)-hexa-2,4-diene.",
+    "Find A: cyclohexene + A \u2192 8,8-diiodobicyclo[4.2.0]octan-7-one; rank diene reactivity: 2,3-dimethylbuta-1,3-diene, (2E,4E)-, cyclopenta-1,3-, (2Z,4Z)-",
+    "ID reactant A: cyclohexene\u2192product; rank 4 dienes by reactivity"
+  ],
+  "recBtVK8rBVtIlXDq": [
+    "\"Oh, I know you,\" says ribonucleoprotein to nascent chain. \"Pause there. Let me show you in; you need sugar.\" \"Seems rough. Goodbye,\" chain replies. Where did they meet and where's chain heading?",
+    "Ribonucleoprotein meets nascent chain, offers to show it sugar. Chain says goodbye and leaves. Where was this meeting and where's chain going?",
+    "Ribonucleoprotein offers sugar to nascent chain before chain departs. Where's this interaction and chain's destination?",
+    "Where do ribonucleoprotein and nascent chain meet, and where's chain going after?",
+    "Where's this protein interaction and destination?"
+  ],
+  "recCJJOeBGERaHYax": [
+    "4-hydroxycyclohex-2-en-1-one reacts with TBDMSCl/Et3N \u2192 1, then Ph2CuLi/BnBr \u2192 2, then LDA/MeI \u2192 3, then HCl \u2192 4. What's 4's structure?",
+    "4-hydroxycyclohexenone + TBDMSCl/Et3N \u2192 1, Ph2CuLi/BnBr \u2192 2, LDA/MeI \u2192 3, HCl \u2192 4. Structure of 4?",
+    "Hydroxycyclohexenone \u2192 TBDMS ether \u2192 Cu addition/benzylation \u2192 methylation \u2192 acid hydrolysis. Structure?",
+    "Hydroxycyclohexenone through TBDMS protection, Cu/Bn addition, Me addition, hydrolysis. Structure?",
+    "What's formed after TBDMS\u2192Cu/Bn\u2192Me\u2192HCl?"
+  ],
+  "recDDxpS9s8cwkqfq": [
+    "A textile dye with conjugated pi-electrons emits light with energy of 2.3393 eV. What color of light is absorbed?",
+    "A dye containing conjugated pi-electrons emits light at 2.3393 eV. What color is absorbed?",
+    "A dye emits light at 2.3393 eV. What color does it absorb?",
+    "Light emission 2.3393 eV. What color absorbed?",
+    "2.3393 eV - color absorbed?"
+  ],
+  "recDj2Y2BbtV02Wv5": [
+    "Toluene reacts with HNO3/H2SO4 to form 1, then 1 reacts with MnO2/H2SO4 to form 2, then 2 reacts with acetone/NaOH to form 3. What's 3's molecular symmetry group?",
+    "Toluene \u2192 1 (HNO3/H2SO4) \u2192 2 (MnO2/H2SO4) \u2192 3 (acetone/NaOH). What's the molecular symmetry group of 3?",
+    "Toluene converts to 3 via HNO3/H2SO4, MnO2/H2SO4, then acetone/NaOH. What's 3's symmetry group?",
+    "Toluene \u2192 3 through nitration, oxidation, then base. What's 3's symmetry?",
+    "What's product 3's symmetry group?"
+  ],
+  "recDytVnNYZe2HuUU": [
+    "What's the energy of RHIC needed for Li nucleus with 3 neutrons to reach speed of 0.96c? Precision required: 1e-4.",
+    "Find RHIC energy for Li nucleus (3 neutrons) to achieve 0.96c speed. Precision: 1e-4.",
+    "Calculate RHIC energy for Li+3n nucleus at 0.96c. Precision: 1e-4.",
+    "RHIC energy for Li+3n at 0.96c? (1e-4 precision)",
+    "Li+3n @ 0.96c energy?"
+  ],
+  "recEmTBhx2hgw6tPQ": [
+    "What's the EXO product when 2,5-dimethylthiophene and furan-2,5-dione undergo [4+2] cycloaddition with heat?",
+    "What EXO product forms from [4+2] cycloaddition of 2,5-dimethylthiophene + furan-2,5-dione + heat?",
+    "EXO product of [4+2] cycloaddition: 2,5-dimethylthiophene + furan-2,5-dione + heat?",
+    "EXO product: 2,5-dimethylthiophene + furan-2,5-dione [4+2] rxn?",
+    "EXO product of thiophene+dione rxn?"
+  ],
+  "recFaL6j8UMhutXrc": [
+    "What products form when vicinal diols undergo Pinacol Pinacolone rearrangement (carbocation-based group shift) for: 3-methyl-4-phenylhexane-3,4-diol, 3-(4-hydroxyphenyl)-2-phenylpentane-2,3-diol, and 1,1,2-tris(4-methoxyphenyl)-2-phenylethane-1,2-diol with H+?",
+    "What are products A, B, C when these diols undergo Pinacol rearrangement with H+: 3-methyl-4-phenylhexane-3,4-diol, 3-(4-hydroxyphenyl)-2-phenylpentane-2,3-diol, 1,1,2-tris(4-methoxyphenyl)-2-phenylethane-1,2-diol?",
+    "Find products of Pinacol rearrangement (H+) for: 3-methyl-4-phenylhexane-3,4-diol, 3-(4-hydroxyphenyl)-2-phenylpentane-2,3-diol, 1,1,2-tris(4-methoxyphenyl)-2-phenylethane-1,2-diol",
+    "What products form when these diols react with H+ in Pinacol rearrangement: 3-methyl-4-phenylhexane-3,4-diol & given compounds?",
+    "Products of Pinacol rearrangement for given vicinal diols + H+?"
+  ],
+  "recD8oX1KevFbl7bL": [
+    "You found a drought-resistant barley cultivar with an anti-nutritional compound. After finding the responsible gene (5 exons, 4 introns), you created EMS mutants and sequenced them. Which mutation likely eliminates the compound? Compare intact gene sequence with 4 mutant sequences provided.",
+    "You have barley with an anti-nutritional compound. After identifying the gene (5 exons, 4 introns), you made EMS mutants. Which mutation best eliminates the compound? Compare original vs 4 mutant sequences.",
+    "Which mutation in barley's gene sequence (5 exons) likely removes an anti-nutritional compound? Compare original sequence with 4 mutant versions.",
+    "Which of 4 mutant sequences best eliminates anti-nutritional compound in barley gene? Compare with original.",
+    "Which mutation best removes toxin? Compare 5 sequences."
+  ],
+  "recG1ljJQcVy6CbSl": [
+    "Consider Y-component of intrinsic angular momentum operator Ay of muon as 2\u00d72 matrix satisfying Ay(\u03c6) = a(\u03c6), where a is eigenvalue, \u03c6 is eigenfunction. Given Ay = c\u2219S, c=h/4\u03c0, S matrix has row1=(0 -i), row2=(i 0). Find eigenvalues/eigenvectors of Ay.",
+    "Y-component angular momentum operator Ay of muon is 2\u00d72 matrix where Ay(\u03c6) = a(\u03c6). Given Ay = c\u2219S, c=h/4\u03c0, S matrix has row1=(0 -i), row2=(i 0). Calculate eigenvalues/eigenvectors.",
+    "Find eigenvalues/eigenvectors of Ay = c\u2219S where c=h/4\u03c0, S is 2\u00d72 matrix with row1=(0 -i), row2=(i 0), Ay(\u03c6) = a(\u03c6).",
+    "Calculate eigenvalues/eigenvectors of 2\u00d72 matrix Ay = (h/4\u03c0)\u2219S, where S has row1=(0 -i), row2=(i 0).",
+    "Find eigenvalues/vectors: Ay=(h/4\u03c0)[(0 -i),(i 0)]"
+  ],
+  "recGFKDUd8qgz81Zl": [
+    "Observing structures at 2.1 Gpc with absorption line energy of 3.9 * 10^-6 eV. What's likely to be seen with this line in Milky Way?",
+    "Structures at 2.1 Gpc show absorption line of 3.9 * 10^-6 eV. What's the likely Milky Way observation?",
+    "Given 2.1 Gpc structure, 3.9 * 10^-6 eV absorption line, what's seen in Milky Way?",
+    "2.1 Gpc, 3.9 * 10^-6 eV absorption - Milky Way equivalent?",
+    "2.1 Gpc absorption = ? in Milky Way"
+  ],
+  "recHVUd2DkoKfedJZ": [
+    "Enamine reactions involve nucleophilic substitutions and form complex compounds. What's product B and reagent sequence A in: (E)-N-methyl-N-(pentan-2-ylidene)ethanaminium + A ---> B?",
+    "For enamine reaction: (E)-N-methyl-N-(pentan-2-ylidene)ethanaminium + A ---> B, identify product B and correct reagent sequence A.",
+    "What's product B and reagent sequence A when (E)-N-methyl-N-(pentan-2-ylidene)ethanaminium reacts?",
+    "Identify product B and sequence A: (E)-N-methyl-N-(pentan-2-ylidene)ethanaminium reaction.",
+    "Name product B & sequence A of given enamine reaction."
+  ],
+  "recGFNRVl1qBZGwyU": [
+    "How many 13C-NMR signals are produced by product E from: propionaldehyde + EDT/BF3 \u2192 A, A + BuLi \u2192 B, B + bromoethane \u2192 C, C + HgCl2/H2O/H+ \u2192 D, D + PPh3/3-bromopentane/BuLi \u2192 E?",
+    "Count 13C-NMR signals for product E in reaction sequence: propionaldehyde + EDT/BF3 \u2192 A \u2192 B \u2192 C \u2192 D \u2192 E (using BuLi, bromoethane, HgCl2, PPh3, 3-bromopentane)",
+    "How many 13C-NMR signals in final product E? Reaction: propionaldehyde \u2192 A \u2192 B \u2192 C \u2192 D \u2192 E",
+    "Count 13C-NMR signals in product E from propionaldehyde through 5 steps",
+    "Number of 13C-NMR signals in product E?"
+  ],
+  "recI1ls9OXdxatHQn": [
+    "We have 10,000 identical systems with particles moving along x-axis. Wave function is (a/sqrt(1+x))-0.5i where i=sqrt(-1). Particles exist only between x=1 and x=3. Find numerical value of \"a\".",
+    "10,000 systems have particles with wave function (a/sqrt(1+x))-0.5i, i=sqrt(-1). Particles found only between x=1 and x=3. Find value of \"a\".",
+    "Wave function (a/sqrt(1+x))-0.5i describes particles between x=1 and x=3. Find \"a\".",
+    "Find \"a\" in wave function (a/sqrt(1+x))-0.5i, x=[1,3].",
+    "Solve for \"a\": (a/sqrt(1+x))-0.5i, x=[1,3]"
+  ],
+  "recIDiDKKrN61Auyr": [
+    "You overhear chemists leaving a lab. One asks \"How did it go?\" The other replies \"Not well - my compounds are on top of each other.\" What's the likely meaning?",
+    "Two chemists discuss lab work. One says \"compounds are on top of each other.\" What does this likely mean?",
+    "A chemist complains compounds are \"on top of each other.\" What's being referenced?",
+    "What does \"compounds on top of each other\" mean in chemistry?",
+    "What's meant by overlapping compounds?"
+  ],
+  "recIIUynGGpsGEYuo": [
+    "A light beam travels through glass with refractive index n, while glass moves at velocity v toward observer, same direction as beam. What's light's speed relative to observer? Speed of light in vacuum c=1.",
+    "Light beam in glass (index n) moves with glass at velocity v toward observer. What's light's speed relative to observer? c=1 in vacuum.",
+    "Light in moving glass (index n, velocity v) travels toward observer. Find speed relative to observer. c=1.",
+    "Find light speed in glass (n) moving at v, relative to observer. c=1.",
+    "Light speed in moving glass (n,v)? c=1."
+  ],
+  "recIMcQfaQNa6vzsT": [
+    "Study 3 exoplanets (Planet1, Planet2, Planet3) with circular orbits found via TTV. Temperature ratio Planet1/Planet2 is 1.4, Planet2/Planet3 is 2.3. Mass ratio Planet1/Planet2 is 1.15, Planet2/Planet3 is 1.35. Find orbital period ratio Planet3/Planet1 if all planets have albedo 0.3.",
+    "3 exoplanets with circular orbits: temp ratio P1/P2=1.4, P2/P3=2.3; mass ratio P1/P2=1.15, P2/P3=1.35. Calculate orbital period ratio P3/P1 given albedo=0.3 for all.",
+    "Exoplanets: temp ratios P1/P2=1.4, P2/P3=2.3; mass ratios P1/P2=1.15, P2/P3=1.35. Find P3/P1 orbital period ratio. Albedo=0.3.",
+    "Temp ratios: 1.4(P1/P2), 2.3(P2/P3). Mass ratios: 1.15(P1/P2), 1.35(P2/P3). Find P3/P1 period ratio.",
+    "Find P3/P1 period ratio. T1/T2=1.4, T2/T3=2.3, M1/M2=1.15, M2/M3=1.35."
+  ],
+  "recINSFEYLCyyd08m": [
+    "A benzene ring has carboxylic acid, carbaldehyde, and cyano group meta to each other. Ortho to carboxylic acid are hydroxyl and dimethyl amino, para to carboxylic acid is methoxy. Methoxy and alcohol are ortho to nitrile. What's the IUPAC name?",
+    "Benzene ring with carboxylic acid, carbaldehyde, cyano meta to each other. Hydroxyl and dimethyl amino ortho to carboxylic acid, methoxy para. Methoxy and alcohol ortho to nitrile. IUPAC name?",
+    "Benzene with carboxylic acid, carbaldehyde, cyano (meta). Hydroxyl, dimethyl amino ortho to acid, methoxy para. Methoxy, alcohol ortho to nitrile. Name?",
+    "Benzene: carboxylic acid, carbaldehyde, cyano (meta). Hydroxyl, dimethyl amino ortho to acid. Methoxy para. IUPAC?",
+    "Benzene w/carboxylic acid, carbaldehyde, cyano (meta). Name?"
+  ],
+  "recIOlKBsOeEcgkA1": [
+    "A cell uses mitochondria to convert food into energy through redox reactions, storing it between phosphate groups as cellular currency. These energy molecules move out of mitochondria for cellular processes. You found a new anti-diabetes drug and want to test its effect on mitochondria using HEK293 cells. Which experiment won't help determine the drug's mitochondrial role?",
+    "Mitochondria convert food to energy via redox reactions, storing it as phosphate-bound cellular currency. You discovered an anti-diabetes drug and want to test its mitochondrial effects using HEK293 cells. Which experiment won't help determine the drug's impact on mitochondria?",
+    "You found a new anti-diabetes drug and want to study its effects on mitochondria, which produce cellular energy through redox reactions. Using HEK293 cells, which experiment won't reveal the drug's mitochondrial role?",
+    "You have a new anti-diabetes drug and want to test its effects on mitochondrial function in HEK293 cells. Which experiment won't help determine this?",
+    "Which experiment won't show how your new diabetes drug affects mitochondria?"
+  ],
+  "recIlghoOw5VbY4Zh": [
+    "When racemic 3-methylpent-1-ene reacts with Grubbs catalyst, how many products form besides ethene?",
+    "How many products (excluding ethene) form when racemic 3-methylpent-1-ene meets Grubbs catalyst?",
+    "Number of products from racemic 3-methylpent-1-ene + Grubbs catalyst (no ethene)?",
+    "Products count: racemic 3-methylpent-1-ene + Grubbs (minus ethene)?",
+    "Products from 3-methylpent-1-ene + Grubbs?"
+  ],
+  "recIj8lR4tuDgrHou": [
+    "Calculate energies of ground state, first excited state & second excited state for 4 identical spin-1/2 particles in 1D infinite potential well length L, where E= pi^2 \\hbar^2 /2mL^2",
+    "Find ground, first & second excited state energies for 4 spin-1/2 particles in 1D infinite well length L, E= pi^2 \\hbar^2 /2mL^2",
+    "Calculate ground & first 2 excited states for 4 spin-1/2 particles in infinite well, E= pi^2 \\hbar^2 /2mL^2",
+    "Find first 3 energy states, 4 spin-1/2 particles, infinite well, E= pi^2 \\hbar^2 /2mL^2",
+    "4 spin-1/2 particles: find 3 states, E= pi^2 \\hbar^2 /2mL^2"
+  ],
+  "recJZ3QEfRKjYw9a7": [
+    "cyclohexanone + Br2 \u2192 1, then 1 + NaOH \u2192 2, then 2 + SOCl2/pyridine \u2192 3, then 3 + LiAl(OtBu)3H \u2192 4. How many distinct H types in product 4?",
+    "cyclohexanone \u2192 Br2 \u2192 NaOH \u2192 SOCl2/pyridine \u2192 LiAl(OtBu)3H gives product 4. How many distinct H types in 4?",
+    "cyclohexanone through Br2, NaOH, SOCl2, LiAl(OtBu)3H gives 4. Count distinct H types?",
+    "cyclohexanone \u2192 4 via Br2, NaOH, SOCl2, LiAl(OtBu)3H. Distinct H count?",
+    "How many H types in product from cyclohexanone reaction?"
+  ],
+  "recJJcOHhFeSaRpl4": [
+    "Identify C9H11NO2 using IR data (3420cm-1, 3325cm-1, 1720cm-1) & 1H NMR: 1.20ppm(t,3H); 4.0ppm(bs,2H); 4.5ppm(q,2H); 7.0ppm(d,2H), 8.0ppm(d,2H)",
+    "ID C9H11NO2. IR: 3420cm-1, 3325cm-1, 1720cm-1. NMR: 1.20(t,3H); 4.0(bs,2H); 4.5(q,2H); 7.0(d,2H), 8.0(d,2H)",
+    "ID C9H11NO2. IR: 3420,3325,1720cm-1. NMR: 1.20(t,3H),4.0(bs,2H),4.5(q,2H),7.0&8.0(d,2H)",
+    "C9H11NO2 structure? IR:3420,3325,1720. NMR:1.20(3H),4.0(2H),4.5(2H),7.0,8.0(2H)",
+    "ID C9H11NO2 from IR&NMR data"
+  ],
+  "recKcjTwONILZqHAX": [
+    "A quantum field theory note shows \"size estimate\" alpha^3 * g^2 sqrt(2) * 8 * 1/(4pi)^6 * (Q/M)^2 for a Feynman diagram. How many loops were in the diagram?",
+    "Given a QFT size estimate of alpha^3 * g^2 sqrt(2) * 8 * 1/(4pi)^6 * (Q/M)^2, determine the number of loops in the Feynman diagram.",
+    "Find loops in Feynman diagram from formula: alpha^3 * g^2 sqrt(2) * 8 * 1/(4pi)^6 * (Q/M)^2",
+    "How many loops? Formula: alpha^3 * g^2 sqrt(2) * 8 * 1/(4pi)^6 * (Q/M)^2",
+    "Loops in: \u03b1^3 g^2 \u221a2 * 8/(4\u03c0)^6 * (Q/M)^2?"
+  ],
+  "recKm6LNWykGapmCr": [
+    "If charge q is placed d distance from center of grounded conducting sphere radius R, find the net potential energy of system.",
+    "Find net potential energy when charge q is d away from grounded conducting sphere of radius R.",
+    "Calculate potential energy: charge q at d from grounded sphere radius R.",
+    "Find energy: q at d from grounded sphere (R).",
+    "Energy: q at d from R sphere?"
+  ],
+  "recK9F5aqdaybl8bb": [
+    "Complete these sigmatropic rearrangement reactions where pi bonds migrate to sigma bonds. Given Cope and Claisen types are thermodynamically favored:",
+    "Complete these sigmatropic rearrangements (pi to sigma bond migration):",
+    "Complete these thermally-driven sigmatropic reactions:",
+    "Complete these rearrangement reactions with heat:",
+    "Complete reactions:"
+  ],
+  "recLAgwx9vbgB5EHk": [
+    "Find starting material needed to make 5-isopropyl-3,4-dimethylcyclohex-1-ene via ring-closing metathesis.",
+    "What starting material yields 5-isopropyl-3,4-dimethylcyclohex-1-ene by ring-closing metathesis?",
+    "Starting material for 5-isopropyl-3,4-dimethylcyclohex-1-ene via metathesis?",
+    "Precursor for 5-isopropyl-3,4-dimethylcyclohexene synthesis?",
+    "Starting material \u2192 iPr-Me2-cyclohexene?"
+  ],
+  "recKv4hFyNpViUXnL": [
+    "Study a star (1.5R\u2609, 1.1M\u2609) with Teff=6000K when spotless and 5500K when 40% covered by spots. The ratio of neutral Ti atoms between two energy levels (\u03bb=1448\u00c5) decreases with spots. What's the factor change in this ratio between spotless and spotted states? Assume LTE.",
+    "A star (1.5R\u2609, 1.1M\u2609) has Teff=6000K spotless, 5500K with 40% spots. Find the factor change in neutral Ti atom ratio (\u03bb=1448\u00c5) between energy levels from spotless to spotted state. LTE assumed.",
+    "Star's Teff drops from 6000K to 5500K with 40% spots. Calculate change factor in Ti atom ratio (\u03bb=1448\u00c5) between spotless/spotted states. LTE applies.",
+    "Find ratio change of Ti atoms (\u03bb=1448\u00c5) when Teff drops 6000K\u21925500K with 40% spots. LTE.",
+    "Calculate Ti ratio change: 6000K\u21925500K, \u03bb=1448\u00c5, LTE."
+  ],
+  "recL9MFV5zmdlle5T": [
+    "Identify a di-substituted aromatic ring compound with an ester group. FTIR shows ester peaks. 1H NMR has 6 signals: 2 aromatic-H, 2 vinyl-H (doublet & doublet of quartets), 2 -CH3 groups. No -CH2 signals. Choose between C11H12O2, C11H14O2, C12H12O2, or C12H14O2.",
+    "Identify compound with aromatic ring & ester group. NMR shows 6 signals: 2 aromatic-H, 2 vinyl-H (doublet & doublet of quartets), 2 -CH3. No CH2. Choose from: C11H12O2, C11H14O2, C12H12O2, C12H14O2.",
+    "Identify compound: ester group, 6 NMR signals (2 aromatic-H, 2 vinyl-H, 2 -CH3), no CH2. Choose from: C11H12O2, C11H14O2, C12H12O2, or C12H14O2.",
+    "Compound has ester, 6 NMR signals (2 aromatic-H, 2 vinyl-H, 2 CH3). Pick from: C11H12O2, C11H14O2, C12H12O2, C12H14O2.",
+    "6 NMR signals, ester present. Choose: C11H12O2, C11H14O2, C12H12O2, or C12H14O2."
+  ],
+  "recLSzwBUS3olCjhl": [
+    "You have an unknown organic compound with 1H NMR data: 7.0 (1H, d, J=16.0 Hz), 5.5 (1H, dq), 2.1 (3H, s), 1.6 (3H, d). ID compound from: Cis/Trans-propenyl acetate or Cis/Trans-butenyl acetate.",
+    "Given 1H NMR data: 7.0 (1H, d, J=16.0 Hz), 5.5 (1H, dq), 2.1 (3H, s), 1.6 (3H, d), identify compound from: Cis/Trans-propenyl/butenyl acetate.",
+    "ID compound using NMR: 7.0 (1H, d, J=16.0 Hz), 5.5 (1H, dq), 2.1 (3H, s), 1.6 (3H, d). Choose Cis/Trans propenyl/butenyl acetate.",
+    "NMR data: 7.0(1H,d,J=16), 5.5(1H,dq), 2.1(3H,s), 1.6(3H,d). ID Cis/Trans propenyl/butenyl acetate.",
+    "NMR: 7.0,5.5,2.1,1.6. ID Cis/Trans propenyl/butenyl acetate."
+  ],
+  "recLrRirj7iXoB0rU": [
+    "The |3,0,0\u27e9 state in H-atom notation |n,l,m\u27e9 decays to |1,0,0\u27e9 via two dipole transitions. Find transition route & probability.",
+    "H-atom state |3,0,0\u27e9 decays to |1,0,0\u27e9 through two dipole transitions. What's the route & probability?",
+    "Find route & probability for |3,0,0\u27e9 \u2192 |1,0,0\u27e9 H-atom decay via two dipoles.",
+    "Calculate |3,0,0\u27e9 \u2192 |1,0,0\u27e9 H-atom dipole transitions.",
+    "|3,0,0\u27e9 \u2192 |1,0,0\u27e9 transitions?"
+  ],
+  "recN4DY9Q5V03glmQ": [
+    "Given phase shifts $\\delta_o=90^o, \\delta_1=67^o, \\delta_2=55^o, \\delta_3=30^o, \\delta_4=13^o$ from elastic scattering of $50~MeV$ electrons on nuclear target, ignoring other shifts, find imaginary part of scattering amplitude along incident beam.",
+    "Using phase shifts $\\delta_o=90^o, \\delta_1=67^o, \\delta_2=55^o, \\delta_3=30^o, \\delta_4=13^o$ from $50~MeV$ electron scattering, calculate imaginary scattering amplitude along beam.",
+    "Calculate imaginary scattering amplitude with phase shifts $\\delta_o=90^o, \\delta_1=67^o, \\delta_2=55^o, \\delta_3=30^o, \\delta_4=13^o$ for $50~MeV$ electrons.",
+    "Find imaginary scattering amplitude using shifts $\\delta_o=90^o, \\delta_1=67^o, \\delta_2=55^o, \\delta_3=30^o, \\delta_4=13^o$.",
+    "Calculate Im(amplitude) with $\\delta_{0-4}: 90^o,67^o,55^o,30^o,13^o$."
+  ],
+  "recNAiPUKOulQbKVP": [
+    "Which physical theories never need regularization at high energies?",
+    "Which physics theories don't require high-energy regularization?",
+    "Which theories avoid high-energy regularization?",
+    "Which theories need no regularization?",
+    "Theories without regularization?"
+  ],
+  "recNFJjE5PPTqVJGv": [
+    "Find pH of solution: 500mL of 0.1M CH3COOH, 400mL of 0.2M HCl, and 300mL of 0.3M Ba(OH)2",
+    "Calculate pH: 500mL 0.1M CH3COOH, 400mL 0.2M HCl, 300mL 0.3M Ba(OH)2",
+    "Find pH: mix of 0.1M CH3COOH (500mL), 0.2M HCl (400mL), 0.3M Ba(OH)2 (300mL)",
+    "pH of 0.1M CH3COOH (500mL) + 0.2M HCl (400mL) + 0.3M Ba(OH)2 (300mL)?",
+    "pH: 500mL CH3COOH + 400mL HCl + 300mL Ba(OH)2?"
+  ],
+  "recNu3MXkvWUzHZr9": [
+    "An alien civilization in Large Magellanic Cloud has a spacecraft moving at 0.99999987*c. Their average lifespan is 150 years. How long will their 22-year-old astronaut experience during travel to Earth from their perspective?",
+    "A civilization from Large Magellanic Cloud travels at 0.99999987*c to Earth. With 150-year lifespans, how long will their 22-year-old astronaut experience the journey?",
+    "An alien spacecraft moves at 0.99999987*c from Large Magellanic Cloud to Earth. How long will their 22-year-old astronaut experience?",
+    "At 0.99999987*c, how long will a 22-year-old alien experience traveling from Large Magellanic Cloud to Earth?",
+    "Time for 22yo alien traveling 0.99999987*c LMC->Earth?"
+  ],
+  "recNuT2oSnO86bxOx": [
+    "benzene + HNO3/H2SO4 \u2192 product 1, then + Br2/Fe \u2192 product 2, then + Pd/C/H2 \u2192 product 3, then + NaNO2/HBF4 \u2192 product 4, heat + anisole \u2192 product 5",
+    "benzene + HNO3/H2SO4 \u2192 P1, + Br2/Fe \u2192 P2, + Pd/C/H2 \u2192 P3, + NaNO2/HBF4 \u2192 P4, heat/anisole \u2192 P5",
+    "benzene \u2192 HNO3/H2SO4 \u2192 Br2/Fe \u2192 Pd/C/H2 \u2192 NaNO2/HBF4 \u2192 heat/anisole \u2192 P5",
+    "benzene + reagents: HNO3/H2SO4, Br2/Fe, Pd/C/H2, NaNO2/HBF4, heat/anisole",
+    "benzene \u2192 5 steps \u2192 final product"
+  ],
+  "recO3hvCWRGiG0odN": [
+    "What sequence of reagents converts ethynylcyclohexane to 1-(cyclohexyl(hydroxy)methyl)cyclohexanecarbaldehyde?",
+    "What reagents transform ethynylcyclohexane into 1-(cyclohexyl(hydroxy)methyl)cyclohexanecarbaldehyde?",
+    "How to synthesize 1-(cyclohexyl(hydroxy)methyl)cyclohexanecarbaldehyde from ethynylcyclohexane?",
+    "Reagents needed: ethynylcyclohexane \u2192 1-(cyclohexyl(hydroxy)methyl)cyclohexanecarbaldehyde?",
+    "ethynylcyclohexane \u2192 target synthesis?"
+  ],
+  "recOYsaYs6RmtlTDy": [
+    "For a diatomic molecule (X-Y) using quantum rotation-vibration model in fundamental state, what's the minimum photon momentum needed for next energy state? Given: Mx=20 amu, My=2 amu, R=2 angstroms, w=4*10^14 rad/s",
+    "What's minimum photon momentum needed for X-Y diatomic molecule to reach next energy state from fundamental state? Mx=20 amu, My=2 amu, R=2\u00c5, w=4*10^14 rad/s",
+    "Find minimum photon momentum for X-Y molecule transition from ground state. Mx=20 amu, My=2 amu, R=2\u00c5, w=4*10^14 rad/s",
+    "Minimum photon momentum for X-Y molecule state change? Mx=20 amu, My=2 amu, R=2\u00c5, w=4*10^14 rad/s",
+    "Photon momentum for X-Y transition? M1=20, M2=2, R=2\u00c5, w=4E14"
+  ],
+  "recOvqPKUtyy9ISA1": [
+    "Select suitable mechanisms & identify major products: 1-vinylspiro[3.5]non-5-en-1-ol + (THF, KH, H+) \u2192 A and (E)-pent-2-en-1-ol + acetyl bromide (Base = LDA) \u2192 B, considering heat/acid/base factors",
+    "Determine mechanisms & products for: 1-vinylspiro[3.5]non-5-en-1-ol (THF, KH, H+) \u2192 A and (E)-pent-2-en-1-ol + acetyl bromide (LDA) \u2192 B",
+    "Find mechanisms/products: 1-vinylspiro[3.5]non-5-en-1-ol (THF, KH, H+) & (E)-pent-2-en-1-ol + acetyl bromide (LDA)",
+    "ID mechanisms/products: vinylspiro compound (THF, KH, H+) & pent-2-en-1-ol + acetyl bromide",
+    "Find products: vinylspiro + THF/KH/H+ & pentenol + acetyl bromide"
+  ],
+  "recPL4ZPpVYxgMu57": [
+    "Which symmetries must all operators in SMEFT respect: Lorentz, Poincare, CP, or CPT symmetry?",
+    "Which symmetries are required for all SMEFT operators: Lorentz, Poincare, CP, or CPT?",
+    "Which symmetries must SMEFT operators follow: Lorentz, Poincare, CP, CPT?",
+    "Required symmetries for SMEFT: Lorentz, Poincare, CP, CPT?",
+    "SMEFT required symmetries?"
+  ],
+  "recPzW1WqRnPs57D6": [
+    "A spin 1/2 particle with magnetic moment mu (= gamma*Sz) aligns with +Z magnetic field. Field switches to +Y direction with same magnitude B. What's the oscillation frequency of z-component moment?",
+    "Spin 1/2 particle (mu = gamma*Sz) in +Z field switches to +Y field of same magnitude B. What's the z-moment oscillation frequency?",
+    "Magnetic moment mu = gamma*Sz switches from +Z to +Y field of magnitude B. Find oscillation frequency?",
+    "Moment mu = gamma*Sz changes field Z\u2192Y, magnitude B. Frequency?",
+    "mu=gamma*Sz, B field Z\u2192Y. Frequency?"
+  ],
+  "recOkA2zsy4GSMD9R": [
+    "An equimolar mix of salts A & B (7.20g) heated to 200\u00b0C formed gases, passed through Mg(ClO4)2 (\u21161), Ca(OH)2 (\u21162), and hot Cu (\u21163). \u21161 gained 3.60g, \u21163 gained 0.80g (as CuO), \u21162 unchanged. 2.24L gas C remained at STP. Find total atoms in A & B.",
+    "7.20g equimolar salts A & B heated made gases, passed through Mg(ClO4)2 (+3.60g), Ca(OH)2 (no change), hot Cu (+0.80g as CuO). 2.24L gas C left at STP. Find total atoms in salts.",
+    "7.20g salts A & B heated, gases through Mg(ClO4)2 (+3.60g), Ca(OH)2, Cu (+0.80g CuO). 2.24L gas C at STP. Count total atoms.",
+    "7.20g salts heated: Mg(ClO4)2 +3.60g, Cu +0.80g CuO, 2.24L gas C remains. Find total atoms.",
+    "7.20g salts \u2192 +3.60g H2O, +0.80g O2, 2.24L gas. Total atoms?"
+  ],
+  "recPSTGXK3P39yNYT": [
+    "For 2 electrons in p orbital state, ignoring spin, with coupled angular momentum state |l\u2081,l\u2082,l,m\u27e9 = |1,1,2,-1\u27e9, where l\u2081,l\u2082 are orbital quantum numbers and l,m are total angular momentum numbers, what's the joint probability of measuring both L\u2081z and L\u2082z as -\u0127?",
+    "Given 2 electrons in p orbital with state |1,1,2,-1\u27e9, where l\u2081,l\u2082=1 are orbital numbers and l=2,m=-1 are total angular momentum numbers, what's probability of measuring L\u2081z=L\u2082z=-\u0127?",
+    "For 2 electrons in state |1,1,2,-1\u27e9, where l\u2081,l\u2082=1 are orbital numbers, what's probability of measuring both L\u2081z and L\u2082z as -\u0127?",
+    "For state |1,1,2,-1\u27e9 of 2 electrons, what's probability of measuring L\u2081z=L\u2082z=-\u0127?",
+    "Probability of L\u2081z=L\u2082z=-\u0127 in |1,1,2,-1\u27e9?"
+  ],
+  "recQiWOxhkXRz9NVE": [
+    "Solid A + 8eq gas B \u2192 red C. C + 2eq gas D \u2192 E. C + H2O \u2192 A + acids F&G. D + B (1:1) \u2192 solvent H. What's E's molecular symmetry group?",
+    "A + 8eq B \u2192 red C. C + 2eq D \u2192 E. C + H2O \u2192 A + acids F&G. D + B \u2192 H. What's E's symmetry group?",
+    "A + 8B \u2192 C. C + 2D \u2192 E. C + H2O \u2192 A + F&G. What's E's symmetry group?",
+    "C forms from A+B, reacts with D to make E. What's E's symmetry group?",
+    "What's product E's symmetry group?"
+  ],
+  "recQ8oxSY2aCwFRS8": [
+    "In CERN Bubble Chamber, X^{0}\u2192Y^{+}Z^{-} decay occurs with \u03c4_{0}=8\u00d710^{-16}s proper lifetime. What's minimum resolution needed to see 30% of decays? Energy is 27GeV, X^{0} mass is 3.41GeV.",
+    "X^{0}\u2192Y^{+}Z^{-} decay in CERN Bubble Chamber has \u03c4_{0}=8\u00d710^{-16}s lifetime. Min resolution for 30% decay observation? E=27GeV, m=3.41GeV.",
+    "What's min resolution for 30% of X^{0} decays? \u03c4_{0}=8\u00d710^{-16}s, E=27GeV, m=3.41GeV.",
+    "Min resolution for 30% X^{0} decay? \u03c4_{0}=8\u00d710^{-16}s, E=27GeV, m=3.41GeV.",
+    "Resolution for 30% decay? \u03c4=8\u00d710^{-16}s, E=27GeV, m=3.41GeV."
+  ],
+  "recRTiyaRymerDJ4y": [
+    "Astronomers study 5 exoplanets with circular orbits found via TTV method. Planets (Planet_1 to Planet_5) have orbital periods ratio 1:2:2.5:3.5:5 and same albedo. What's the ratio of equilibrium temperatures between Planet_4 and Planet_2?",
+    "5 exoplanets with circular orbits have periods ratio 1:2:2.5:3.5:5 and identical albedo. Find the equilibrium temperature ratio between Planet_4 and Planet_2.",
+    "For 5 planets with orbital ratio 1:2:2.5:3.5:5 and same albedo, what's the equilibrium temperature ratio of Planet_4 to Planet_2?",
+    "With orbital ratio 1:2:2.5:3.5:5 and same albedo, find Planet_4:Planet_2 temperature ratio.",
+    "Find temp ratio Planet_4:Planet_2, periods 2:3.5, same albedo."
+  ],
+  "recS48OsU6kVadBPW": [
+    "Two astronauts with masses 2m and 3m move at speeds 0.6c and 0.5c in positive x-direction. What's their relative speed and total system energy?",
+    "Astronauts (2m, 3m) moving at 0.6c and 0.5c in x-direction. Find relative speed and total energy?",
+    "Two masses 2m, 3m at 0.6c, 0.5c in x-direction. Find relative speed & energy?",
+    "Masses 2m, 3m at 0.6c, 0.5c. Relative speed & energy?",
+    "2m@0.6c, 3m@0.5c. Speed&energy?"
+  ],
+  "recRgabRzMaEoBRcM": [
+    "7-(tert-butoxy)bicyclo[2.2.1]hepta-2,5-diene + 2eq 5,6-bis(dibromomethyl)cyclohexa-1,3-diene + NaI forms 1. 1 + H2SO4 forms 2. 2 + SO3/pyridine/DMSO forms 3. 3 heated@150C forms 4. How many distinct H atoms on 4?",
+    "tert-butoxybicyclo[2.2.1]hepta-2,5-diene + 2eq dibromomethylcyclohexa-1,3-diene + NaI\u21921. 1+H2SO4\u21922. 2+SO3/py/DMSO\u21923. 3@150C\u21924. Distinct H count on 4?",
+    "t-butoxybicycloheptadiene + dibromomethylcyclohexadiene/NaI\u21921. 1+H2SO4\u21922. 2+SO3/py\u21923. 3@150C\u21924. Distinct H on 4?",
+    "butoxybicycloheptadiene+dibromocyclohexadiene\u21921\u21922\u21923\u21924. How many distinct H on 4?",
+    "Reaction sequence 1\u21922\u21923\u21924. Distinct H count?"
+  ],
+  "recSBcGLPatKb3Ygu": [
+    "We have an atom from beta decay with 32% decay probability in 100min. After 50min without decay, what's the probability it'll decay in next 150min?",
+    "Given atom has 32% decay chance in 100min. If no decay after 50min, what's probability of decay in next 150min?",
+    "Atom with 32% decay/100min hasn't decayed for 50min. Probability of decay in next 150min?",
+    "32% decay/100min atom, no decay for 50min. Decay chance in 150min?",
+    "32%/100min atom. Decay odds next 150min?"
+  ],
+  "recUBgVlkKzcRPDdK": [
+    "You're creating mouse embryo chimeras with iPSCs from various tissues, tracking cells labeled with mRaspberry under lineage-specific promoters. After injection into 32-cell blastocysts, you monitor for 48h with TUNEL-FITC staining every 12h. What's your first observation?",
+    "You're making mouse chimeras with labeled iPSCs from different tissues, injecting them into 32-cell blastocysts and tracking for 48h using TUNEL-FITC staining. What do you notice first?",
+    "You're tracking labeled iPSCs in mouse blastocysts for 48h, using TUNEL-FITC staining every 12h. What's your first observation?",
+    "Observing labeled iPSCs in mouse embryos with TUNEL-FITC staining. What do you see first?",
+    "iPSCs in embryos + TUNEL staining: first observation?"
+  ],
+  "recUOePh79cp4T2Bg": [
+    "The Cope rearrangement shifts double bonds in 1,5-dienes via heat/light. Select major products: (((3-methylbut-2-en-1-yl)oxy)methyl)benzene + (1. BuLi, 2. H+) \u2192 A and 3,4,5,7,8,9-hexamethyl-1,11-dimethylene-2,6,10,11,11a,11b-hexahydro-1H-benzo[cd]indeno[7,1-gh]azulene + Heat \u2192 B",
+    "Cope rearrangement shifts double bonds in 1,5-dienes. Find products: (((3-methylbut-2-en-1-yl)oxy)methyl)benzene + (BuLi, H+) \u2192 A and 3,4,5,7,8,9-hexamethyl-1,11-dimethylene-hexahydro-benzoindeno-azulene + Heat \u2192 B",
+    "Find Cope rearrangement products: (((3-methylbut-2-en-1-yl)oxy)methyl)benzene + (BuLi, H+) \u2192 A and hexamethyl-dimethylene-hexahydro-benzoindeno-azulene + Heat \u2192 B",
+    "Find products: (((3-methylbut-2-en-1-yl)oxy)methyl)benzene + (BuLi, H+) \u2192 A and hexamethyl-benzoindeno-azulene + Heat \u2192 B",
+    "Find products for Cope rearrangement of given compounds \u2192 A, B"
+  ],
+  "recV1nqYQvpII94oC": [
+    "For a point charge q moving along $\\vec{s}(t)$, with field point $\\vec{r}$, vector $\\vec{d}$ from generation point to observation, and velocity $\\vec{v}$ at retarded time tr, find scalar potential V and vector potential $\\vec{A}$ at time t (t>tr), using c, $\\epsilono$, and $\\mu_o$.",
+    "Point charge q moves along $\\vec{s}(t)$, observed at $\\vec{r}$, with $\\vec{d}$ from source to observation and velocity $\\vec{v}$ at tr. Find V and $\\vec{A}$ at time t>tr using c, $\\epsilono$, $\\mu_o$.",
+    "Charge q moves with velocity $\\vec{v}$ at tr, observed at $\\vec{r}$, with distance $\\vec{d}$. Find potentials V and $\\vec{A}$ at t>tr using c, $\\epsilono$, $\\mu_o$.",
+    "Moving charge q with velocity $\\vec{v}$, observed at $\\vec{r}$. Find V and $\\vec{A}$ using c, $\\epsilono$, $\\mu_o$.",
+    "Find V and $\\vec{A}$ for moving charge q, using c, $\\epsilono$, $\\mu_o$."
+  ],
+  "recVEXvhYxAhELVqB": [
+    "In an experiment, compound X (C11H12O) reacted with 1,4-diazabicyclo[2.2.2]octane in nonpolar solvent at 403 K for 1 day. NMR spectra show: 1H NMR: \u03b4 2.28 (3H, s), 2.31 (3H, s), 6.75 (1H, d), 7.08 (2H, d), 7.68 (1H, d), 7.71 (2H, d). 13C NMR: \u03b4 21.3, 28.4, 126.9, 127.1, 129.1, 130.3, 141.5, 144.1, 197.7. ID compound X.",
+    "Compound X (C11H12O) reacted with 1,4-diazabicyclo[2.2.2]octane at 403 K (1 day). NMR data: 1H: \u03b4 2.28 (3H,s), 2.31 (3H,s), 6.75-7.71 (6H,d). 13C: \u03b4 21.3, 28.4, 126.9, 127.1, 129.1, 130.3, 141.5, 144.1, 197.7. ID compound.",
+    "C11H12O compound reacted at 403 K. 1H NMR: \u03b4 2.28 (3H,s), 2.31 (3H,s), 6.75-7.71 (6H,d). 13C NMR: \u03b4 21.3-197.7 (9 signals). Identify compound.",
+    "C11H12O structure with NMR data: 1H: \u03b4 2.28, 2.31 (6H), 6.75-7.71 (6H). 13C: \u03b4 21.3-197.7. ID compound.",
+    "ID C11H12O from NMR: 1H (6H+6H), 13C (9 signals)."
+  ],
+  "recTs7qzfJs6kfLUK": [
+    "What's wrong with the GADD45G protein expression construct sequence when creating a transgenic mouse model to study SARS-CoV-2 infection, where you've added an N-terminal HA tag and transfected into CHO cells, given the provided DNA sequence?",
+    "What's the issue with the GADD45G expression construct containing an N-terminal HA tag for studying SARS-CoV-2, when transfected into CHO cells, based on this sequence?",
+    "What's preventing proper expression of the HA-tagged GADD45G construct in CHO cells, given this DNA sequence?",
+    "What's wrong with this DNA sequence for HA-tagged GADD45G expression?",
+    "What's the error in this DNA sequence?"
+  ],
+  "recVvpD8miVjmmyfe": [
+    "You find an algorithm with outputs: AGG -> 115, TGCTGA -> 176. What value does ACAGTGACC give?",
+    "Algorithm outputs: AGG -> 115, TGCTGA -> 176. What's ACAGTGACC's value?",
+    "Given AGG = 115, TGCTGA = 176, what's ACAGTGACC?",
+    "AGG=115, TGCTGA=176. Value of ACAGTGACC?",
+    "AGG=115, TGCTGA=176. ACAGTGACC=?"
+  ],
+  "recWPMm91mGDLXONm": [
+    "What sequence of reagents synthesizes [1,1'-bi(cyclopentylidene)]-2-one from 1,5-dichloropentane?",
+    "What reagents are needed to make [1,1'-bi(cyclopentylidene)]-2-one from 1,5-dichloropentane?",
+    "How to synthesize [1,1'-bi(cyclopentylidene)]-2-one from 1,5-dichloropentane?",
+    "Reagents to make [1,1'-bi(cyclopentylidene)]-2-one?",
+    "Synthesis steps for bicyclopentylidone?"
+  ],
+  "recWxGU8Q4YReJ1tb": [
+    "cyclooctatetraene + maleic anhydride (1:1) \u2192 product 1; 1 + methanol/H2SO4 \u2192 product 2; 2 + cyclopentadiene \u2192 product 3. What's major isomer of 3?",
+    "cyclooctatetraene + maleic anhydride \u2192 1; 1 + MeOH/H2SO4 \u2192 2; 2 + cyclopentadiene \u2192 3. Structure of major isomer?",
+    "cyclooctatetraene + maleic anhydride \u2192 1; 1 + MeOH/H+ \u2192 2; 2 + cyclopentadiene = 3. Major isomer?",
+    "COT + maleic anhydride \u2192 1 \u2192 2 \u2192 3 w/cyclopentadiene. Major isomer?",
+    "What's major product: COT\u21921\u21922\u21923?"
+  ],
+  "recWzUUYBN0NuXO2k": [
+    "Dilute 20cm3 0.05M acetic acid with 20cm3 water, titrate with 0.1M NaOH (25\u00b0C). Find pH at 25% titration & equivalence point. Ka=1.85x10^-5.",
+    "Mix 20cm3 0.05M acetic acid + 20cm3 water, titrate w/ 0.1M NaOH. Find pH at 25% titration & equiv. point. Ka=1.85x10^-5.",
+    "20cm3 0.05M acetic acid + 20cm3 H2O, titrate w/ 0.1M NaOH. pH at 25% & equiv. pt? Ka=1.85x10^-5.",
+    "0.05M acetic acid diluted 1:1, titrate w/ 0.1M NaOH. pH @ 25% & equiv? Ka=1.85x10^-5.",
+    "Find pH @ 25% & equiv. 0.05M HAc/0.1M NaOH. Ka=1.85x10^-5."
+  ],
+  "recXsuOHRBLcyenF2": [
+    "When solving high-dimensional heat equations with initial/boundary conditions using finite difference and parallel splitting, how does matrix exponential approximation by fractions enable sequential-to-parallel conversion?",
+    "In solving heat equations with finite difference and parallel splitting, how does matrix exponential fractional approximation help convert sequential to parallel algorithms?",
+    "How does matrix exponential fractional approximation help transform sequential algorithms to parallel for heat equations?",
+    "How does matrix exponential approximation enable sequential-to-parallel conversion?",
+    "Role of matrix exponential in parallel conversion?"
+  ],
+  "recYA3LPsCvF1fTMI": [
+    "A chemist did 2 reactions using unknown compounds with reducing agents. Find starting materials for:",
+    "Find starting materials for 2 reactions with reducing agents:",
+    "What are starting materials A & B in:",
+    "Find compounds A & B:",
+    "ID starting materials:"
+  ],
+  "recYOzCsevNz61Lyn": [
+    "You've made a di-substituted 6-membered aromatic ring with 8 total carbons. FTIR shows carbonyl and aromatic-halogen bonds. What's the correct 1H NMR data?",
+    "Made a di-substituted aromatic ring (8 carbons total) with carbonyl and aromatic-halogen groups. What's the 1H NMR data?",
+    "Di-substituted aromatic ring (8C) has carbonyl and Ar-X bonds. What's the 1H NMR?",
+    "8C aromatic ring with C=O and Ar-X. Need 1H NMR data?",
+    "8C ring: C=O, Ar-X. 1H NMR?"
+  ],
+  "recXvQ6gWAmyakrpD": [
+    "Two planets orbit a star (1.5 solar masses, 1.2 solar radii, Teff=6300K). Planet1 (7 Earth masses, 1.7 Earth radii) and Planet2 (5 Earth masses, 1.3 Earth radii) are in circular orbits. Planet1 causes 0.03\u00c5 shift in [OI] at 6300\u00c5, Planet2 causes 0.04\u00c5 shift. With same albedo, what's the ratio of their equilibrium temperatures?",
+    "Two planets orbit a star (1.5M\u2609, 1.2R\u2609, 6300K). Planet1 (7ME, 1.7RE) and Planet2 (5ME, 1.3RE) have circular orbits. Planet1 shifts [OI] 0.03\u00c5 at 6300\u00c5, Planet2 shifts 0.04\u00c5. Same albedo - what's their temperature ratio?",
+    "Star (1.5M\u2609, 1.2R\u2609, 6300K) has 2 planets: P1(7ME, 1.7RE) and P2(5ME, 1.3RE). P1 shifts [OI] 0.03\u00c5, P2 shifts 0.04\u00c5. Find equilibrium temp ratio, same albedo.",
+    "Star(1.5M\u2609,1.2R\u2609,6300K), 2 planets. P1:7ME,1.7RE,0.03\u00c5 shift. P2:5ME,1.3RE,0.04\u00c5 shift. Temp ratio? Same albedo.",
+    "2 planets: 0.03\u00c5 vs 0.04\u00c5 shifts @6300\u00c5. Same albedo. Temp ratio?"
+  ],
+  "recYt8xx80OTyDsL0": [
+    "After tagging rotavirus inner capsid proteins with GFP and delivering to mice orally, some fluorescence was destroyed by stomach acid and mucus before reaching lymphoid organs. After isolating fluorescent Peyer patches' proliferating cells and sequencing variable heavy chain genes showing high variability, what process occurred?",
+    "When rotavirus capsid proteins tagged with GFP were given to mice orally, some reached lymphoid organs despite acid/mucus barriers. Sequencing of proliferating Peyer patch cells showed variable heavy chain diversity. What process is this?",
+    "GFP-tagged rotavirus proteins reached lymphoid organs, and isolated Peyer patch cells showed variable heavy chain gene diversity. What biological process is happening?",
+    "Peyer patch cells isolated after viral protein exposure show variable heavy chain sequences. What's occurring?",
+    "High heavy chain variability in Peyer patch cells - which process?"
+  ],
+  "recZSGUkn56v9kEp1": [
+    "Find product when 3,4-dimethylhexanedial reacts with: KOH/H2O/THF/Heat, CH3CH2MgBr/H3O+, PCC/CH2Cl2, O3/H2O",
+    "What product forms when 3,4-dimethylhexanedial reacts with KOH/H2O/THF/Heat, CH3CH2MgBr/H3O+, PCC/CH2Cl2, O3/H2O?",
+    "Product of 3,4-dimethylhexanedial + KOH/H2O/THF/Heat, CH3CH2MgBr/H3O+, PCC/CH2Cl2, O3/H2O?",
+    "3,4-dimethylhexanedial + KOH/H2O/THF/Heat \u2192 CH3CH2MgBr/H3O+ \u2192 PCC \u2192 O3?",
+    "Product: 3,4-dimethylhexanedial + reagents?"
+  ],
+  "recZ13cwgDQf9jRd9": [
+    "1,3-dibromoadamantane heated with KOH at 240C gives product 1 (1H NMR: 4.79(2H), 2.41-2.23(10H), 1.94(2H), IR: 1720cm-1), then with Al(OiPr)3 gives 2. Ozonolysis of 2 at -78C + Me2S gives 3. What's the coupling pattern of most deshielded H in 3's NMR?",
+    "1,3-dibromoadamantane + KOH (240C) \u2192 product 1 (NMR: 4.79(2H), 2.41-2.23(10H), 1.94(2H), IR: 1720cm-1) \u2192 Al(OiPr)3 \u2192 2 \u2192 O3/Me2S \u2192 3. Most deshielded H coupling pattern in 3?",
+    "Dibromoadamantane \u2192 product 1 (NMR: 4.79(2H), others) \u2192 2 \u2192 ozonolysis \u2192 3. What's most deshielded H coupling in 3's NMR?",
+    "Product 1 \u2192 2 \u2192 ozonolysis \u2192 3. What's most deshielded H coupling pattern in 3's NMR?",
+    "What's most deshielded H coupling in product 3's NMR?"
+  ],
+  "recZWeueB7lSPR6wN": [
+    "Cyclohexanone reacts with LDA at low temp, then benzaldehyde, then acid forms product 1. Product 1 treated with excess diethylaminosulfur trifluoride gives product 2. Structure of 2?",
+    "Cyclohexanone + LDA (low temp), then PhCHO, then H+ gives 1. 1 + excess DAST gives 2. Structure of 2?",
+    "Cyclohexanone -> LDA -> PhCHO -> H+ gives 1. 1 + DAST excess = 2. Structure?",
+    "Cyclohexanone to 1 via LDA/PhCHO/H+, then DAST to 2. Structure?",
+    "What's 2 from cyclohexanone via DAST?"
+  ],
+  "recZbxrocrxh9YENH": [
+    "Find formation enthalpy of (CH3)2C=CH-CH2-CH(CH3)-CH2-CH=C(CH3)2 using: C atomization=1000 kJ/mol, H-H=100 kJ/mol, C-C=200 kJ/mol, C=C=300 kJ/mol, C-H=400 kJ/mol.",
+    "Calculate formation enthalpy: (CH3)2C=CH-CH2-CH(CH3)-CH2-CH=C(CH3)2. Given: C=1000, H-H=100, C-C=200, C=C=300, C-H=400 kJ/mol.",
+    "Find \u0394Hf for (CH3)2C=CH-CH2-CH(CH3)-CH2-CH=C(CH3)2. C=1000, H-H=100, C-C=200, C=C=300, C-H=400 kJ/mol.",
+    "\u0394Hf (CH3)2C=CH-CH2-CH(CH3)-CH2-CH=C(CH3)2? C=1000, C-C=200, C=C=300, C-H=400 kJ/mol.",
+    "\u0394Hf (CH3)2C=CH-CH2-CH(CH3)-CH2-CH=C(CH3)2?"
+  ],
+  "recZt4x514UQNnsgy": [
+    "What starting material(s) are needed to synthesize methyl 2-propyl-1,2,4a,5,6,7,8,8a-octahydronaphthalene-1-carboxylate?",
+    "What starting material(s) synthesize methyl 2-propyl-1,2,4a,5,6,7,8,8a-octahydronaphthalene-1-carboxylate?",
+    "Starting material(s) for methyl 2-propyl-1,2,4a,5,6,7,8,8a-octahydronaphthalene-1-carboxylate?",
+    "Starting materials for methyl 2-propyl-octahydronaphthalene-carboxylate?",
+    "Starting materials for synthesis?"
+  ],
+  "recZdZxsN0AxDx0pB": [
+    "Scientist ran qPCR with 100% efficiency (R2=1, slope=-3.3) using serially diluted positive controls in triplicate. Results showed: 100000 copies/\u00b5l: Ct 33.9-34.5; 10000 copies/\u00b5l: Ct 30.6-31.2; 1000 copies/\u00b5l: Ct 27.3-27.9; 100 copies/\u00b5l: Ct 24-24.6; 10 copies/\u00b5l: Ct 20.7-21.3. What explains these discrepancies?",
+    "qPCR run (100% efficiency, R2=1, slope=-3.3) with diluted controls showed: 100000 copies/\u00b5l: Ct 33.9-34.5; 10000: Ct 30.6-31.2; 1000: Ct 27.3-27.9; 100: Ct 24-24.6; 10: Ct 20.7-21.3. Why these differences?",
+    "qPCR results (100% efficient, -3.3 slope): 100000 copies/\u00b5l: Ct 33.9-34.5; 10000: Ct 30.6-31.2; 1000: Ct 27.3-27.9; 100: Ct 24-24.6; 10: Ct 20.7-21.3. Why vary?",
+    "qPCR data: 100000 copies/\u00b5l: Ct 33.9-34.5; 10000: 30.6-31.2; 1000: 27.3-27.9; 100: 24-24.6; 10: 20.7-21.3. Explain variation?",
+    "qPCR: 100000-10 copies/\u00b5l show Ct variations. Why?"
+  ],
+  "recaXdGn3FAIkxLGM": [
+    "The angular size of a supermassive black hole's event horizon at d=10^10 parsecs is \u03b8=10^-17 degrees. Find the order of magnitude of its entropy.",
+    "A supermassive black hole at d=10^10 parsecs has angular size \u03b8=10^-17 degrees. What's the order of magnitude of its entropy?",
+    "Black hole at 10^10 parsecs shows \u03b8=10^-17 degrees. Find entropy order of magnitude.",
+    "Black hole: d=10^10 pc, \u03b8=10^-17\u00b0. Find entropy magnitude.",
+    "d=10^10pc, \u03b8=10^-17\u00b0. Entropy?"
+  ],
+  "reca44yABeO2fx7UB": [
+    "3,3,6-trimethylhepta-1,5-dien-4-one reacts with 1 eq. meta-chloroperbenzoic acid forming two products (1:1). When MeLi/CuI solution is added to these products, what's one resulting product?",
+    "3,3,6-trimethylhepta-1,5-dien-4-one + 1 eq. mCPBA \u2192 2 products (1:1). After adding MeLi/CuI, name one product formed.",
+    "When 3,3,6-trimethylhepta-1,5-dien-4-one reacts with mCPBA then MeLi/CuI, name one product.",
+    "Name product from 3,3,6-trimethylhepta-1,5-dien-4-one + mCPBA + MeLi/CuI.",
+    "Product of dienone + mCPBA + MeLi/CuI?"
+  ],
+  "recafnH3RRnMBXEb1": [
+    "During gametogenesis, meiosis creates haploid gametes by separating sister chromatids and homologous chromosomes. While most meiotic errors cause embryonic death, some viable cases like Klinefelter's syndrome can be detected in embryonic karyotypes. Why does Klinefelter's syndrome show milder phenotypic effects than Down's syndrome?",
+    "Meiosis in gametogenesis produces haploid gametes through chromosome separation. Some meiotic errors lead to conditions like Klinefelter's syndrome, detectable in embryonic karyotypes. What molecular mechanism makes Klinefelter's effects milder than Down's syndrome?",
+    "Meiotic errors during gamete formation can cause conditions like Klinefelter's syndrome. What molecular mechanism explains why Klinefelter's has less severe effects than Down's syndrome?",
+    "Why does Klinefelter's syndrome cause less severe phenotypic effects compared to Down's syndrome at molecular level?",
+    "Why is Klinefelter's syndrome milder than Down's?"
+  ],
+  "recakFKZioXUuldcd": [
+    "What's the starting material A in: A + methyleneruthenium compound + 1-propene \u2192 1-(prop-1-en-1-yl)-2-vinylcyclopentane?",
+    "What's material A in: A + methyleneruthenium cpd + 1-propene \u2192 1-(prop-1-en-1-yl)-2-vinylcyclopentane?",
+    "ID starting material A: A + methyleneRu + 1-propene \u2192 1-(prop-1-en-1-yl)-2-vinylcyclopentane",
+    "Find A: A + methyleneRu + propene \u2192 prop-1-enyl-vinylcyclopentane",
+    "ID A in: A \u2192 vinylcyclopentane"
+  ],
+  "recb4cGsC6BJUCU3V": [
+    "Compound A (C3H6) brominated with CCl4 forms B, B with alcoholic KOH forms C, C through hot iron tube forms D, D with strong acids forms E, E with Fe/HCl forms F, F with HNO2 forms G, G with NaOH forms H. Which statement about these products is incorrect?",
+    "C3H6 brominated (CCl4) \u2192 B, B + alcoholic KOH \u2192 C, C (hot Fe tube) \u2192 D, D + strong acids \u2192 E, E + Fe/HCl \u2192 F, F + HNO2 \u2192 G, G + NaOH \u2192 H. Which product statement is wrong?",
+    "C3H6 \u2192 B (CCl4) \u2192 C (alc. KOH) \u2192 D (hot Fe) \u2192 E (acids) \u2192 F (Fe/HCl) \u2192 G (HNO2) \u2192 H (NaOH). Which product fact is incorrect?",
+    "C3H6 undergoes reactions with CCl4, KOH, Fe tube, acids, Fe/HCl, HNO2, NaOH. Which product statement is wrong?",
+    "C3H6 forms products A-H through reactions. Which fact is wrong?"
+  ],
+  "reccOKzFNmyqeJ6ry": [
+    "Student did acid-catalyzed reaction of 3-methylpyrrolidine with compound A to form 1-(cyclohexylidenemethyl)-3-methylpyrrolidine. What are reagent A and catalyst B?",
+    "Acid-catalyzed reaction: 3-methylpyrrolidine + A (B, Heat, solvent) \u2192 1-(cyclohexylidenemethyl)-3-methylpyrrolidine. Find A and B.",
+    "3-methylpyrrolidine + A (B, Heat) \u2192 1-(cyclohexylidenemethyl)-3-methylpyrrolidine. ID reagent A & catalyst B.",
+    "What's reagent A & catalyst B? 3-methylpyrrolidine \u2192 1-(cyclohexylidenemethyl)-3-methylpyrrolidine",
+    "ID reagent & catalyst: 3-methylpyrrolidine \u2192 product"
+  ],
+  "recclFbsjbaiVVnnV": [
+    "Which reaction sequence from these options would give high-yield synthesis of 1-(3-bromo-5-nitrophenyl)ethan-1-one from benzene?",
+    "What reaction steps would produce 1-(3-bromo-5-nitrophenyl)ethan-1-one from benzene with high yield?",
+    "How can 1-(3-bromo-5-nitrophenyl)ethan-1-one be synthesized from benzene?",
+    "Synthesis path: benzene \u2192 1-(3-bromo-5-nitrophenyl)ethan-1-one?",
+    "Benzene \u2192 target compound steps?"
+  ],
+  "reccVFW11Elovnf8T": [
+    "You made a bicistronic lox-Cre vector with ligand-mCherry (5') and receptor-eGFP (3'), separated by IRES. Both have loxP/lox2272-stop cassettes. The ligand has CBA promoter. After breeding construct-homozygous mice with SOX10-Cre hemizygous mice, no green signal appears under confocal microscopy. Western blot shows proper protein expression in transfected astrocytes. What's the likely reason for missing green signal?",
+    "Created bicistronic vector: ligand-mCherry (5') and receptor-eGFP (3') with loxP/lox2272-stop cassettes and IRES. Bred construct-homozygous mice with SOX10-Cre hemizygous mice. Western blot positive, but no green signal in confocal. Why?",
+    "Bicistronic vector with ligand-mCherry and receptor-eGFP, both stop-cassette controlled. Crossed construct-homozygous and SOX10-Cre mice. Why no green signal despite positive Western?",
+    "Vector has ligand-mCherry and receptor-eGFP with stop cassettes. SOX10-Cre crossing shows no green signal. Why?",
+    "Why no green signal in SOX10-Cre crossed mice with receptor-eGFP construct?"
+  ],
+  "recdya6FuYraBU5Rh": [
+    "Astronomers found 2 Neptune-like planets orbiting Sun-like stars. Planet #1 shows 5 miliangstrom spectral shift, Planet #2 shows 7 miliangstrom shift. How many times longer is Planet #2's orbital period vs Planet #1's?",
+    "Two Neptune-mass planets orbit Sun-like stars. Planet #1: 5 miliangstrom spectral shift. Planet #2: 7 miliangstrom shift. What's the ratio of their orbital periods?",
+    "Compare orbital periods of 2 planets: one with 5 miliangstrom spectral shift, other with 7 miliangstrom. Stars identical. Find period ratio.",
+    "2 planets: 5 vs 7 miliangstrom spectral shifts. Equal mass stars. Find orbital period ratio.",
+    "5 vs 7 miliangstrom shifts. Period ratio?"
+  ],
+  "receYQxnUBvxPcvbQ": [
+    "A star with Sun's radius has dark spots covering 20% of one hemisphere, Teff=6000K, and spots are 1000K cooler. These spots cause brightness variations due to rotation. What planet radius ratio (Rpl/Rstar) would create equivalent light curve amplitude if the star had no spots?",
+    "Star (radius=Sun's) has 20% dark spots on one hemisphere, Teff=6000K, spots 1000K cooler. What planet radius ratio (Rpl/Rstar) would cause same brightness variation as spots?",
+    "Star has 20% spots on one hemisphere (Teff=6000K, \u0394T=1000K). What planet-to-star radius ratio gives equivalent brightness variation?",
+    "20% spots on half star (Teff=6000K, \u0394T=1000K). What Rpl/Rstar gives same signal?",
+    "20% spots, Teff=6000K, \u0394T=1000K. Find Rpl/Rstar?"
+  ],
+  "receo3UUzRvWCqyfA": [
+    "The reaction of cyclohexanone and piperidine forms a Schiff base through condensation with a primary amine and acid catalyst. What's the favorable acid (A) and final product (B) in: Cyclohexanone + piperidine + (A, acrylaldehyde, H3O+) ---> B?",
+    "Cyclohexanone reacts with piperidine to form a Schiff base using an acid catalyst. What's acid A and product B in: Cyclohexanone + piperidine + (A, acrylaldehyde, H3O+) ---> B?",
+    "What's the favorable acid (A) and product (B) when cyclohexanone and piperidine react to form Schiff base: Cyclohexanone + piperidine + (A, acrylaldehyde, H3O+) ---> B?",
+    "What's acid A and product B in Schiff base formation: Cyclohexanone + piperidine + (A, acrylaldehyde, H3O+) ---> B?",
+    "ID acid A & product B: Cyclohexanone + piperidine + (A, acrylaldehyde, H3O+) ---> B"
+  ],
+  "recf6ayQmL1SxKbvW": [
+    "A new natural molecule Xantheraquin, with multiple chiral centers and tautomeric forms, is being tested against drug-resistant bacteria. What's the most crucial step before starting in silico docking studies, considering bioinformatics complexities in drug discovery?",
+    "Xantheraquin, a natural molecule with chiral centers and tautomers, needs testing against resistant bacteria. What's the most important step before beginning in silico docking studies?",
+    "For Xantheraquin, a molecule with multiple forms being tested against bacteria, what's the crucial step before in silico docking?",
+    "What's the essential step before docking studies for Xantheraquin, a molecule with multiple forms?",
+    "What key step before docking Xantheraquin?"
+  ],
+  "recgI6tUQ7RLJRWGx": [
+    "Compare paramagnetic coupling term magnitude with H-atom transition energy (\u0394E) for B=1T field || Oz, small m values, \u03bb=0.4861\u03bcm",
+    "Compare paramagnetic coupling vs H-atom \u0394E for B=1T || Oz, small m, \u03bb=0.4861\u03bcm",
+    "Compare paramagnetic coupling & H-atom \u0394E (B=1T, \u03bb=0.4861\u03bcm)",
+    "Paramagnetic coupling vs H-atom \u0394E, B=1T, \u03bb=0.4861\u03bcm",
+    "Compare coupling & \u0394E (B=1T, \u03bb=0.4861\u03bcm)"
+  ],
+  "recgM7o1tcc7tP778": [
+    "Consider NN system in 1S0 emitting particle X (parity -1). Final NN state follows T(NN)=S(NN)+L(NN)+1 (mod 2) with T(NN)=0. Which partial wave isn't allowed? Use angular momentum & parity conservation. Term symbol: (2S+1)L(J).",
+    "NN system (1S0) emits X (parity -1). For final state T(NN)=0 and T=S+L+1 (mod 2). Which partial wave violates conservation laws? Term symbol: (2S+1)L(J).",
+    "NN in 1S0 emits X (parity -1). Final state: T=0, T=S+L+1 (mod 2). Which partial wave forbidden? (2S+1)L(J).",
+    "1S0 NN emits X (parity -1). T=0, T=S+L+1 (mod 2). Which partial wave forbidden?",
+    "1S0 NN\u2192NN+X(-1). T=0. Which partial wave forbidden?"
+  ],
+  "recb2M22zaD3tL6Qc": [
+    "You have an unknown compound. Using FTIR and 1H NMR data: FTIR shows broad peak at 3000 and strong peak at 1700 wavenumbers. 1H NMR shows no vinyl-hydrogens, with one signal as doublet of triplets of quartets and another as doublet of triplets of triplets. Is it CH3CH2C(H)(CH3)C(H)(CH3)COOH, CH3CH2C(H)(C2H5)C(H)(C2H5)COOH, CH3C(H)(CH3)C(H)(CH3)CH2COOH, or CH3C(H)(C2H5)C(H)(C2H5)CH2COOH?",
+    "Using FTIR (broad peak 3000, strong 1700) and 1H NMR (no vinyl-H, one dt-quartet, one dt-triplet signal), identify compound from: CH3CH2C(H)(CH3)C(H)(CH3)COOH, CH3CH2C(H)(C2H5)C(H)(C2H5)COOH, CH3C(H)(CH3)C(H)(CH3)CH2COOH, or CH3C(H)(C2H5)C(H)(C2H5)CH2COOH",
+    "FTIR shows peaks at 3000(broad), 1700. 1H NMR: no vinyl-H, has dt-quartet and dt-triplet. Choose: CH3CH2C(H)(CH3)C(H)(CH3)COOH, CH3CH2C(H)(C2H5)C(H)(C2H5)COOH, CH3C(H)(CH3)C(H)(CH3)CH2COOH, CH3C(H)(C2H5)C(H)(C2H5)CH2COOH",
+    "FTIR: 3000(broad), 1700. NMR: dt-quartet, dt-triplet. Pick from: CH3CH2C(H)(CH3)C(H)(CH3)COOH, CH3CH2C(H)(C2H5)C(H)(C2H5)COOH, CH3C(H)(CH3)C(H)(CH3)CH2COOH, CH3C(H)(C2H5)C(H)(C2H5)CH2COOH",
+    "FT"
+  ],
+  "rechKl68Uc6H7vU0N": [
+    "Complete reactions & select major products based on steric hindrance & product stability:",
+    "Complete reactions, select major products considering sterics & stability:",
+    "Find major products based on sterics & stability:",
+    "Complete reactions, find major products:",
+    "Find products A & B:"
+  ],
+  "rechgQucGlrnt8KRV": [
+    "Let |alpha> \u221d (1+i)|up> + (2-i)|down>, where |up> and |down> are spin-z eigenstates. Calculate probabilities of measuring particle in eigenstates of operator A with Aij = hbar/2 for i\u2260j, 0 otherwise. Find operator's average value.",
+    "State |alpha> \u221d (1+i)|up> + (2-i)|down> with spin-z eigenstates. Find measurement probabilities in eigenstates of A (Aij = hbar/2 if i\u2260j, 0 if i=j) and its average value.",
+    "For |alpha> \u221d (1+i)|up> + (2-i)|down>, find eigenstate measurement probabilities and average value of operator A where Aij = hbar/2 (i\u2260j), 0 otherwise.",
+    "Calculate probabilities and average value for |alpha> \u221d (1+i)|up> + (2-i)|down> with operator Aij = hbar/2 (i\u2260j), 0 (i=j).",
+    "Find probabilities & average for |alpha> \u221d (1+i)|up> + (2-i)|down>, Aij = hbar/2 (i\u2260j)."
+  ],
+  "rechtUKxC6G67H7Pr": [
+    "You analyzed an unknown compound using FTIR, 1H NMR, and Mass Spec. FTIR shows broad peak at 3000 and strong peaks at 1700, 1650 wavenumbers. 1H NMR has vinyl-hydrogen peaks. Mass spec shows m/z = 45. Is it C6H12O, C6H10O, C6H10O2, or C6H12O2?",
+    "Unknown compound analyzed: FTIR (peaks: 3000 broad, 1700, 1650), 1H NMR (vinyl-H peaks), Mass spec (m/z = 45). Choose formula: C6H12O, C6H10O, C6H10O2, or C6H12O2?",
+    "FTIR peaks (3000, 1700, 1650), 1H NMR shows vinyl-H, Mass spec m/z = 45. Which formula: C6H12O, C6H10O, C6H10O2, or C6H12O2?",
+    "Peaks: 3000, 1700, 1650; vinyl-H present; m/z = 45. Formula: C6H12O, C6H10O, C6H10O2, or C6H12O2?",
+    "Peaks: 3000,1700,1650; vinyl-H; m/z=45. C6H12O/C6H10O/C6H10O2/C6H12O2?"
+  ],
+  "recihePFulRgNKsIn": [
+    "Select reagents A & B for: butan-2-one + NaCN + A \u2192 2-hydroxy-2-methylbutanenitrile; 2-(4-benzylphenyl)-2-hydroxybutanenitrile + B (H2O) \u2192 2-(4-benzylphenyl)-2-hydroxybutanoic acid",
+    "Find reagents A & B: butan-2-one + NaCN + A \u2192 2-hydroxy-2-methylbutanenitrile; 2-(4-benzylphenyl)-2-hydroxybutanenitrile + B \u2192 butanoic acid",
+    "Identify A & B: butan-2-one + NaCN + A \u2192 methylbutanenitrile; nitrile + B (H2O) \u2192 butanoic acid",
+    "Find reagents A & B for conversion: ketone \u2192 nitrile \u2192 acid",
+    "ID reagents: nitrile \u2192 acid"
+  ],
+  "reciuppdQde4FGX1z": [
+    "An electron (\u03b3=4) moves left-to-right and positron (\u03b3=2) moves right-to-left. They collide, producing 2 equal-energy photons. One moves upper-right, other lower-right. What's the angle between photons?",
+    "Electron (\u03b3=4) and positron (\u03b3=2) collide head-on, creating 2 photons of equal energy. One goes upper-right, other lower-right. Find angle between them?",
+    "Head-on collision: electron(\u03b3=4), positron(\u03b3=2) \u2192 2 equal photons. One up-right, one down-right. Angle between?",
+    "e-(\u03b3=4) + e+(\u03b3=2) \u2192 2 equal photons at up-right/down-right. Find angle?",
+    "\u03b3=4 e- + \u03b3=2 e+ \u2192 2\u03b3. Find angle between \u03b3s?"
+  ],
+  "recjgMJaMxz4ESDF2": [
+    "Isomers are compounds with same formula but different structures, including constitutional and stereoisomers. Constitutional isomers differ in structure, while stereoisomers differ in spatial arrangement. Which organic moieties show optical isomerism: dimethyl 6,6'-dinitro-[1,1'-biphenyl]-2,2'-dicarboxylate, methyl 2-hydroxypropanoate, benzophenone, or dimethyl fumarate?",
+    "Isomers have same formula but differ in structure (constitutional) or spatial arrangement (stereoisomers). Which compounds show optical isomerism: dimethyl 6,6'-dinitro-[1,1'-biphenyl]-2,2'-dicarboxylate, methyl 2-hydroxypropanoate, benzophenone, dimethyl fumarate?",
+    "Isomers differ in structure or spatial arrangement. Which show optical isomerism: dimethyl 6,6'-dinitro-[1,1'-biphenyl]-2,2'-dicarboxylate, methyl 2-hydroxypropanoate, benzophenone, dimethyl fumarate?",
+    "Which compounds show optical isomerism: dimethyl 6,6'-dinitro-[1,1'-biphenyl]-2,2'-dicarboxylate, methyl 2-hydroxypropanoate, benzophenone, dimethyl fumarate?",
+    "Which show optical isomerism: given compounds?"
+  ],
+  "recjJ54TXc04enRkZ": [
+    "Compound A shows 1H NMR: triplet (0.9ppm, 6H), quartet (1.3ppm, 4H). A\u2192monobromination\u2192B\u2192alcoholic KOH\u2192C (2 geometrical isomers). Cis-C+(1E,3E)-penta-1,3-dien-1-ol\u2192D. Identify D.",
+    "1H NMR of A: triplet (0.9ppm, 6H), quartet (1.3ppm, 4H). A\u2192Br2\u2192B\u2192KOH/EtOH\u2192C (cis/trans). Cis-C+(1E,3E)-penta-1,3-dien-1-ol\u2192D. ID D.",
+    "A (NMR: 0.9ppm triplet 6H, 1.3ppm quartet 4H)\u2192B\u2192C (cis/trans). Cis-C+(1E,3E)-penta-1,3-dien-1-ol\u2192D. ID D.",
+    "A (NMR: 0.9t 6H, 1.3q 4H)\u2192B\u2192cis-C+(1E,3E)-penta-1,3-dien-1-ol\u2192D. ID D.",
+    "NMR data\u2192cis-C+(1E,3E)-diene-1-ol\u2192D. ID D."
+  ],
+  "reck1zKeCssmN82Ga": [
+    "What's the primary product formed when 4,4-dimethylcyclopent-1-enol reacts with bromine?",
+    "What product results from 4,4-dimethylcyclopent-1-enol + Br2 reaction?",
+    "Main product of 4,4-dimethylcyclopent-1-enol + Br2?",
+    "Product: 4,4-dimethylcyclopent-1-enol + Br2?",
+    "4,4-dimethylcyclopent-1-enol + Br2?"
+  ],
+  "reckYqR92oJkqJXkE": [
+    "Assuming uniform star distribution in sky, how does number of stars per unit parallax range vary with parallax?",
+    "With uniform star distribution, how does stellar density per parallax unit change with parallax?",
+    "How do stars per parallax unit vary with parallax in uniform distribution?",
+    "How does star count/parallax change with parallax?",
+    "Stars/plx vs plx relation?"
+  ],
+  "reck4G4xxv3YnpbtQ": [
+    "What is product D when 5-bromo-3a,4a-dimethyldecahydrocyclopenta[1,4]cyclobuta[1,2]benzene reacts with H2O \u2192 A, then PDC \u2192 B, then H2CPPh3 \u2192 C, then TsOH \u2192 D?",
+    "What's product D in reaction sequence: 5-bromo-3a,4a-dimethyldecahydrocyclopenta[1,4]cyclobuta[1,2]benzene + H2O\u2192A + PDC\u2192B + H2CPPh3\u2192C + TsOH\u2192D?",
+    "Identify D: 5-bromo-3a,4a-dimethyldecahydrocyclopenta[1,4]cyclobuta[1,2]benzene + H2O\u2192A, PDC\u2192B, H2CPPh3\u2192C, TsOH\u2192D",
+    "Find D: 5-bromo-3a,4a-dimethyldecahydrocyclopenta[1,4]cyclobuta[1,2]benzene \u2192A\u2192B\u2192C\u2192D",
+    "ID product D: bromocyclobenzene\u2192A\u2192B\u2192C\u2192D"
+  ],
+  "reckl6PkaEMWM50yZ": [
+    "When saturated epoxides react with organocuprates, alkyl groups add to less hindered carbon with inversion. What's the product when (1R,3R,4R,6S)-1,3,4-trimethyl-7-oxabicyclo [4.1.0] heptane reacts with Me2CuLi?",
+    "Organocuprates add alkyl groups to less hindered epoxide carbon with inversion. What forms when (1R,3R,4R,6S)-1,3,4-trimethyl-7-oxabicyclo [4.1.0] heptane + Me2CuLi?",
+    "What's the product when (1R,3R,4R,6S)-1,3,4-trimethyl-7-oxabicyclo [4.1.0] heptane reacts with Me2CuLi? Consider inversion at Nu addition.",
+    "Product of (1R,3R,4R,6S)-1,3,4-trimethyl-7-oxabicyclo [4.1.0] heptane + Me2CuLi reaction?",
+    "(1R,3R,4R,6S)-trimethyl-oxabicyclo + Me2CuLi = ?"
+  ],
+  "recmI7EiLv72PxmYK": [
+    "A supernova ejecta moves toward Galaxy center. From ejecta's frame, Galaxy center approaches at 60,000 km/s. What distance does ejecta travel in Galaxy frame when 50s pass in ejecta frame? (Ignore gravity and Galaxy motion.)",
+    "Supernova ejecta sees Galaxy center moving at 60,000 km/s. What distance does ejecta travel in Galaxy frame during 50s ejecta time? (Ignore gravity.)",
+    "From ejecta frame, Galaxy center moves at 60,000 km/s. Find ejecta's distance in Galaxy frame for 50s ejecta time.",
+    "Galaxy center moves 60,000 km/s relative to ejecta. Find distance in Galaxy frame for 50s ejecta time.",
+    "60,000 km/s relative velocity. Find distance for 50s ejecta time."
+  ],
+  "recl1UtgTVKishAq4": [
+    "acetic acid reacts with Br2, pyridine, Ac2O + heat \u2192 1. 1 + EtOH/H2SO4 \u2192 2. 2 + NaCN \u2192 3. 3 + NaH/1,5-dibromopentane \u2192 4. How many distinct H signals in 4's 1H NMR spectrum?",
+    "acetic acid + Br2/pyridine/Ac2O/heat \u2192 1. 1 + EtOH/H2SO4 \u2192 2. 2 + NaCN \u2192 3. 3 + NaH/Br(CH2)5Br \u2192 4. How many distinct H's in NMR?",
+    "CH3COOH \u2192 brominated \u2192 ethyl ester \u2192 CN substitution \u2192 alkylated with dibromopentane. How many distinct H signals in product's NMR?",
+    "Four-step synthesis ending with alkylation. How many distinct H environments in final product's NMR?",
+    "How many distinct H signals in product's NMR?"
+  ],
+  "recmkvk6EFAmqyMxR": [
+    "Particles collide at center of spherical detector, producing particles with Lorentz factor ~20. One-third reach 30m detector walls. What Lorentz factor needed for two-thirds to reach walls?",
+    "Particles with Lorentz factor 20 collide in detector center. One-third reach 30m walls. What Lorentz factor for two-thirds reaching walls?",
+    "In 30m detector, particles have \u03b3=20, 1/3 reach walls. What \u03b3 needed for 2/3 to reach?",
+    "\u03b3=20 gives 1/3 reaching 30m walls. What \u03b3 for 2/3?",
+    "\u03b3=20\u21921/3 reach walls. \u03b3 for 2/3?"
+  ],
+  "recmwwQJnx7ll7bqL": [
+    "What's the energy of 3rd excited state & number of degenerate eigenfunctions for a quantum particle of mass m in 3D isotropic potential V(r) = 1/2m\u03c9\u00b2r\u00b2 (harmonic oscillator) in spherical coordinates?",
+    "Find energy of 3rd excited state & degeneracy for quantum particle in 3D harmonic potential V(r) = 1/2m\u03c9\u00b2r\u00b2 in spherical coords?",
+    "Calculate 3rd excited state energy & degeneracy for 3D quantum harmonic oscillator V(r) = 1/2m\u03c9\u00b2r\u00b2?",
+    "Find 3rd excited state energy & degeneracy for 3D quantum oscillator?",
+    "3rd state energy & degeneracy, 3D oscillator?"
+  ],
+  "recn3NhOhqAPLda16": [
+    "An organic chemist does 2 reactions: (S)-5-methoxyhexan-3-one + LAH/H+ and pentane-2,4-dione + NaBH4/H+. After completion, products are mixed and run on normal & chiral HPLC. How many peaks appear?",
+    "Two reactions: (S)-5-methoxyhexan-3-one + LAH/H+ and pentane-2,4-dione + NaBH4/H+. Products mixed, run on normal & chiral HPLC. How many peaks?",
+    "(S)-5-methoxyhexan-3-one + LAH/H+ and pentane-2,4-dione + NaBH4/H+. Mix products, run normal & chiral HPLC. Peaks?",
+    "Two rxns: (S)-5-methoxyhexan-3-one/LAH, pentane-2,4-dione/NaBH4. Run HPLC. Peaks?",
+    "Products from LAH & NaBH4 reductions. HPLC peaks?"
+  ],
+  "recnGEpF1srQpaqWq": [
+    "Which molecule forms when 5-butylnona-2,6-diene undergoes heating?",
+    "What forms when 5-butylnona-2,6-diene is heated?",
+    "Product of heating 5-butylnona-2,6-diene?",
+    "Heat 5-butylnona-2,6-diene\u2192?",
+    "5-butylnona-2,6-diene\u2192?"
+  ],
+  "recnTTKdBzfuoZ7w7": [
+    "You're at Stanford's structural biology lab. The PI wants you to produce and purify Human P53 in E. coli BL21. Given the P53 sequence below and 4 plasmids with different sequences, which plasmid would you use?",
+    "At Stanford's bio lab, you need to produce/purify Human P53 in E. coli BL21. Here's the P53 sequence - which of 4 plasmids matches?",
+    "Need to produce Human P53 in E. coli BL21. Given P53 sequence below, which of 4 plasmids contains it?",
+    "Which plasmid contains this Human P53 sequence for E. coli production?",
+    "Which plasmid matches P53 sequence?"
+  ],
+  "recnjViFrqlZNL3fY": [
+    "Neutral hydrogen clouds in space absorb quasar light at Lyman alpha ~1216 Angstrom. What's the minimum redshift needed to detect them with ground optical telescopes?",
+    "Hydrogen clouds absorb quasar light at Lyman alpha 1216 Angstrom. What's minimum redshift for ground optical telescope detection?",
+    "H clouds absorb light at 1216 Angstrom. What minimum redshift needed for ground optical detection?",
+    "What minimum redshift needed to detect 1216 Angstrom absorption with ground telescopes?",
+    "Min redshift for 1216A detection?"
+  ],
+  "recnawZPumSCLMVgp": [
+    "Identify compound E: A + HCN \u2192 B, B + H2/Pd \u2192 C, C + HNO2 \u2192 D, D \u2192 E + inert gas. A reacts with phosphorous ylide to form 1,2-dimethyl-4-(propan-2-ylidene)cyclopentane. IR: A shows 1750 cm^-1, E shows 1715 cm^-1.",
+    "Find compound E in: A + HCN \u2192 B \u2192 C \u2192 D \u2192 E + inert gas. A + phosphorous ylide gives 1,2-dimethyl-4-(propan-2-ylidene)cyclopentane. IR peaks: A=1750 cm^-1, E=1715 cm^-1.",
+    "Identify E: A + HCN \u2192 B \u2192 C \u2192 D \u2192 E + gas. A + ylide forms 1,2-dimethyl-4-(propan-2-ylidene)cyclopentane. IR: A=1750, E=1715 cm^-1.",
+    "Find E: A \u2192 B \u2192 C \u2192 D \u2192 E + gas. A + ylide gives dimethyl-propanylidenecyclopentane. IR: A=1750, E=1715.",
+    "ID compound E: A \u2192 B \u2192 C \u2192 D \u2192 E. IR: A=1750, E=1715 cm^-1."
+  ],
+  "reco8WSc71p8zAv4q": [
+    "A dicarboxylic acid with cis-alkene was dehydrated to anhydride. This anhydride (1H NMR: 7 ppm; 13C: 137, 165 ppm) reacted with tetramethyl-cyclopentadiene giving major/minor products (C13H16O3). NOESY shows cross-peak in major product, absent in minor. Which resonances connect in major product's cross-peak?",
+    "Anhydride from cis-alkene dicarboxylic acid (1H: 7 ppm; 13C: 137, 165 ppm) reacted with tetramethyl-cyclopentadiene. Major/minor products (C13H16O3). NOESY shows cross-peak in major only. Which resonances connect?",
+    "Anhydride (1H: 7 ppm; 13C: 137, 165 ppm) + tetramethyl-cyclopentadiene \u2192 major/minor products. NOESY shows cross-peak in major. Which resonances connect?",
+    "Anhydride + tetramethyl-cyclopentadiene reaction: which resonances connect in major product's NOESY cross-peak?",
+    "Which resonances connect in major product's NOESY cross-peak?"
+  ],
+  "recoy9ZLBsc7HIRBy": [
+    "Solution has 200cm3 volume with 1g KH2PO4 (Mw=136.09g/mol) and 1g Na2HPO4\u25cf2H2O (Mw=177.99g/mol) at 25\u00b0C. Find orthophosphate ion concentration. Ka1=7.5x10^-3, Ka2=6.2x10^-8, Ka3=1.8x10^-12.",
+    "200cm3 solution contains 1g KH2PO4 (Mw=136.09) and 1g Na2HPO4\u25cf2H2O (Mw=177.99). Find orthophosphate concentration. Ka1=7.5x10^-3, Ka2=6.2x10^-8, Ka3=1.8x10^-12.",
+    "Find orthophosphate concentration in 200cm3 solution with 1g KH2PO4 (136.09) & 1g Na2HPO4\u25cf2H2O (177.99). Ka1=7.5x10^-3, Ka2=6.2x10^-8, Ka3=1.8x10^-12.",
+    "Calculate orthophosphate in 200cm3 with 1g KH2PO4, 1g Na2HPO4\u25cf2H2O. Ka1=7.5x10^-3, Ka2=6.2x10^-8, Ka3=1.8x10^-12.",
+    "Find [PO4^3-] in 200cm3 solution: 1g KH2PO4, 1g Na2HPO4\u25cf2H2O. Ka values given."
+  ],
+  "recooG6bivTUJpDBz": [
+    "The 1H NMR spectrum of a 1:1 mixture of C10H14 aromatics shows two singlets at 6.7 ppm (1:1 ratio) and three singlets at 2.2 ppm (2:1:1 ratio). Which two compounds from 1,2,4,5-tetramethylbenzene, 1,2,3,5-tetramethylbenzene, 1,2,3,4-tetramethylbenzene, and 1,4-diethylbenzene?",
+    "1H NMR of 1:1 C10H14 aromatics mixture shows: 6.7 ppm two singlets (1:1) and 2.2 ppm three singlets (2:1:1). Identify two compounds from: 1,2,4,5-tetramethylbenzene, 1,2,3,5-tetramethylbenzene, 1,2,3,4-tetramethylbenzene, 1,4-diethylbenzene.",
+    "NMR shows 1:1 mix: two 6.7 ppm singlets (1:1), three 2.2 ppm singlets (2:1:1). Which two: 1,2,4,5-tetramethylbenzene, 1,2,3,5-tetramethylbenzene, 1,2,3,4-tetramethylbenzene, 1,4-diethylbenzene?",
+    "NMR: two 6.7 ppm singlets (1:1), three 2.2 ppm singlets (2:1:1). ID two compounds from given tetramethyl/diethylbenzenes.",
+    "NMR: 6.7 ppm (1:1), 2.2 ppm (2:1:1). Which two compounds?"
+  ],
+  "recpJmTOXx6T48nDJ": [
+    "Calculate enthalpy of neutralization when mixing 500 mL 0.2 M HCl, 300 mL 0.3 M H2SO4 and 200 mL 0.5 M Ba(OH)2.",
+    "Find neutralization enthalpy: mix 500 mL 0.2 M HCl, 300 mL 0.3 M H2SO4, 200 mL 0.5 M Ba(OH)2.",
+    "Calculate enthalpy: mix HCl (500mL, 0.2M), H2SO4 (300mL, 0.3M), Ba(OH)2 (200mL, 0.5M).",
+    "Find enthalpy: HCl(500mL,0.2M) + H2SO4(300mL,0.3M) + Ba(OH)2(200mL,0.5M).",
+    "Enthalpy: HCl+H2SO4+Ba(OH)2 mix (given M,mL)."
+  ],
+  "recpki12iG9RUGrz9": [
+    "The interaction between bosonic field X and fermions is given by \\mathcal{L}\\left(y\\right)=-\\lambda{f}\\bar{\\psi}{f}\\left(y\\right)\\left(\\upsilon+X\\left(y\\right)\\right)\\psi_{f}\\left(y\\right). X mass=6 GeV. What are kinematically allowed decays of X at lowest order?",
+    "Given \\mathcal{L}\\left(y\\right)=-\\lambda{f}\\bar{\\psi}{f}\\left(y\\right)\\left(\\upsilon+X\\left(y\\right)\\right)\\psi_{f}\\left(y\\right) and X mass=6 GeV, what are allowed decays at lowest order?",
+    "With boson X (mass=6 GeV) and interaction \\mathcal{L}=-\\lambda{f}\\bar{\\psi}{f}\\left(\\upsilon+X\\right)\\psi_{f}, what decays are allowed?",
+    "Boson X (6 GeV) with fermion interaction: what are its possible decay modes?",
+    "What can 6 GeV boson X decay into?"
+  ],
+  "recqFDvYKKRmbnoUb": [
+    "Calculate volume integral of divergence (\u2207.f) of a radial vector field f(r)=1/r^2 inside sphere radius R centered at origin. Field only has radial component in spherical coordinates. Which answer best fits integral?",
+    "Find volume integral of div(f) where f(r)=1/r^2 is radial vector field inside sphere radius R at origin. Field only has radial component. Select best answer.",
+    "Compute \u222b\u2207.f dV for radial field f(r)=1/r^2 inside sphere radius R. Field only radial. Choose correct answer.",
+    "Calculate \u222b\u2207.f dV for f(r)=1/r^2 in sphere radius R. Pick right answer.",
+    "Find \u222b\u2207.f dV, f(r)=1/r^2, R-sphere?"
+  ],
+  "recqGD3fxPCI59vPQ": [
+    "A proton with initial T\u22430 reaches T\u2081=950MeV after 2 accelerations in synchrocyclotron with U(t)=U\u2080cos[2\u03c0\u03bd(\u03b1)t+\u03a6\u2080]. Given \u03a6\u2080=\u03c0/4, U\u2080=190kV, find number of revolutions.",
+    "Proton starts at T\u22430, reaches 950MeV after 2 accelerations in synchrocyclotron with U(t)=U\u2080cos[2\u03c0\u03bd(\u03b1)t+\u03a6\u2080], \u03a6\u2080=\u03c0/4, U\u2080=190kV. Find revolutions.",
+    "Find revolutions for proton reaching 950MeV from T\u22430 in synchrocyclotron, U(t)=U\u2080cos[2\u03c0\u03bd(\u03b1)t+\u03a6\u2080], \u03a6\u2080=\u03c0/4, U\u2080=190kV.",
+    "Calculate revolutions: proton T\u22430\u2192950MeV, 2 accelerations, U\u2080=190kV, \u03a6\u2080=\u03c0/4.",
+    "Find revolutions: proton 0\u2192950MeV, U\u2080=190kV."
+  ],
+  "recr3VHM4zYf6dMFY": [
+    "Compounds A & B react with HCl, NaNO2, & H2O to form diketones. A forms 4-isopropylcyclohexane-1,2-dione, B forms 5-methylhexane-2,3-dione. Find A & B.",
+    "Two compounds A & B react with HCl, NaNO2, H2O. A yields 4-isopropylcyclohexane-1,2-dione, B yields 5-methylhexane-2,3-dione. Find A & B.",
+    "A & B react w/ HCl, NaNO2, H2O. A forms 4-isopropylcyclohexane-1,2-dione, B forms 5-methylhexane-2,3-dione. ID A & B.",
+    "A \u2192 4-isopropylcyclohexane-1,2-dione, B \u2192 5-methylhexane-2,3-dione w/ HCl, NaNO2. Find A&B.",
+    "ID compounds A&B forming given diketones w/HCl+NaNO2."
+  ],
+  "recqLRu4BcJvlSANc": [
+    "A chemical reaction synthesizing H+ ions at room temp and pH 1 was disrupted when an unknown substance fell in, slowing product formation. The container heated up from an exothermic reaction and pH changed to 4. What caused the rate change?",
+    "During H+ ion synthesis at pH 1, an unknown substance fell in, causing slower product formation and heat release. The pH rose to 4. What affected the reaction rate?",
+    "H+ ion synthesis at pH 1 was interrupted by unknown substance, causing slower reaction, heat release, and pH rise to 4. Why?",
+    "Unknown substance slowed H+ synthesis, raised pH from 1 to 4, released heat. Cause?",
+    "What slowed reaction when pH changed 1\u21924?"
+  ],
+  "recrHBEJJoDTV05JR": [
+    "Substance X (has heavy isotope) reacts with liquid Y, releasing gas W (equal protons/neutrons) and precipitate G, which releases B when heated. B melts at 277K. X's reaction with keto acid yields product with 2 O atoms. X and analog are organic chemistry reagents. Find sum of atomic masses of lightest/heaviest elements in X, counting all isotope masses.",
+    "Substance X (heavy isotope) reacts with Y, making gas W (equal protons/neutrons), precipitate G that releases B (melts 277K). X's reaction with keto acid gives 2 O atoms. X used in organic chemistry. Sum atomic masses of lightest/heaviest elements in X with isotopes.",
+    "X (heavy isotope) reacts with Y to form W (equal p/n), G releases B (277K melt). X+keto acid gives 2 O atoms. Calculate sum of lightest/heaviest element masses in X with isotopes.",
+    "X (heavy isotope) makes W, G, and B (277K melt). X+keto acid has 2 O atoms. Sum lightest/heaviest element masses in X.",
+    "X (heavy isotope) yields B (277K melt). Sum lightest/heaviest elements in X."
+  ],
+  "recrNbtgTNoabJJi6": [
+    "How many organic products form when 1-bromobenzene-2-d reacts with NaNH2 in condensed ammonia solvent?",
+    "How many products result from 1-bromobenzene-2-d reacting with NaNH2 in NH3 solvent?",
+    "Number of products when 1-bromobenzene-2-d + NaNH2 react in NH3?",
+    "Products count: 1-bromobenzene-2-d + NaNH2 in NH3?",
+    "Products from C6H4DBr + NaNH2?"
+  ],
+  "recrs0kUo7Ua1xhKO": [
+    "What is the geometrical position of density matrix $\\rho=\\frac{1}{2}\\left(\\left|0\\right\\rangle \\left\\langle 0\\right|+\\left|1\\right\\rangle \\left\\langle 1\\right|\\right)$ in qubits space?",
+    "Find geometrical position of $\\rho=\\frac{1}{2}\\left(\\left|0\\right\\rangle \\left\\langle 0\\right|+\\left|1\\right\\rangle \\left\\langle 1\\right|\\right)$ in qubit space?",
+    "Where is $\\rho=\\frac{1}{2}\\left(\\left|0\\right\\rangle \\left\\langle 0\\right|+\\left|1\\right\\rangle \\left\\langle 1\\right|\\right)$ in qubit space?",
+    "Locate $\\rho=\\frac{1}{2}\\left(\\left|0\\right\\rangle \\left\\langle 0\\right|+\\left|1\\right\\rangle \\left\\langle 1\\right|\\right)$ geometrically?",
+    "Where is $\\rho=\\frac{1}{2}(\\left|0\\right\\rangle \\left\\langle 0\\right|+\\left|1\\right\\rangle \\left\\langle 1\\right|)$?"
+  ],
+  "rect4iLrSfUwkNTno": [
+    "What's the mean decay distance of meson resonance X with production energy $E_{X}=8GeV$, mass $m_{X}=1.2GeV$, and width $\\Gamma_{X}=320MeV$?",
+    "Calculate mean decay distance for meson X with $E_{X}=8GeV$, $m_{X}=1.2GeV$, $\\Gamma_{X}=320MeV$",
+    "Find decay distance: meson X, $E_{X}=8GeV$, $m_{X}=1.2GeV$, $\\Gamma_{X}=320MeV$",
+    "Decay distance? $E_{X}=8GeV$, $m_{X}=1.2GeV$, $\\Gamma_{X}=320MeV$",
+    "Decay dist? $E,m,\\Gamma=8,1.2,0.32GeV$"
+  ],
+  "recs3PLPUEMiqg4P8": [
+    "What are the reactants and products in these Pinacol-Pinacolone rearrangements: A + H2SO4 ---> 2,2-di-p-tolylcyclohexan-1-one, and methyl 2,3-dihydroxy-2-(p-tolyl)butanoate + H2SO4 ---> B?",
+    "Identify reactants/products for: A + H2SO4 ---> 2,2-di-p-tolylcyclohexan-1-one and methyl 2,3-dihydroxy-2-(p-tolyl)butanoate + H2SO4 ---> B in Pinacol-Pinacolone reactions.",
+    "Find reactants/products: A + H2SO4 ---> 2,2-di-p-tolylcyclohexan-1-one & methyl 2,3-dihydroxy-2-(p-tolyl)butanoate + H2SO4 ---> B.",
+    "Solve for A and B: A + H2SO4 ---> 2,2-di-p-tolylcyclohexan-1-one & methyl 2,3-dihydroxy-2-(p-tolyl)butanoate ---> B.",
+    "Find A & B in given Pinacol-Pinacolone reactions."
+  ],
+  "rectXfsCM1dj4Kv2c": [
+    "How many stereoisomers exist for 6-chloro-9-ethyl-2-methylundeca-3,7-dien-5-ol?",
+    "Find total stereoisomers of 6-chloro-9-ethyl-2-methylundeca-3,7-dien-5-ol",
+    "Count stereoisomers: 6-chloro-9-ethyl-2-methylundeca-3,7-dien-5-ol",
+    "Stereoisomers in C6H9ClOH with 2 alkenes?",
+    "# of stereoisomers?"
+  ],
+  "rectlyG9pCAAuWhoB": [
+    "What's the major product when 5-fluorocyclopenta-1,3-diene reacts with maleic anhydride?",
+    "What product forms from 5-fluorocyclopenta-1,3-diene + maleic anhydride reaction?",
+    "Major product: 5-fluorocyclopenta-1,3-diene + maleic anhydride?",
+    "Product of F-cyclopentadiene + maleic anhydride?",
+    "F-CPD + MA product?"
+  ],
+  "recuYEkVjdVUwA3c0": [
+    "Consider proton-antiproton annihilation: $p+\\bar{p}\\rightarrow2A^{+}+2A^{-}$. With slow antiproton and $m_{A}c^{2}=300MeV$, what's particle A's velocity?",
+    "For $p+\\bar{p}\\rightarrow2A^{+}+2A^{-}$ annihilation with slow antiproton and $m_{A}c^{2}=300MeV$, find A's velocity?",
+    "In $p+\\bar{p}\\rightarrow2A^{+}+2A^{-}$ with $m_{A}c^{2}=300MeV$, what's A's velocity?",
+    "Find velocity of A where $p+\\bar{p}\\rightarrow2A^{+}+2A^{-}$, $m_{A}c^{2}=300MeV$",
+    "$p+\\bar{p}\\rightarrow2A^{+}+2A^{-}$, velocity of A?"
+  ],
+  "recuyeuT5rQ6qDt8F": [
+    "Five binary fluorine compounds with Y exist. Red A1 decomposes at 293K to A2 (\u0277F=31.96%) and fluorine. A1 oxidizes xenon normally. A3 reacts with xenon too and forms via Y fluorination. Adding Y to hot A4 solution (1:1) yields A5, which decomposes in water. Find A4's molecular weight range.",
+    "Five Y-F compounds exist. Red A1 breaks down at 293K to A2 (\u0277F=31.96%) and F2. A1 oxidizes Xe. A3 reacts with Xe and forms from Y+F2. Y+A4 (1:1) makes A5, which splits in H2O. Find A4's MW range.",
+    "Red A1 decomposes to A2 (\u0277F=31.96%) and F2. A1 and A3 react with Xe. A3 forms from Y+F2. Y+A4 makes A5. What's A4's molecular weight range?",
+    "A1 breaks to A2 (\u0277F=31.96%) + F2. A3 forms from Y+F2. Y+A4 makes A5. Find A4's MW range.",
+    "A2 has \u0277F=31.96%. What's A4's MW range?"
+  ],
+  "recv7GsQg3f0fvB1f": [
+    "Analyzing a peptidic compound, its 1H NMR shows two peaks for one alpha-proton with similar shifts and equal integrals (total 1H). LC-MS at high temp shows two equal peaks with identical mass spectra matching expected molecule. Spin-spin coupling ruled out. What explains these observations?",
+    "A peptidic compound's NMR shows doubled alpha-proton peaks (equal integrals, total 1H). LC-MS reveals two equal peaks with same mass. Spin-coupling excluded. What's causing this?",
+    "NMR shows doubled alpha-proton peaks (total 1H), and LC-MS shows two identical peaks with same mass. What explains this pattern?",
+    "Why does this peptide show doubled peaks in both NMR and LC-MS with identical masses?",
+    "Why two identical peaks in peptide's NMR/LC-MS?"
+  ],
+  "recvZlMbpPz0yLDle": [
+    "A compound (C8H9NO) with NMR data: 9.72 (t, 1H), 6.98 (d, 2H), 6.51 (d, 2H), 6.27 (bs, 2H), 3.66 (d, 2H) reacts with NaNO2+HCl, H2O, then aq. KOH/Heat. ID final product.",
+    "C8H9NO compound with NMR: 9.72(t,1H), 6.98(d,2H), 6.51(d,2H), 6.27(bs,2H), 3.66(d,2H) reacts: NaNO2+HCl, H2O, KOH/Heat. ID product.",
+    "C8H9NO, NMR: 9.72(t,1H), 6.98(d,2H), 6.51(d,2H), 6.27(bs,2H), 3.66(d,2H). Reacts: NaNO2+HCl, H2O, KOH/Heat. Product?",
+    "C8H9NO + NMR data reacts with NaNO2+HCl, H2O, KOH/Heat. ID final product?",
+    "ID product: C8H9NO \u2192 NaNO2/HCl \u2192 H2O \u2192 KOH/Heat"
+  ],
+  "recvlnu8BuLmXZhSX": [
+    "Calculate probability of measuring 0 at time t for system with state (-1,2,1) and observable P with rows (0,1/\u221a2,0), (1/\u221a2,0,1/\u221a2), (0,1/\u221a2,0).",
+    "Find probability of 0 measurement at t for state (-1,2,1) and matrix P with rows (0,1/\u221a2,0), (1/\u221a2,0,1/\u221a2), (0,1/\u221a2,0).",
+    "Calculate probability of 0 for state (-1,2,1) and matrix P [(0,1/\u221a2,0), (1/\u221a2,0,1/\u221a2), (0,1/\u221a2,0)].",
+    "Find P(0) for state (-1,2,1) and matrix P [(0,1/\u221a2,0), (1/\u221a2,0,1/\u221a2), (0,1/\u221a2,0)].",
+    "P(0) for (-1,2,1) & P[(0,1/\u221a2,0),(1/\u221a2,0,1/\u221a2),(0,1/\u221a2,0)]?"
+  ],
+  "recw4rROcnHKNZhtK": [
+    "After treating Saccharomyces cerevisiae with a quorum-sensing peptide from Lactobacillus acidophilus, shmoo formation was observed. Using chromatin immunoprecipitation and mass spectrometry to analyze the shmoo's active chromatin proteome, which protein complex will show minimal presence?",
+    "When S. cerevisiae is treated with a bacterial quorum-sensing peptide, shmoo forms. After analyzing shmoo's active chromatin via ChIP-MS, which protein complex will be least represented?",
+    "After treating yeast with bacterial peptide causing shmoo formation, which protein complex shows minimal presence in ChIP-MS analysis of active chromatin?",
+    "Which protein complex is least present in shmoo chromatin after treating yeast with bacterial peptide?",
+    "Which protein complex is minimal in shmoo chromatin?"
+  ],
+  "recxTy0x7M6T9ikc0": [
+    "What products form when: dimethyl malonate + methyl (E)-3-(p-tolyl)acrylate + (NaOEt, EtOH) -->(A), 1-(cyclohex-1-en-1-yl)piperidine + (E)-but-2-enenitrile + (MeOH, H3O+) --> (B), and C + but-3-en-2-one + (KOH, H2O) ---> 2-(3-oxobutyl)cyclohexane-1,3-dione in Michael addition reactions?",
+    "Find products of Michael additions: dimethyl malonate + methyl (E)-3-(p-tolyl)acrylate (NaOEt/EtOH), 1-(cyclohex-1-en-1-yl)piperidine + (E)-but-2-enenitrile (MeOH/H3O+), C + but-3-en-2-one (KOH/H2O)?",
+    "Determine products A & B for Michael additions: dimethyl malonate + methyl (E)-3-(p-tolyl)acrylate, 1-(cyclohex-1-en-1-yl)piperidine + (E)-but-2-enenitrile, given conditions?",
+    "Find products of Michael reactions: dimethyl malonate + (E)-3-(p-tolyl)acrylate, cyclohex-piperidine + but-2-enenitrile?",
+    "Products of Michael additions: malonate + acrylate, piperidine + enenitrile?"
+  ],
+  "recxsX66ktJ1Lwt4f": [
+    "A chemist finds an unknown white solid and collects spectral data: Mass shows m/z=156 (100%), 158 (32%); IR has broad 3500-2700 cm^-1 peak, sharp 1720 cm^-1; 1H NMR shows 11.0 ppm (s,1H), 8.02 ppm (d,2H), 7.72 (d,2H). Identify structure?",
+    "Unknown white solid spectral data: Mass m/z=156 (100%), 158 (32%); IR: 3500-2700 cm^-1, 1720 cm^-1; 1H NMR: 11.0 ppm (s,1H), 8.02 ppm (d,2H), 7.72 (d,2H). ID structure?",
+    "Identify structure from spectra: Mass m/z=156 (100%), 158 (32%); IR: 3500-2700, 1720 cm^-1; NMR: 11.0(s,1H), 8.02(d,2H), 7.72(d,2H)",
+    "ID structure: m/z=156(100%), 158(32%); IR: 3500-2700, 1720; NMR: 11.0(s,1H), 8.02(d,2H), 7.72(d,2H)",
+    "Structure? m/z=156,158; IR: 3500-2700,1720; NMR: 11.0,8.02,7.72"
+  ],
+  "recypVp2NmPlBKVTp": [
+    "An outbreak of viral infectious disease hit your city. You need to design a molecular diagnostic kit for quick detection of this retrovirus. How would you design this kit?",
+    "A viral disease outbreak is in your city. You must design a molecular diagnostic kit for quick retrovirus detection. How would you do it?",
+    "Design a molecular diagnostic kit for quick detection of a retrovirus outbreak in your city. How?",
+    "How would you create a diagnostic kit for retrovirus detection?",
+    "Design retrovirus detection kit?"
+  ],
+  "recyl3usDqb7ruXJx": [
+    "A chemist does 2 reactions: (E)-oct-4-ene + mCPBA + acid, and (Z)-oct-4-ene + mCPBA + acid, both at 100% yield. After combining products, what's seen when run on standard HPLC and chiral HPLC columns with max resolution?",
+    "Two reactions: (E)-oct-4-ene + mCPBA + acid and (Z)-oct-4-ene + mCPBA + acid at 100%. Products combined. What appears on standard vs chiral HPLC at max resolution?",
+    "(E) and (Z)-oct-4-ene each react with mCPBA + acid. Combined products analyzed on standard and chiral HPLC. What's observed?",
+    "Products from (E)/(Z)-oct-4-ene + mCPBA/acid reactions: what shows on regular/chiral HPLC?",
+    "What do (E)/(Z)-oct-4-ene reaction products show on HPLC?"
+  ],
+  "reczQ4I0VpENdMtIj": [
+    "In an inactive state, a transcription factor needs phosphorylation to dimerize, enter nucleus, and aid transcription. Mutation X in transactivation domain is recessive loss-of-function. Mutation Y in dimerization domain is dominant-negative. What molecular phenotype likely occurs with mutation Y?",
+    "A transcription factor requires phosphorylation to dimerize and enter nucleus for transcription. With recessive mutation X in transactivation domain and dominant-negative mutation Y in dimerization domain, what's the likely phenotype?",
+    "Transcription factor needs phosphorylation to dimerize and function. Mutation X is recessive, Y is dominant-negative. What molecular phenotype results from mutation Y?",
+    "With dominant-negative mutation Y in dimerization domain of transcription factor, what molecular phenotype occurs?",
+    "What phenotype results from dominant-negative dimerization mutation Y?"
+  ],
+  "reczUoM8JsxU6pYxr": [
+    "Quasar observations show peak at 790 nm wavelength with flux drop at shorter wavelengths. In Lambda-CDM universe with H0=70 km/s/Mpc, matter density 0.3, dark energy 0.7, and flat geometry, what's the comoving distance (a=1) from Earth?",
+    "Quasar peak observed at 790 nm with flux drop below. Given Lambda-CDM model: H0=70 km/s/Mpc, matter=0.3, dark energy=0.7, flat universe, what's comoving distance (a=1)?",
+    "Quasar peaks at 790 nm wavelength. In Lambda-CDM universe (H0=70, matter=0.3, dark energy=0.7), what's comoving distance?",
+    "Quasar w/ 790 nm peak. Lambda-CDM params: H0=70, matter=0.3, dark energy=0.7. Comoving distance?",
+    "790 nm quasar peak. H0=70, \u03a9m=0.3, \u03a9\u039b=0.7. Distance?"
+  ],
+  "reczjcMtrB1YGS2fO": [
+    "Consider an N-sided polygon aperture with equal apothems of length a. When monochromatic light (wavelength \u03bb) falls vertically along z-axis, it creates intensity patterns. Find angular distance between first two minima as N\u2192\u221e, using small angle approximation.",
+    "N-sided polygon aperture with equal apothems (length a) has monochromatic light (\u03bb) falling vertically. Find angular gap between first two minima when N\u2192\u221e, using small angles.",
+    "Polygon aperture (N\u2192\u221e) with apothem a receives vertical light (\u03bb). Calculate angular separation of first two minima using small angle approximation.",
+    "Find angular distance between first two minima for circular aperture (a) with \u03bb light, small angles.",
+    "Angular gap between first minima? N\u2192\u221e, \u03bb light, a=apothem."
+  ],
+  "recyPffUDqC2k7ZZO": [
+    "Given operator $\\vec{P}$ with components $P_x, P_y, P_z$. $P_x$ matrix has rows $(0,\\hbar/\\sqrt{2},0)$, $(\\hbar/\\sqrt{2},0,\\hbar/\\sqrt{2})$, $(0,\\hbar/\\sqrt{2},0)$. $P_y$ matrix has rows $(0,-i\\hbar/\\sqrt{2},0)$, $(i\\hbar/\\sqrt{2},0,-i\\hbar/\\sqrt{2})$, $(0,i\\hbar/\\sqrt{2},0)$. $P_z$ matrix has rows $(\\hbar,0,0)$, $(0,0,0)$, $(0,0,-\\hbar)$. System state is $(-1/2,1/\\sqrt{2},-1/2)$. Find $\\Delta P_z$.",
+    "Operator $\\vec{P}$ matrices: $P_x[(0,\\hbar/\\sqrt{2},0),(\\hbar/\\sqrt{2},0,\\hbar/\\sqrt{2}),(0,\\hbar/\\sqrt{2},0)]$, $P_y[(0,-i\\hbar/\\sqrt{2},0),(i\\hbar/\\sqrt{2},0,-i\\hbar/\\sqrt{2}),(0,i\\hbar/\\sqrt{2},0)]$, $P_z[(\\hbar,0,0),(0,0,0),(0,0,-\\hbar)]$. State: $(-1/2,1/\\sqrt{2},-1/2)$. Find $\\Delta P_z$.",
+    "Given matrices $P_x$, $P_y$, $P_z$ and state vector $(-1/2,1/\\sqrt{2},-1/2)$. $P_z$ has rows $(\\hbar,0,0)$, $(0,0,0)$, $(0,0,-\\hbar)$. Calculate $\\Delta P_z$.",
+    "For state $(-1/2,1/\\sqrt{2},-1/2)$ and $P_z$ matrix $[(\\hbar,0,0),(0,0,0),(0,0,-\\hbar)]$, find $\\Delta P_z$.",
+    "Find $\\Delta P_z$ for state $(-1/2,1/\\sqrt{2},-"
+  ],
+  "reczzzihL7btBH7RO": [
+    "While designing an electron microscope at 1000 kV, Mike created ultra-high vacuum (<10^-9 Torr) in the sample compartment. He measured the gas molecules' mean free path as \u03bb1. However, after initiating the electron beam, he observed the mean free path changed to \u03bb2, despite constant temperature. What can we conclude about \u03bb2?",
+    "In an electron microscope (1000 kV) with ultra-high vacuum (<10^-9 Torr), the gas molecules' mean free path was \u03bb1. When the electron beam was initiated, it changed to \u03bb2 at constant temperature. What can we conclude about \u03bb2?",
+    "In a 1000 kV microscope with vacuum (<10^-9 Torr), gas molecules' mean free path \u03bb1 changed to \u03bb2 when electron beam started. What's \u03bb2?",
+    "In vacuum microscope, mean free path changed from \u03bb1 to \u03bb2 when electron beam activated. Compare \u03bb2 to \u03bb1?",
+    "How does \u03bb2 compare to \u03bb1 after electron beam activation?"
+  ],
+  "rec0VuKUjt1SZ7NYv": [
+    "What's the area of pseudosphere radius r=2 given metric ds^{2}=\\frac{32}{\\left(4-x^{2}-y^{2}\\right)}\\left(dx^{2}+dy^{2}\\right)?",
+    "Find pseudosphere area (r=2) with ds^{2}=\\frac{32}{\\left(4-x^{2}-y^{2}\\right)}\\left(dx^{2}+dy^{2}\\right)",
+    "Calculate area of r=2 pseudosphere: ds^{2}=\\frac{32}{\\left(4-x^{2}-y^{2}\\right)}\\left(dx^{2}+dy^{2}\\right)",
+    "Area of r=2 pseudosphere w/ given metric?",
+    "Pseudosphere area (r=2)?"
+  ],
+  "rec1oj2DveQWl9Rpw": [
+    "How many cm3 of 0.1 M monobasic strong acid is needed to dissolve 0.1 g Fe(OH)3 in 100 cm3 total volume at 25\u00b0\u0421, and what's the resulting pH?",
+    "What volume of 0.1 M strong acid dissolves 0.1 g Fe(OH)3 in 100 cm3 total volume, and what's the final pH?",
+    "Min volume of 0.1 M strong acid to dissolve 0.1 g Fe(OH)3 in 100 cm3? What's solution pH?",
+    "0.1 M acid volume needed for 0.1 g Fe(OH)3/100 cm3? Final pH?",
+    "0.1 M acid for 0.1g Fe(OH)3? pH?"
+  ],
+  "rec32C1ZEapBnCC0E": [
+    "Two binary star systems show eclipses: system_1 (period 2 years) and system_2 (period 1 year). System_1's stars have radial velocity amplitudes of 10 km/s and 5 km/s, while system_2's are 15 km/s and 10 km/s. How many times more massive is system_1 than system_2?",
+    "Binary systems system_1 (2-year period) and system_2 (1-year period) have radial velocity amplitudes of 10 km/s, 5 km/s and 15 km/s, 10 km/s respectively. Find system_1's mass factor over system_2.",
+    "Compare two binary systems: system_1 (period=2yr, RV=10,5 km/s) and system_2 (period=1yr, RV=15,10 km/s). What's system_1's mass factor vs system_2?",
+    "Binary systems: system_1 (2yr, 10,5 km/s) vs system_2 (1yr, 15,10 km/s). Mass factor ratio?",
+    "system_1(2yr,10,5km/s):system_2(1yr,15,10km/s). Mass ratio?"
+  ],
+  "rec47oNPXudlTIk4y": [
+    "A scientist aims to create branched polymers from ethylene using dual catalysts. Given statements about VIa metals, Al-based activators, and noble metals in industrial processes, which statement correctly describes branched polymer formation using only ethylene and two catalysts?",
+    "A researcher plans to make branched polymers using ethylene and dual catalysts. Based on info about VIa metals, Al activators, and noble metals, which statement accurately describes this branched polymer formation?",
+    "Which statement about making branched polymers from ethylene with dual catalysts is correct, considering VIa metals, Al activators, and noble metal options?",
+    "Which info about dual-catalyst branched polymer formation from ethylene is correct - VIa metals, Al activators, or noble metals?",
+    "Which fact about dual-catalyst branched polyethylene synthesis is correct?"
+  ],
+  "rec6sE2CRtD4drtHg": [
+    "What's the approximate mass of pseudo-Goldstone boson H\u2082 through radiative corrections in SM extension with Lagrangian containing singlet fermions N_iR~(1,1,0), scalar-doublet S~(1,2,1), singlet scalar \u03c6~(1,1,0), where \u27e8\u03c6\u27e9\u00b2=(x\u00b2+\u03c5\u00b2), \u27e8\u03c6\u27e9=x, \u27e8h\u27e9=v?",
+    "Calculate approximate mass of pseudo-Goldstone H\u2082 via radiative corrections in SM extension w/ Lagrangian having N_iR~(1,1,0), S~(1,2,1), \u03c6~(1,1,0), where \u27e8\u03c6\u27e9\u00b2=(x\u00b2+\u03c5\u00b2), \u27e8\u03c6\u27e9=x, \u27e8h\u27e9=v?",
+    "Find H\u2082 pseudo-Goldstone boson mass through radiative corrections in SM extension w/ given fermions, scalars where \u27e8\u03c6\u27e9\u00b2=(x\u00b2+\u03c5\u00b2), \u27e8\u03c6\u27e9=x, \u27e8h\u27e9=v?",
+    "Calculate H\u2082 pseudo-Goldstone mass via radiative corrections w/ given parameters \u27e8\u03c6\u27e9\u00b2=(x\u00b2+\u03c5\u00b2), \u27e8\u03c6\u27e9=x, \u27e8h\u27e9=v?",
+    "Find H\u2082 pseudo-Goldstone mass w/ radiative corrections?"
+  ],
+  "recAYkd96NNuNl1Ei": [
+    "What are the most common sources of hard-to-detect errors in genomics data analysis: mutually incompatible formats, \"chr\"/\"no chr\" confusion, reference assembly mismatch, or incorrect ID conversion?",
+    "What are the main causes of hard-to-spot errors in genomics analysis: incompatible formats, chr/no chr issues, assembly mismatch, or ID conversion?",
+    "What causes hidden errors in genomics: format conflicts, chr prefix issues, assembly mismatch, or ID errors?",
+    "Main sources of genomics errors: formats, chr prefix, assembly, or ID issues?",
+    "Top genomics error sources?"
+  ],
+  "rec9W28HgpEUeUN8k": [
+    "Calculate non-Gaussianity(nG) in Schr\u00f6dinger cat state |psi> =( cos(phi)|alpha> + sin(phi)|-alpha> )/ N using relative entropy del_b = [trace(rho* ln(rho))-trace(tau* ln(tau))], where N = sqrt(1+ sin(2*phi)*exp(-2*alpha^2)), for phi=-pi/4, alpha=0.5.",
+    "Find non-Gaussianity in cat state |psi> =( cos(phi)|alpha> + sin(phi)|-alpha> )/ N using del_b = [trace(rho* ln(rho))-trace(tau* ln(tau))], N = sqrt(1+ sin(2*phi)*exp(-2*alpha^2)), phi=-pi/4, alpha=0.5.",
+    "Calculate nG for cat state |psi> =( cos(phi)|alpha> + sin(phi)|-alpha> )/ N, where N = sqrt(1+ sin(2*phi)*exp(-2*alpha^2)), using del_b = [trace(rho* ln(rho))-trace(tau* ln(tau))], phi=-pi/4, alpha=0.5.",
+    "Find nG for cat state |psi> =( cos(phi)|alpha> + sin(phi)|-alpha> )/ N using del_b measure, phi=-pi/4, alpha=0.5.",
+    "Calculate nG for cat state using del_b, phi=-pi/4, alpha=0.5."
+  ],
+  "recE2ihVfqEK4R9d0": [
+    "Find the expectation value of S_y for electron in spin state (3i, 4), given \\sigma_y matrix is [0, -i; i, 0].",
+    "Calculate S_y expectation value for spin state (3i, 4) using \\sigma_y = [0, -i; i, 0].",
+    "Find S_y expectation value for state (3i, 4), \\sigma_y = [0, -i; i, 0].",
+    "Calculate S_y for state (3i, 4), \\sigma_y=[0,-i;i,0].",
+    "S_y for (3i,4), \\sigma_y given."
+  ],
+  "recBhnXrUyTJ6WHIR": [
+    "Study nuclear decay: 2A -> 2B + 2E + 2V, where A nucleons convert to B, emitting E and V particles. Total E particle energy spectrum is continuous with endpoint Q. How does E energy spectrum compare when 2V is replaced by one massless M particle?",
+    "Compare nuclear decay 2A -> 2B + 2E + 2V with variant where 2V is replaced by massless M. How does E particle energy spectrum differ, given original has endpoint Q?",
+    "Nuclear decay 2A -> 2B + 2E + 2V has continuous E energy spectrum (endpoint Q). How differs when 2V replaced by one M?",
+    "Compare E energy spectrum: 2A -> 2B + 2E + 2V vs 2A -> 2B + 2E + M. Original endpoint Q.",
+    "How differs: E spectrum in 2A->2B+2E+2V vs +M decay?"
+  ],
+  "recGee5m84dg5FZkc": [
+    "Substances 1-6 undergo electrophilic substitution with excess Br2 forming monobromo derivatives: C6H5-CH3, C6H5-COOC2H5, C6H5-Cl, C6H5-NO2, C6H5-C2H5, C6H5-COOH. Order by increasing para-isomer yield.",
+    "Six benzene derivatives react with excess Br2 (monobromo products): C6H5-CH3, C6H5-COOC2H5, C6H5-Cl, C6H5-NO2, C6H5-C2H5, C6H5-COOH. Order by para-isomer yield.",
+    "Order these compounds by increasing para-isomer yield in Br2 reaction: C6H5-CH3, C6H5-COOC2H5, C6H5-Cl, C6H5-NO2, C6H5-C2H5, C6H5-COOH.",
+    "Rank by para-isomer yield (Br2 reaction): C6H5-CH3, C6H5-COOC2H5, C6H5-Cl, C6H5-NO2, C6H5-C2H5, C6H5-COOH.",
+    "Order by para-bromination yield: C6H5-CH3/COOC2H5/Cl/NO2/C2H5/COOH"
+  ],
+  "recINGR1z01Fh1Z3A": [
+    "Iron atoms in star_1's photosphere are twice as excited as those in star_2, with energy difference 1.38x10^(-23) J between levels. Given photospheres in LTE, which equation for effective temperatures T_1 and T_2 is correct?",
+    "Iron atoms show 2x excitation in star_1 vs star_2, energy diff 1.38x10^(-23) J. With LTE photospheres, which T_1 and T_2 equation works?",
+    "Iron atoms 2x excited in star_1 vs star_2, E=1.38x10^(-23) J. In LTE, which T_1/T_2 equation valid?",
+    "Stars w/ 2x iron excitation diff, E=1.38x10^(-23) J. Which T_1/T_2 equation?",
+    "2x excitation, E=1.38x10^(-23) J. T_1/T_2=?"
+  ],
+  "recJpyGtGIsxulevT": [
+    "If electron's location uncertainty is \u0394x=0.1 nm while traveling at v=2*10^8 m/s along x-direction, find minimum uncertainty in energy \u0394E.",
+    "For electron moving at v=2*10^8 m/s with position uncertainty \u0394x=0.1 nm, calculate minimum energy uncertainty \u0394E.",
+    "Electron with v=2*10^8 m/s, \u0394x=0.1 nm, find minimum \u0394E.",
+    "Find min \u0394E: electron, v=2*10^8 m/s, \u0394x=0.1 nm.",
+    "Calc min \u0394E: v=2E8, \u0394x=0.1nm"
+  ],
+  "recLB0EkQ54bYVhnd": [
+    "A nucleus (M) at rest with 300 GeV rest energy splits into 2 fragments, one 2x more massive than other. Sum of fragment rest-masses is 99% of M. Find difference between relativistic and classical kinetic energy T1 of heavier fragment. (Ignore electrons)",
+    "Nucleus (300 GeV rest energy) splits into 2 fragments (2:1 mass ratio). Fragment rest-masses total 99% of initial. Find difference between relativistic vs classical T1 of heavier piece.",
+    "300 GeV nucleus splits to 2 parts (2:1 mass ratio), total rest-mass 99% original. Calculate relativistic minus classical T1 of bigger fragment.",
+    "300 GeV nucleus \u2192 2 parts (2:1 ratio), 99% mass preserved. Find relativistic-classical T1 difference.",
+    "300 GeV \u2192 2 parts (2:1). Find \u0394T1 (rel-class)."
+  ],
+  "recMicVBcqy1xM1jq": [
+    "For oscillating spheroid charge (z-axis symmetric), radiating at wavelength \u03bb, power/solid angle in radiation zone is f(\u03bb,\u03b8). If max power is A, find fraction of A at \u03b8=30\u00b0 and possible f form.",
+    "Oscillating spheroid charge radiates at \u03bb, power/solid angle = f(\u03bb,\u03b8). Given max power A, find fraction at \u03b8=30\u00b0 and possible f.",
+    "Spheroid charge radiates power f(\u03bb,\u03b8)/solid angle, max power A. Find fraction at \u03b8=30\u00b0 and f form.",
+    "Find fraction of max power A at \u03b8=30\u00b0 and f(\u03bb,\u03b8) for radiating spheroid charge.",
+    "Find power fraction at \u03b8=30\u00b0 and f(\u03bb,\u03b8)."
+  ],
+  "recPIzpnuYpB4yvmp": [
+    "Given system state (-1,2,1) at time t and operators P [(0,1/\u221a2,0), (1/\u221a2,0,1/\u221a2), (0,1/\u221a2,0)] and Q [(1,0,0), (0,0,0), (0,0,-1)], find probability of measuring P=0 then Q=-1.",
+    "For state (-1,2,1) with P [(0,1/\u221a2,0), (1/\u221a2,0,1/\u221a2), (0,1/\u221a2,0)] and Q [(1,0,0), (0,0,0), (0,0,-1)], what's P(P=0, Q=-1)?",
+    "State (-1,2,1), matrices P [(0,1/\u221a2,0), (1/\u221a2,0,1/\u221a2), (0,1/\u221a2,0)] & Q [(1,0,0), (0,0,0), (0,0,-1)]. P(P=0,Q=-1)?",
+    "State (-1,2,1), P[(0,1/\u221a2,0),(1/\u221a2,0,1/\u221a2),(0,1/\u221a2,0)], Q[(1,0,0),(0,0,0),(0,0,-1)]. P(P=0,Q=-1)?",
+    "(-1,2,1), P&Q matrices given. P(P=0,Q=-1)?"
+  ],
+  "recRZjaElf8ft7xTq": [
+    "Astronomers study 2 stars. Star_1's radius & mass are 1.5x Star_2's. Both stars peak at same wavelength. Star_1's radial velocity=0, Star_2's=700km/s. Stars are black bodies. How many times greater is Star_1's luminosity vs Star_2's?",
+    "Compare 2 stars: Star_1 (radius & mass 1.5x Star_2's). Same peak wavelength. Star_1: v=0, Star_2: v=700km/s. As black bodies, find luminosity ratio Star_1:Star_2.",
+    "Star_1 has 1.5x radius & mass of Star_2. Same peak wavelength. V1=0, V2=700km/s. Both black bodies. Find luminosity ratio.",
+    "Star_1: 1.5x radius/mass of Star_2. Same \u03bb peak. V1=0, V2=700km/s. Find L1/L2.",
+    "Star_1=1.5x Star_2 size/mass. Find L1/L2 ratio."
+  ],
+  "recReg13iV2HwJTaA": [
+    "Given Lagrangian \\mathcal{L}_{int}=\\kappa\\bar{\\psi}\\sigma_{\\mu\\nu}\\psi F^{\\mu\\nu}, where \\sigma_{\\mu\\nu}=\\frac{i}{2}\\left[\\gamma_{\\mu},\\gamma_{\\nu}\\right], find mass dimension of \\kappa and determine renormalizability.",
+    "For \\mathcal{L}_{int}=\\kappa\\bar{\\psi}\\sigma_{\\mu\\nu}\\psi F^{\\mu\\nu}, \\sigma_{\\mu\\nu}=\\frac{i}{2}\\left[\\gamma_{\\mu},\\gamma_{\\nu}\\right], what's \\kappa's mass dimension? Is it renormalizable?",
+    "Find mass dimension of \\kappa in \\mathcal{L}_{int}=\\kappa\\bar{\\psi}\\sigma_{\\mu\\nu}\\psi F^{\\mu\\nu} and check renormalizability.",
+    "Determine \\kappa's mass dimension and renormalizability in \\mathcal{L}_{int}=\\kappa\\bar{\\psi}\\sigma_{\\mu\\nu}\\psi F^{\\mu\\nu}.",
+    "Find \\kappa's dimension and renormalizability."
+  ],
+  "recUc29lMDBEvurYo": [
+    "Consider 13 identical particles with charge 2e and negligible mass, where 12 charges are fixed 2m from point P and one charge is at P. Find minimum energy (J) to 3 decimals.",
+    "13 particles with charge 2e: 12 fixed 2m from point P, one at P. Calculate minimum energy in Joules (3 decimals).",
+    "13 charges (2e each): 12 at 2m from P, one at P. Find min energy (J) to 3 decimals.",
+    "12 charges 2e at 2m from P, 1 at P. Min energy (J)?",
+    "12 2e@2m from P, 1@P. Min E?"
+  ],
+  "recRhwQwHijW0gCLo": [
+    "Consider matrices W=(0,0,1;0,1,0;1,0,0), X=(i,-1,2i;1,0,1;2i,-1,-i), Y=(0.5,0.1,0.2;0.1,0.25,0.1;0.2,0.1,0.25), Z=(3,2i,5;-2i,-2,-4i;5,4i,4), where rows are separated by semicolons. Choose correct statement.",
+    "Given matrices W=(0,0,1;0,1,0;1,0,0), X=(i,-1,2i;1,0,1;2i,-1,-i), Y=(0.5,0.1,0.2;0.1,0.25,0.1;0.2,0.1,0.25), Z=(3,2i,5;-2i,-2,-4i;5,4i,4), select correct statement.",
+    "For matrices W=(0,0,1;0,1,0;1,0,0), X=(i,-1,2i;1,0,1;2i,-1,-i), Y=(0.5,0.1,0.2;0.1,0.25,0.1;0.2,0.1,0.25), Z=(3,2i,5;-2i,-2,-4i;5,4i,4), which statement true?",
+    "Which statement true for matrices W=(0,0,1;0,1,0;1,0,0), X=(i,-1,2i;1,0,1;2i,-1,-i), Y&Z given?",
+    "Which statement true for given matrices W,X,Y,Z?"
+  ],
+  "recVE8cUNHpHZIAvL": [
+    "If pp-III branch stopped in Sun's core 8.5 mins ago while other reactions continued, what's the ratio of neutrino flux between 700-800 KeV (band 1) and 800-900 keV (band 2)? Flux(band 1)/flux(band 2)? Note: Only pp-III stopped, not others. Neutrino flavor changes irrelevant.",
+    "If pp-III branch stopped in Sun 8.5 mins ago but other reactions continued, what's the ratio of neutrino flux between 700-800 KeV vs 800-900 keV bands? Flux(band 1)/flux(band 2)?",
+    "What's the flux ratio between 700-800 KeV and 800-900 keV neutrinos if pp-III branch stopped 8.5 mins ago? Other reactions unchanged.",
+    "Calculate flux ratio: 700-800 KeV vs 800-900 keV neutrinos after pp-III branch stopped. Other reactions continue.",
+    "Ratio of 700-800 vs 800-900 keV neutrino flux after pp-III stop?"
+  ],
+  "recWXwn9v4IG9ZrM6": [
+    "The Mott-Gurney equation (J = 9/8 \u03f5\u03bcV\u00b2/L\u00b3) describes semiconductor dark current vs voltage in SCLC regime, where \u03f5 is dielectric constant, \u03bc is carrier mobility, and L is device length. What's true about its validity?",
+    "The Mott-Gurney equation (J = 9/8 \u03f5\u03bcV\u00b2/L\u00b3) describes semiconductor dark current in SCLC regime, with \u03f5, \u03bc, and L parameters. What's true about when it's valid?",
+    "What's true about the validity of the Mott-Gurney equation (J = 9/8 \u03f5\u03bcV\u00b2/L\u00b3) for semiconductor dark current in SCLC regime?",
+    "What's true about when the Mott-Gurney equation (J = 9/8 \u03f5\u03bcV\u00b2/L\u00b3) is valid?",
+    "When is Mott-Gurney equation valid?"
+  ],
+  "recXsYa3i2UhGF5fe": [
+    "What's the index of hydrogen deficiency when 2-formyl-5-vinylcyclohex-3-enecarboxylic acid reacts with red phosphorus and excess HI?",
+    "Find the hydrogen deficiency index after 2-formyl-5-vinylcyclohex-3-enecarboxylic acid reacts with red P and excess HI?",
+    "Calculate H-deficiency index when 2-formyl-5-vinylcyclohex-3-enecarboxylic acid + red P + excess HI?",
+    "H-deficiency index: 2-formyl-5-vinylcyclohex-3-enecarboxylic acid + P + HI?",
+    "H-deficiency: formylvinylcyclohexene + P/HI?"
+  ],
+  "recYCMJWH7IpcdqwE": [
+    "Which reaction sequence from these options would give high-yield synthesis of 2-(tert-butyl)-1-ethoxy-3-nitrobenzene from benzene?",
+    "What reaction sequence produces 2-(tert-butyl)-1-ethoxy-3-nitrobenzene from benzene with high yield?",
+    "Which reactions synthesize 2-(tert-butyl)-1-ethoxy-3-nitrobenzene from benzene?",
+    "How to make 2-(tert-butyl)-1-ethoxy-3-nitrobenzene from benzene?",
+    "Benzene \u2192 2-(tert-butyl)-1-ethoxy-3-nitrobenzene?"
+  ],
+  "recb80OwMgNnceA9t": [
+    "Determine product formed when (1S,4R)-2-vinyl-2-azabicyclo[2.2.1]hept-5-ene does Cope rearrangement",
+    "What product results from Cope rearrangement of (1S,4R)-2-vinyl-2-azabicyclo[2.2.1]hept-5-ene?",
+    "Product of Cope rearrangement: (1S,4R)-2-vinyl-2-azabicyclo[2.2.1]hept-5-ene?",
+    "Cope rearrangement product of given azabicyclo compound?",
+    "Product after Cope rearrangement?"
+  ],
+  "recfTlTMjZBuOducT": [
+    "Consider a rhombohedral crystal with interatomic distance 10\u00c5 and angles \u03b1=\u03b2=\u03b3=30\u00b0. Find the interplanar distance of (111) plane.",
+    "In a rhombohedral crystal, interatomic distance=10\u00c5, \u03b1=\u03b2=\u03b3=30\u00b0. Calculate (111) interplanar distance.",
+    "Rhombohedral crystal: 10\u00c5 spacing, \u03b1=\u03b2=\u03b3=30\u00b0. Find (111) plane distance.",
+    "Crystal: 10\u00c5, \u03b1=\u03b2=\u03b3=30\u00b0. Find d(111).",
+    "10\u00c5, 30\u00b0 crystal. d(111)?"
+  ],
+  "recatj4YXzbOaq3Ar": [
+    "For Hamiltonian $H = \\varepsilon \\vec{\\sigma}.\\vec{n}$, where $\\vec{n}$ is a unit vector, $\\varepsilon$ is an energy constant, and $\\vec{\\sigma}$ has Pauli matrices, find eigenvalues?",
+    "Find eigenvalues of Hamiltonian $H = \\varepsilon \\vec{\\sigma}.\\vec{n}$, with unit vector $\\vec{n}$, energy constant $\\varepsilon$, and Pauli matrices $\\vec{\\sigma}$?",
+    "Calculate eigenvalues of $H = \\varepsilon \\vec{\\sigma}.\\vec{n}$, where $\\vec{n}$ is unit vector and $\\vec{\\sigma}$ has Pauli matrices?",
+    "Find eigenvalues of $H = \\varepsilon \\vec{\\sigma}.\\vec{n}$ with unit vector $\\vec{n}$?",
+    "Eigenvalues of $H = \\varepsilon \\vec{\\sigma}.\\vec{n}$?"
+  ],
+  "reccVBrYdwsB84fGy": [
+    "Which stars from the list would be detectable by ESPRESSO spectrograph on VLT 8m telescopes at Paranal, with S/N \u2265 10 per binned pixel in 1-hour exposure: Canopus, Polaris, and stars at RA=0\u00b0, DEC=0\u00b0, Abs V mag=15 at distances 10pc, 200pc, 5pc, 50pc?",
+    "Which stars could ESPRESSO/VLT detect (S/N \u2265 10, 1hr exposure): Canopus, Polaris, and stars at RA=0\u00b0, DEC=0\u00b0, V=15 mag at distances 10pc, 200pc, 5pc, 50pc?",
+    "Which stars detectable by ESPRESSO/VLT (S/N \u2265 10, 1hr): Canopus, Polaris, stars w/ RA=0\u00b0, DEC=0\u00b0, V=15 at 10pc, 200pc, 5pc, 50pc?",
+    "ESPRESSO/VLT detectability (S/N \u2265 10, 1hr): Canopus, Polaris, V=15 stars at 10pc, 200pc, 5pc, 50pc?",
+    "ESPRESSO detectability: Canopus, Polaris, V=15 stars @ various distances?"
+  ],
+  "recgC4GJ8wUemlUQD": [
+    "Which of these effective particles is not linked to a spontaneously-broken symmetry?",
+    "Which effective particle isn't associated with spontaneously-broken symmetry?",
+    "Which particle lacks spontaneously-broken symmetry?",
+    "Which particle has no broken symmetry?",
+    "Which particle: no broken sym?"
+  ],
+  "recixxJmdux0d8LZQ": [
+    "Nucleophilic substitution occurs when electron pair donors react with acceptors, requiring leaving groups for sp3 electrophiles. This includes SN1 and SN2 reactions. Elimination reactions remove atom pairs to form double/triple bonds. Rank these nucleophiles from most to least reactive in water: 4-methylcyclohexan-1-olate, hydroxide, propionate, methanol, ethanethiolate.",
+    "Nucleophilic substitution involves electron pair donors and acceptors, with SN1 and SN2 types. Elimination reactions create double/triple bonds. Rank these nucleophiles by reactivity in water: 4-methylcyclohexan-1-olate, hydroxide, propionate, methanol, ethanethiolate.",
+    "Nucleophilic substitution and elimination reactions involve electron transfers. Rank these nucleophiles by reactivity in water: 4-methylcyclohexan-1-olate, hydroxide, propionate, methanol, ethanethiolate.",
+    "Rank these nucleophiles from most to least reactive in water: 4-methylcyclohexan-1-olate, hydroxide, propionate, methanol, ethanethiolate.",
+    "Rank nucleophiles by reactivity: 4-methylcyclohexan-1-olate, OH-, propionate, MeOH, EtS-."
+  ],
+  "reckEnrOPFT9Ru7tW": [
+    "3-(hydroxymethyl)-5-(prop-1-en-2-yl)cyclohexan-1-one reacts with NaH, then benzyl bromide \u2192 product 1. 1 + p-toluenesulfonyl hydrazide/HCl \u2192 2. 2 + n-BuLi, then NH4Cl \u2192 3. 3 + Pd/C/H2 \u2192 4. Structure of 4?",
+    "3-(hydroxymethyl)-5-(prop-1-en-2-yl)cyclohexanone + NaH/BnBr \u2192 1. 1 + TsNHNH2/HCl \u2192 2. 2 + n-BuLi/NH4Cl \u2192 3. 3 + Pd/C/H2 \u2192 4. Structure?",
+    "Starting material + NaH/BnBr \u2192 1. 1 + TsNHNH2/HCl \u2192 2. 2 + n-BuLi/NH4Cl \u2192 3. 3 + Pd/C/H2 \u2192 4. Structure?",
+    "Four-step reaction sequence: NaH/BnBr, TsNHNH2, n-BuLi, Pd/C/H2. Structure of product?",
+    "What's final product after NaH\u2192Pd/C sequence?"
+  ],
+  "recoiTJPGUmzAkief": [
+    "Find electric field E at point P outside a spherical conductor (radius R) with internal cavity (radius r<R), cavity center offset by s from conductor center. +q charge in cavity. P is distance L from conductor center, l from cavity center. Angle between l and s is \u03b8. (l,L > R)",
+    "Calculate E-field at P outside spherical conductor (R) containing cavity (r<R) offset by s. +q charge in cavity. P is L from conductor center, l from cavity center, angle \u03b8 between l,s. (l,L > R)",
+    "Find E at P outside conductor (R) with cavity (r<R, offset s), +q charge inside. P at distance L from conductor center, l from cavity, angle \u03b8. l,L > R",
+    "Calculate E at P outside conductor (R) with cavity (r<R), +q charge inside. P at L from center, l from cavity, angle \u03b8.",
+    "Find E at P outside conductor with cavity, +q inside. L,l > R, angle \u03b8."
+  ],
+  "recwW1A85nfyQpReG": [
+    "In a region of sky, astronomers observe star count varies with parallax as 1/plx^5. How does the number of stars change with distance per unit range of distance, r?",
+    "Astronomers find star count varies as 1/plx^5 with parallax. How does number of stars change with distance per unit range r?",
+    "Star count varies as 1/plx^5 with parallax. How does this relate to stars per unit distance r?",
+    "Given stars \u221d 1/plx^5, find distribution per unit distance r?",
+    "Stars \u221d 1/plx^5, find dN/dr?"
+  ],
+  "recwlwlcPvXVNPmvl": [
+    "Consider 3 spins (S1,S2,S3) with values \u00b11. Energy E= -J[S1S2+S1S3+S2S3]. Find partition function Z where \u03b2=1/kT.",
+    "System has 3 spins (\u00b11). Energy E= -J[S1S2+S1S3+S2S3]. Calculate partition function Z (\u03b2=1/kT).",
+    "3 spins (\u00b11), E= -J[S1S2+S1S3+S2S3]. Find Z where \u03b2=1/kT.",
+    "Find Z for E= -J[S1S2+S1S3+S2S3], 3 spins \u00b11.",
+    "Calc Z: 3 spins \u00b11, E= -J[S1S2+S1S3+S2S3]"
+  ],
+  "recyrk6XBVwugG5u8": [
+    "A planet with 1 Earth radius orbits a 1.5 solar radius star with impact parameter 0.2 and 3-day period. What's the max orbital period for a 2.5 Earth radius planet in same system showing both transit & occultation, assuming circular orbits in same plane?",
+    "Planet 1 (1 Earth radius) orbits 1.5 solar radius star, b=0.2, P=3 days. Find max period for Planet 2 (2.5 Earth radius) showing transit & occultation in same plane?",
+    "1 Earth-radius planet orbits 1.5 solar-radius star (b=0.2, P=3d). Max period for 2.5 Earth-radius planet w/ transit+occultation?",
+    "Planet 1 (R=1Re, P=3d) orbits 1.5Rs star. Max period for 2.5Re planet showing transit+occultation?",
+    "Max period for 2.5Re planet w/transit+occultation? Star=1.5Rs"
+  ],
+  "recywRj5a8EEjj2Ib": [
+    "Consider a relativistic 1D harmonic oscillator with mass m, max amplitude A, obeying F=-kx. Find max speed v_max given speed of light c.",
+    "Find v_max for a relativistic harmonic oscillator (mass m, amplitude A, F=-kx) with light speed c.",
+    "Calculate max speed v_max of relativistic oscillator with mass m, amplitude A, F=-kx.",
+    "Find v_max for relativistic oscillator, mass m, amplitude A.",
+    "Max speed v_max of oscillator?"
+  ],
+  "recz3MfYHPRhsEQkW": [
+    "Compound X has IR (3400-2500, 1720, 1610, 1450 cm-1) & NMR (10.5 bs 1H, 8.0 d 2H, 7.2 d 2H, 2.9 m 1H, 1.7 m 2H, 1.4 d 3H, 0.9 t 3H). ID product after P/HI reaction.",
+    "ID product when compound X (IR: 3400-2500, 1720, 1610, 1450 cm-1; NMR: 10.5 bs 1H, 8.0 d 2H, 7.2 d 2H, 2.9 m 1H, 1.7 m 2H, 1.4 d 3H, 0.9 t 3H) reacts w/ P/HI.",
+    "What's formed when compound X (IR: 3400-2500, 1720, 1610, 1450; NMR: 10.5(1H), 8.0(2H), 7.2(2H), 2.9(1H), 1.7(2H), 1.4(3H), 0.9(3H)) + P/HI?",
+    "ID product: compound X (IR: 3400-2500, 1720, 1610, 1450; NMR data given) + P/HI reaction.",
+    "What forms when compound X reacts with P/HI?"
+  ],
+  "reczkBiPPNrNN49Hp": [
+    "In a solution with [Co(II)]=10^-2 M and [SCN-]=0.1 M, where stability constants are \u03b21=9, \u03b22=40, \u03b23=63, \u03b24=16, what percentage of cobalt exists as blue dithiocyanato complexes?",
+    "Given [Co(II)]=10^-2 M, [SCN-]=0.1 M, and \u03b21=9, \u03b22=40, \u03b23=63, \u03b24=16, what % of total cobalt is present as dithiocyanato complexes?",
+    "With [Co]=10^-2 M, [SCN-]=0.1 M, \u03b21-4={9,40,63,16}, calculate % of Co as dithiocyanato species.",
+    "[Co]=10^-2 M, [SCN-]=0.1 M, \u03b22=40. Find % of dithiocyanato Co complex.",
+    "Calculate % Co(SCN)2 given \u03b22=40, [Co]=10^-2 M."
+  ]
+}
