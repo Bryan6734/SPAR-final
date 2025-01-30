@@ -1,6 +1,5 @@
 """
-Script to generate compressed versions of GPQA questions using Claude.
-Each question will be compressed to exact word counts (75%, 50%, 25%) while preserving core intent.
+Our goal: Generate multiple compressed versions of each question. We'll use tokens.
 """
 
 import pandas as pd
@@ -28,35 +27,29 @@ logging.basicConfig(
     ]
 )
 
-# Read API key from environment variable
+# get claude
 CLAUDE_API_KEY = os.getenv("ANTHROPIC_API_KEY")
-if not CLAUDE_API_KEY:
-    raise ValueError("Please set ANTHROPIC_API_KEY environment variable")
-
 client = anthropic.Anthropic(api_key=CLAUDE_API_KEY)
 
 def load_compression_prompt():
-    """Load the compression prompt template"""
+    """Load the compression prompt template text file"""
     prompt_path = Path(__file__).parent.parent / "prompts" / "compress_question.txt"
     with open(prompt_path) as f:
         return f.read()
 
-def get_word_count(text):
-    """Get word count of text, counting hyphenated words and numbers as single words"""
-    if not isinstance(text, str):
-        logging.warning(f"Non-string input to get_word_count: {type(text)}")
-        return 0
-    
-    # Split on whitespace and filter out empty strings
-    words = [w for w in text.split() if w.strip()]
-    return len(words)
+def get_token_count(text):
+    """ Estimate the number of tokens in a string (around 4 characters / token). This is a rough estimate, but it's accurate enough for our purposes based on playing around w/ character vs tokenizer."""
 
-def calculate_target_words(original_count: int) -> dict:
-    """Calculate target word counts for each compression level"""
+    total_characters = len(text)
+    total_tokens = math.ceil(total_characters / 4)
+    return total_tokens
+
+def calculate_target_tokens(total_tokens: int) -> dict:
+    """Calculate target token counts for each compression level"""
     return {
-        75: max(1, round(original_count * 0.75)),
-        50: max(1, round(original_count * 0.50)),
-        25: max(1, round(original_count * 0.25))
+        75: max(1, round(total_tokens * 0.75)),
+        50: max(1, round(total_tokens * 0.50)),
+        25: max(1, round(total_tokens * 0.25))
     }
 
 def extract_compressions(response_text, target_words):
@@ -82,47 +75,32 @@ def extract_compressions(response_text, target_words):
     
     return compressions
 
-def verify_word_count(text: str, target_count: int, tolerance: int = 0) -> bool:
-    """Verify that a compression has the target number of words (within tolerance)"""
-    actual_count = get_word_count(text)
-    return abs(actual_count - target_count) <= tolerance
-
 def compress_question(question: str, prompt_template: str):
-    """Generate compressions for a question"""
-    original_count = get_word_count(question)
-    target_words = calculate_target_words(original_count)
+    """Generate compressions for a question
+    """
+    total_tokens = get_token_count(question)
+    target_tokens = calculate_target_tokens(total_tokens)
     
-    prompt = prompt_template.format(
-        question=question,
-        original_word_count=original_count,
-        target_75=target_words[75],
-        target_50=target_words[50],
-        target_25=target_words[25]
-    )
-    
-    try:
-        # Get compressions
-        logging.info(f"Original ({original_count} words): {question}")
-        response = client.messages.create(
-            model="claude-3-sonnet-20240229",
-            max_tokens=2000,
-            temperature=0.3,
-            messages=[{"role": "user", "content": prompt}]
-        )
-        
-        compressions = extract_compressions(response.content[0].text, target_words)
-        results = {k: {"compression": v, "actual_words": get_word_count(v), "target_words": target_words[k]} for k, v in compressions.items()}
-        
-        # Log the results
-        for percent, result in results.items():
-            logging.info(f"{percent}% compression ({result['actual_words']} words):")
-            logging.info(f"Q: {result['compression']}\n")
-        
-        return compressions, results
 
-    except Exception as e:
-        logging.error(f"Error compressing question: {str(e)}")
-        return None, None
+    compressions = {}
+    results = {}
+    for percent, target in target_tokens.items():
+        prompt = prompt_template.format(question=question, target_words=target)
+        response = client.completion(
+            prompt=prompt,
+            model="claude-3-5-sonnet-20241022",
+            temperature=0.3,
+            max_tokens=target
+        )
+        compressions[percent] = response["completion"]
+        results[percent] = {
+            "compression": compressions[percent],
+            "actual_words": get_token_count(compressions[percent]),
+            "target_words": target
+        }
+    return compressions, results
+
+    
 
 def save_progress(df, output_path, idx):
     """Save progress to CSV and backup file"""
