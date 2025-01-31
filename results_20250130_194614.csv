@@ -1,0 +1,34 @@
+record_id,compression_index,question_id,question,predicted_letter,predicted_answer,correct_letter,correct_answer,is_correct,original_char_count,compressed_char_count,percent_of_original
+rec06pnAkLOr2t2mp,0,0,"Two quantum states with energies E1 and E2 have a lifetime of 10^-9 sec and 10^-8 sec, respectively. We want to clearly distinguish these two energy levels. Which one of the following options could be their energy difference so that they can be clearly resolved?
+",A,10^-4 eV,A,10^-4 eV,True,263,263,100.0
+rec06pnAkLOr2t2mp,1,0,"Two quantum states with energies E1, E2 have lifetimes 10^-9s and 10^-8s. We need to distinguish these energy levels. Which energy difference would allow clear resolution?",A,10^-4 eV,A,10^-4 eV,True,263,171,65.0190114068441
+rec06pnAkLOr2t2mp,2,0,"Quantum states (E1, E2) with lifetimes 10^-9s and 10^-8s need distinction. What energy difference enables clear resolution?",A,10^-4 eV,A,10^-4 eV,True,263,123,46.7680608365019
+rec06pnAkLOr2t2mp,3,0,States with lifetimes 10^-9s and 10^-8s - what energy difference needed to resolve them?,A,10^-4 eV,A,10^-4 eV,True,263,88,33.460076045627375
+rec06pnAkLOr2t2mp,4,0,What energy gap resolves states with lifetimes 10^-9s and 10^-8s?,B,"10^-8 eV
+",A,10^-4 eV,False,263,65,24.714828897338403
+rec06pnAkLOr2t2mp,5,0,"E diff needed for 10^-9s, 10^-8s states?",B,"10^-8 eV
+",A,10^-4 eV,False,263,40,15.209125475285171
+rec0Arme2jcXQZnAW,0,1,"trans-cinnamaldehyde was treated with methylmagnesium bromide, forming product 1.
+
+1 was treated with pyridinium chlorochromate, forming product 2.
+
+3 was treated with (dimethyl(oxo)-l6-sulfaneylidene)methane in DMSO at elevated temperature, forming product 3.
+
+how many carbon atoms are there in product 3?",B,11,B,11,True,307,307,100.0
+rec0Arme2jcXQZnAW,1,1,"trans-cinnamaldehyde + MeMgBr → product 1, then PCC → product 2, then dimethylsulfoxide + heat → product 3. How many carbons in product 3?",D,10,B,11,False,307,138,44.951140065146575
+rec0Arme2jcXQZnAW,2,1,"trans-cinnamaldehyde + MeMgBr → 1, PCC → 2, DMSO/heat → 3. How many carbons in product 3?",D,10,B,11,False,307,89,28.990228013029316
+rec0Arme2jcXQZnAW,3,1,"cinnamaldehyde + MeMgBr → 1, PCC → 2, DMSO/heat → 3. Carbon count in 3?",D,10,B,11,False,307,71,23.12703583061889
+rec0Arme2jcXQZnAW,4,1,cinnamaldehyde → product 1 → 2 → 3. Carbons in 3?,C,12,B,11,False,307,49,15.960912052117262
+rec0Arme2jcXQZnAW,5,1,How many carbons in final product?,C,12,B,11,False,307,34,11.074918566775244
+rec0wZvZgiz320KRs,0,2,"A spin-half particle is in a linear superposition 0.5|\uparrow\rangle+sqrt(3)/2|\downarrow\rangle of its spin-up and spin-down states. If |\uparrow\rangle and |\downarrow\rangle are the eigenstates of \sigma{z} , then what is the expectation value up to one decimal place, of the operator 10\sigma{z}+5\sigma_{x} ? Here, symbols have their usual meanings",A,-0.7,A,-0.7,True,354,354,100.0
+rec0wZvZgiz320KRs,1,2,"A particle with spin-1/2 is in superposition 0.5|\uparrow\rangle+sqrt(3)/2|\downarrow\rangle of spin states. For eigenstates |\uparrow\rangle and |\downarrow\rangle of \sigma{z}, find expectation value to 1dp of 10\sigma{z}+5\sigma_{x}.",A,-0.7,A,-0.7,True,354,236,66.66666666666666
+rec0wZvZgiz320KRs,2,2,"Spin-1/2 particle in state 0.5|\uparrow\rangle+sqrt(3)/2|\downarrow\rangle, with |\uparrow\rangle,|\downarrow\rangle as \sigma{z} eigenstates. Find expectation of 10\sigma{z}+5\sigma_{x} to 1dp.",A,-0.7,A,-0.7,True,354,194,54.80225988700565
+rec0wZvZgiz320KRs,3,2,"For state 0.5|\uparrow\rangle+sqrt(3)/2|\downarrow\rangle, calculate expectation value of 10\sigma{z}+5\sigma_{x} to 1dp.",A,-0.7,A,-0.7,True,354,121,34.18079096045198
+rec0wZvZgiz320KRs,4,2,Find expectation of 10\sigma{z}+5\sigma_{x} for 0.5|\uparrow\rangle+sqrt(3)/2|\downarrow\rangle.,A,-0.7,A,-0.7,True,354,96,27.11864406779661
+rec0wZvZgiz320KRs,5,2,"Expect. val. 10\sigma{z}+5\sigma_{x}, 0.5|\uparrow\rangle+sqrt(3)/2|\downarrow\rangle?",A,-0.7,A,-0.7,True,354,86,24.293785310734464
+rec0yTRmO1o1xCA6H,0,3,"In a parallel universe where a magnet can have an isolated North or South pole, Maxwell’s equations look different. But, specifically, which of those equations are different?",D,The ones related to the circulation of the electric field and the divergence of the magnetic field.  ,D,The ones related to the circulation of the electric field and the divergence of the magnetic field.  ,True,174,174,100.0
+rec0yTRmO1o1xCA6H,1,3,"In a universe with isolated magnetic poles, which of Maxwell's equations would be different from our universe?",D,The ones related to the circulation of the electric field and the divergence of the magnetic field.  ,D,The ones related to the circulation of the electric field and the divergence of the magnetic field.  ,True,174,110,63.2183908045977
+rec0yTRmO1o1xCA6H,2,3,"If magnetic monopoles existed, which Maxwell equations would need modification?",D,The ones related to the circulation of the electric field and the divergence of the magnetic field.  ,D,The ones related to the circulation of the electric field and the divergence of the magnetic field.  ,True,174,79,45.40229885057471
+rec0yTRmO1o1xCA6H,3,3,Which Maxwell equations change if magnetic monopoles exist?,D,The ones related to the circulation of the electric field and the divergence of the magnetic field.  ,D,The ones related to the circulation of the electric field and the divergence of the magnetic field.  ,True,174,59,33.90804597701149
+rec0yTRmO1o1xCA6H,4,3,How do monopoles affect Maxwell's equations?,D,The ones related to the circulation of the electric field and the divergence of the magnetic field.  ,D,The ones related to the circulation of the electric field and the divergence of the magnetic field.  ,True,174,44,25.287356321839084
+rec0yTRmO1o1xCA6H,5,3,Monopoles change which equations?,D,The ones related to the circulation of the electric field and the divergence of the magnetic field.  ,D,The ones related to the circulation of the electric field and the divergence of the magnetic field.  ,True,174,33,18.96551724137931
